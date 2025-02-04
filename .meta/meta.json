@@ -1,10 +1,10 @@
 {
   "2578fccf-a440-476a-adcb-095eb9fd9b82": {
     "gitAppName": "Git test 5 -Saas license management",
-    "lastCommitMessage": "Version v5 Created of app Git test 5 -Saas license management",
-    "gitVersionId": "fc19dff0-b112-40b4-8709-bcbe1a223633",
-    "lastpushDate": "2025-02-04T06:05:53.663Z",
-    "gitVersionName": "v5",
+    "lastCommitMessage": " v6 New Version of app Git test 5 -Saas license management promoted from development to staging",
+    "gitVersionId": "7ceb99be-166a-4abb-ade8-1c936d5fe1b3",
+    "lastpushDate": "2025-02-04T09:34:48.911Z",
+    "gitVersionName": "v6 New",
     "lastCommitUser": "naveen "
   }
 }
