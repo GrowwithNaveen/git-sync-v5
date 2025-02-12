@@ -14,5 +14,13 @@
     "lastpushDate": "2025-02-12T03:24:28.023Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "f7f6ba0f-31cf-4448-a412-fcaa6048ceec": {
+    "gitAppName": "Account receivable -test 2",
+    "lastCommitMessage": "App Account receivable -test 2 created",
+    "gitVersionId": "abeb11ac-87ef-4b67-828d-0f9891af32bb",
+    "lastpushDate": "2025-02-12T03:25:51.109Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
