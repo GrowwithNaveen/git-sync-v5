@@ -22,5 +22,13 @@
     "lastpushDate": "2025-02-12T03:25:51.109Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "59757175-aa36-47f6-94d6-c89940d17c76": {
+    "gitAppName": "Rest API test",
+    "lastCommitMessage": "Manual Commit Test",
+    "gitVersionId": "1c336d3a-8fb4-4cf0-a54d-69add75880d6",
+    "lastpushDate": "2025-02-17T07:29:47.650Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
