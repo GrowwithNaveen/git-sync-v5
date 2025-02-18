@@ -62,5 +62,13 @@
     "lastpushDate": "2025-02-18T14:13:16.406Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "dc4d4235-e06e-4063-98bf-2db075a56df8": {
+    "gitAppName": "Changelog application test 420 Copy",
+    "lastCommitMessage": "App Changelog application test 420 Copy created",
+    "gitVersionId": "abc39fdf-4974-4ac4-89dd-a206098655cd",
+    "lastpushDate": "2025-02-18T14:16:26.124Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
