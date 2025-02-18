@@ -1450,105 +1450,6 @@
               "updatedAt": "2025-02-18T14:16:15.024Z"
             },
             {
-              "id": "f36c7de9-7482-41b3-92fe-4920de6ad836",
-              "name": "getReleaseNotes",
-              "options": {
-                "operation": "list_rows",
-                "transformationLanguage": "javascript",
-                "enableTransformation": false,
-                "organization_id": "0b9a2d49-d611-4b9e-b25b-979506925471",
-                "table_id": "f9fcea8c-5a76-4555-9dee-948070bfa1d3",
-                "join_table": {
-                  "joins": [
-                    {
-                      "id": 1726752027803,
-                      "conditions": {
-                        "operator": "AND",
-                        "conditionsList": [
-                          {
-                            "operator": "=",
-                            "leftField": {
-                              "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                            },
-                            "rightField": {}
-                          }
-                        ]
-                      },
-                      "joinType": "INNER"
-                    }
-                  ],
-                  "from": {
-                    "name": "f9fcea8c-5a76-4555-9dee-948070bfa1d3",
-                    "type": "Table"
-                  },
-                  "fields": [
-                    {
-                      "name": "id",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "title",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "description",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "label_1",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "label_2",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "label_3",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "published_date",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "image_link",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    },
-                    {
-                      "name": "doc_link",
-                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
-                    }
-                  ]
-                },
-                "list_rows": {
-                  "where_filters": {},
-                  "limit": "",
-                  "order_filters": {
-                    "19339f78-8db4-4a5f-bcb7-2f7d12c5b377": {
-                      "column": "label_1",
-                      "order": "desc",
-                      "id": "19339f78-8db4-4a5f-bcb7-2f7d12c5b377"
-                    },
-                    "5745d2f4-c43b-4bdf-8ff7-8bcd8f0a5345": {
-                      "column": "label_2",
-                      "order": "desc",
-                      "id": "5745d2f4-c43b-4bdf-8ff7-8bcd8f0a5345"
-                    },
-                    "613666cd-6c00-4fe7-9f01-03400c1ee46a": {
-                      "column": "label_3",
-                      "order": "desc",
-                      "id": "613666cd-6c00-4fe7-9f01-03400c1ee46a"
-                    }
-                  }
-                },
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "e62e37c8-3600-4093-b85b-57a864bdd5d0",
-              "appVersionId": "abc39fdf-4974-4ac4-89dd-a206098655cd",
-              "createdAt": "2025-02-18T14:16:15.024Z",
-              "updatedAt": "2025-02-18T14:16:23.187Z"
-            },
-            {
               "id": "625a4dec-f285-48ee-87ed-167e7867a985",
               "name": "getReleaseNoteswithFilter",
               "options": {
@@ -1657,7 +1558,106 @@
               "dataSourceId": "e62e37c8-3600-4093-b85b-57a864bdd5d0",
               "appVersionId": "abc39fdf-4974-4ac4-89dd-a206098655cd",
               "createdAt": "2025-02-18T14:16:15.024Z",
-              "updatedAt": "2025-02-18T14:16:23.808Z"
+              "updatedAt": "2025-02-18T14:25:02.020Z"
+            },
+            {
+              "id": "f36c7de9-7482-41b3-92fe-4920de6ad836",
+              "name": "getReleaseNotes",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "0b9a2d49-d611-4b9e-b25b-979506925471",
+                "table_id": "f9fcea8c-5a76-4555-9dee-948070bfa1d3",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1726752027803,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "f9fcea8c-5a76-4555-9dee-948070bfa1d3",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "id",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "title",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "description",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "label_1",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "label_2",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "label_3",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "published_date",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "image_link",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    },
+                    {
+                      "name": "doc_link",
+                      "table": "f9fcea8c-5a76-4555-9dee-948070bfa1d3"
+                    }
+                  ]
+                },
+                "list_rows": {
+                  "where_filters": {},
+                  "limit": "",
+                  "order_filters": {
+                    "19339f78-8db4-4a5f-bcb7-2f7d12c5b377": {
+                      "column": "label_1",
+                      "order": "desc",
+                      "id": "19339f78-8db4-4a5f-bcb7-2f7d12c5b377"
+                    },
+                    "5745d2f4-c43b-4bdf-8ff7-8bcd8f0a5345": {
+                      "column": "label_2",
+                      "order": "desc",
+                      "id": "5745d2f4-c43b-4bdf-8ff7-8bcd8f0a5345"
+                    },
+                    "613666cd-6c00-4fe7-9f01-03400c1ee46a": {
+                      "column": "label_3",
+                      "order": "desc",
+                      "id": "613666cd-6c00-4fe7-9f01-03400c1ee46a"
+                    }
+                  }
+                },
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "e62e37c8-3600-4093-b85b-57a864bdd5d0",
+              "appVersionId": "abc39fdf-4974-4ac4-89dd-a206098655cd",
+              "createdAt": "2025-02-18T14:16:15.024Z",
+              "updatedAt": "2025-02-18T14:25:01.123Z"
             }
           ],
           "dataSources": [
