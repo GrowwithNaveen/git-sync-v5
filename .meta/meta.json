@@ -46,5 +46,13 @@
     "lastpushDate": "2025-02-18T12:44:44.703Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "91b3ec91-d113-4958-97f0-e505fcd6227e": {
+    "gitAppName": "Dummy test 1",
+    "lastCommitMessage": "App Dummy test 1 created",
+    "gitVersionId": "131d9db6-e957-41c0-b492-31df0eea9370",
+    "lastpushDate": "2025-02-18T12:53:30.353Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
