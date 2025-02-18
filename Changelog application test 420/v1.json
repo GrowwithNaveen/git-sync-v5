@@ -1089,6 +1089,130 @@
                   "updatedAt": "2025-02-18T14:11:59.702Z"
                 }
               ]
+            },
+            {
+              "id": "1636c0e0-6960-4a11-b278-8369f52af068",
+              "name": "text9",
+              "type": "Text",
+              "pageId": "4230100e-bb75-44e2-a781-40e8dc4e820e",
+              "parent": "ab9cde7e-6cf5-4596-86b6-86afae4ae970",
+              "properties": {
+                "textFormat": {
+                  "value": "html"
+                },
+                "text": {
+                  "value": "Updated 1"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff00000"
+                },
+                "textColor": {
+                  "value": "#000000"
+                },
+                "textSize": {
+                  "value": "{{14}}"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "fontWeight": {
+                  "value": "normal"
+                },
+                "decoration": {
+                  "value": "none"
+                },
+                "transformation": {
+                  "value": "none"
+                },
+                "fontStyle": {
+                  "value": "normal"
+                },
+                "lineHeight": {
+                  "value": "{{1.5}}"
+                },
+                "textIndent": {
+                  "value": "{{0}}"
+                },
+                "letterSpacing": {
+                  "value": "{{0}}"
+                },
+                "wordSpacing": {
+                  "value": "{{0}}"
+                },
+                "fontVariant": {
+                  "value": "normal"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "borderColor": {
+                  "value": ""
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "isScrollRequired": {
+                  "value": "enabled"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-02-18T14:12:54.639Z",
+              "updatedAt": "2025-02-18T14:13:03.251Z",
+              "layouts": [
+                {
+                  "id": "2576293f-7f10-41df-89c6-8c999de70598",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 7,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "1636c0e0-6960-4a11-b278-8369f52af068",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-02-18T14:12:54.639Z"
+                },
+                {
+                  "id": "864257bd-0247-4c26-8a97-bb70f7be2871",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 7,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "1636c0e0-6960-4a11-b278-8369f52af068",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-02-18T14:12:54.639Z"
+                }
+              ]
             }
           ],
           "pages": [
