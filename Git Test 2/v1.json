@@ -467,6 +467,130 @@
                   "updatedAt": "2025-02-20T05:06:23.682Z"
                 }
               ]
+            },
+            {
+              "id": "1d018e17-022b-4f22-bf3c-15af6432dc0d",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "49c78f56-42f9-4fbe-a897-7d8822ac36e6",
+              "parent": null,
+              "properties": {
+                "textFormat": {
+                  "value": "html"
+                },
+                "text": {
+                  "value": "Hello {{globals.currentUser.firstName}}👋"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff00000"
+                },
+                "textColor": {
+                  "value": "#000000"
+                },
+                "textSize": {
+                  "value": "{{14}}"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "fontWeight": {
+                  "value": "normal"
+                },
+                "decoration": {
+                  "value": "none"
+                },
+                "transformation": {
+                  "value": "none"
+                },
+                "fontStyle": {
+                  "value": "normal"
+                },
+                "lineHeight": {
+                  "value": "{{1.5}}"
+                },
+                "textIndent": {
+                  "value": "{{0}}"
+                },
+                "letterSpacing": {
+                  "value": "{{0}}"
+                },
+                "wordSpacing": {
+                  "value": "{{0}}"
+                },
+                "fontVariant": {
+                  "value": "normal"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "borderColor": {
+                  "value": ""
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "isScrollRequired": {
+                  "value": "enabled"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-02-20T05:07:53.840Z",
+              "updatedAt": "2025-02-20T05:07:53.840Z",
+              "layouts": [
+                {
+                  "id": "ddc01dd4-2ce9-4be1-9551-c1a825eb37d9",
+                  "type": "desktop",
+                  "top": 30,
+                  "left": 23,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "1d018e17-022b-4f22-bf3c-15af6432dc0d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-02-20T05:07:53.840Z"
+                },
+                {
+                  "id": "dee826c0-6924-4c40-9189-2dc8f11fe6a6",
+                  "type": "mobile",
+                  "top": 30,
+                  "left": 23,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "1d018e17-022b-4f22-bf3c-15af6432dc0d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-02-20T05:07:53.840Z"
+                }
+              ]
             }
           ],
           "pages": [
