@@ -73,10 +73,10 @@
   },
   "d016f802-df3f-4eea-99a0-c9cd53ef58e4": {
     "gitAppName": "Git Test 2",
-    "lastCommitMessage": "M 3",
-    "gitVersionId": "db6b8a79-dcdb-4cde-9dc2-f247fbf15f23",
-    "lastpushDate": "2025-02-20T05:08:00.887Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app Git Test 2",
+    "gitVersionId": "9dc24972-a52c-44b5-a6fc-f654dc121704",
+    "lastpushDate": "2025-02-20T05:09:18.352Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "naveen "
   }
 }
