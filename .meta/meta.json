@@ -78,5 +78,13 @@
     "lastpushDate": "2025-02-20T05:09:18.352Z",
     "gitVersionName": "v2",
     "lastCommitUser": "naveen "
+  },
+  "bee2e53d-ed6a-4926-a5c5-8f9a5d4167d4": {
+    "gitAppName": "Constants test",
+    "lastCommitMessage": "App Constants test created",
+    "gitVersionId": "3afa1876-9a0f-4682-b0eb-da618ba9da02",
+    "lastpushDate": "2025-03-03T08:05:48.213Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
