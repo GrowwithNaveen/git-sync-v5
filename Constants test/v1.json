@@ -674,7 +674,7 @@
                   "height": 40,
                   "componentId": "44d31c81-753c-4f62-b1b4-2e649350e6c1",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-03-03T08:05:40.432Z"
+                  "updatedAt": "2025-03-03T08:07:02.559Z"
                 }
               ]
             },
@@ -1656,5 +1656,5 @@
       }
     }
   ],
-  "tooljet_version": "3.5.11-cloud-lts"
+  "tooljet_version": "3.5.13-cloud-lts"
 }
