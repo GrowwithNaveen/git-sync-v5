@@ -114,7 +114,7 @@
         "appV2": {
           "type": "front-end",
           "id": "adcebc72-1cbc-4a3b-b4e2-ad8148e25ad1",
-          "name": "Admin portal -gitsync test",
+          "name": "Admin portal -gitsync test old",
           "slug": "adcebc72-1cbc-4a3b-b4e2-ad8148e25ad1",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -126,7 +126,7 @@
           "workflowEnabled": false,
           "createdAt": "2025-03-27T06:40:40.675Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-03-27T06:42:18.339Z",
+          "updatedAt": "2025-03-27T07:41:58.451Z",
           "editingVersion": {
             "id": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
             "name": "v2",
@@ -28354,6 +28354,249 @@
           ],
           "events": [
             {
+              "id": "7e1ec924-f300-4fa6-b8c0-ab4ebfed2cf8",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Customer added successfully.",
+                "actionId": "show-alert",
+                "alertType": "success"
+              },
+              "sourceId": "cf6ffc20-f404-4953-8b21-204072f5b271",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "385e6e7e-d80e-40de-9229-79341ff1c528",
+              "name": "onDataQueryFailure",
+              "index": 3,
+              "event": {
+                "eventId": "onDataQueryFailure",
+                "message": "Failed to add customer! Please check and try again.",
+                "actionId": "show-alert",
+                "alertType": "warning"
+              },
+              "sourceId": "cf6ffc20-f404-4953-8b21-204072f5b271",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "1cb48fc2-7efc-4a2b-8a82-4dce177dedb6",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Customer details updated successfully.",
+                "actionId": "show-alert",
+                "alertType": "success"
+              },
+              "sourceId": "9cd415c2-1fdc-48b4-87aa-f23e9db08f33",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "10702e52-4ce0-43a6-9a2a-f21eff623d8a",
+              "name": "onDataQueryFailure",
+              "index": 3,
+              "event": {
+                "eventId": "onDataQueryFailure",
+                "message": "Failed to update customer details! Please check and try again.",
+                "actionId": "show-alert",
+                "alertType": "warning"
+              },
+              "sourceId": "9cd415c2-1fdc-48b4-87aa-f23e9db08f33",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "7454df84-8a95-4f88-a91f-429e4c71bce5",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Customer deleted successfully.",
+                "actionId": "show-alert",
+                "alertType": "success"
+              },
+              "sourceId": "f633ab22-c3c7-4209-adaa-55451e5fd0f6",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "9c11db39-bf30-4212-a42d-3ba203ae5c37",
+              "name": "onDataQueryFailure",
+              "index": 3,
+              "event": {
+                "eventId": "onDataQueryFailure",
+                "message": "Failed to delete customer! Please check and try again.",
+                "actionId": "show-alert",
+                "alertType": "info"
+              },
+              "sourceId": "f633ab22-c3c7-4209-adaa-55451e5fd0f6",
+              "target": "data_query",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "1a19b984-b47e-4996-a923-79dd728025ec",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "items",
+                "value": "{{[]}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
+              "target": "component",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "015e86c6-54d4-4fb6-ae78-99182c22f6dd",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "newItem",
+                "value": "{{({\n  item: components.dropdown5.value,\n  category: components.dropdown6.value,\n  quantity: components.numberinput7.value,\n  cost: components.numberinput8.value,\n})}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "003980f0-b307-42e9-9eff-66c4e10454dd",
+              "target": "component",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "8345ed32-c009-456b-9f98-ff73bd8df73c",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "items",
+                "ref": "Action1",
+                "value": "{{JSON.parse(components.table1.selectedRow.items).map((row, n) => ({...row, id: n}))}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "2f63234f-98c1-4e55-98a4-e0a1551872fd",
+              "target": "table_action",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "c27b5b74-829d-41c2-ae16-e05ef9347a30",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "deletedItemId",
+                "ref": "Action0",
+                "value": "{{components.table2.selectedRow.id}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "3ab908ae-e601-472f-90a3-c57f0952c525",
+              "target": "table_action",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "06fa5c5e-2d8c-47cc-8acd-e317a3444462",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "deletedItemId",
+                "ref": "Action0",
+                "value": "{{components.table3.selectedRow.id}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "c63513fd-3a22-4a04-83f2-9ebf551514af",
+              "target": "table_action",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "6d0c4620-e41d-4695-8108-e001d1975ff2",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "newItem",
+                "value": "{{({\n  item: components.dropdown11.value,\n  category: components.dropdown12.value,\n  quantity: components.numberinput17.value,\n  cost: components.numberinput18.value,\n})}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "d51325c5-1556-489f-b641-6deb72985910",
+              "target": "component",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "4ee15e9c-3c9b-4009-b282-ddd43e9abce5",
+              "name": "onClick",
+              "index": 2,
+              "event": {
+                "modal": "f26b9a60-113b-43d0-8c27-1d6548897580",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "show-modal",
+                "alertType": "info"
+              },
+              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
+              "target": "component",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
+              "id": "42b73e45-2b7c-4c2a-bf16-c07e88e392bd",
+              "name": "onClick",
+              "index": 1,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "3c6e54ef-abe0-4103-86fe-2886b7728f70",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "calculateSubtotal",
+                "parameters": {}
+              },
+              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
+              "target": "component",
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
               "id": "fb3918c8-6b13-483e-9f04-35f2c5c672ab",
               "name": "onClick",
               "index": 1,
@@ -28780,249 +29023,6 @@
               "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
               "createdAt": "2025-03-27T06:42:35.850Z",
               "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "7e1ec924-f300-4fa6-b8c0-ab4ebfed2cf8",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Customer added successfully.",
-                "actionId": "show-alert",
-                "alertType": "success"
-              },
-              "sourceId": "cf6ffc20-f404-4953-8b21-204072f5b271",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "385e6e7e-d80e-40de-9229-79341ff1c528",
-              "name": "onDataQueryFailure",
-              "index": 3,
-              "event": {
-                "eventId": "onDataQueryFailure",
-                "message": "Failed to add customer! Please check and try again.",
-                "actionId": "show-alert",
-                "alertType": "warning"
-              },
-              "sourceId": "cf6ffc20-f404-4953-8b21-204072f5b271",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "1cb48fc2-7efc-4a2b-8a82-4dce177dedb6",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Customer details updated successfully.",
-                "actionId": "show-alert",
-                "alertType": "success"
-              },
-              "sourceId": "9cd415c2-1fdc-48b4-87aa-f23e9db08f33",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "10702e52-4ce0-43a6-9a2a-f21eff623d8a",
-              "name": "onDataQueryFailure",
-              "index": 3,
-              "event": {
-                "eventId": "onDataQueryFailure",
-                "message": "Failed to update customer details! Please check and try again.",
-                "actionId": "show-alert",
-                "alertType": "warning"
-              },
-              "sourceId": "9cd415c2-1fdc-48b4-87aa-f23e9db08f33",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "7454df84-8a95-4f88-a91f-429e4c71bce5",
-              "name": "onDataQuerySuccess",
-              "index": 1,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Customer deleted successfully.",
-                "actionId": "show-alert",
-                "alertType": "success"
-              },
-              "sourceId": "f633ab22-c3c7-4209-adaa-55451e5fd0f6",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "9c11db39-bf30-4212-a42d-3ba203ae5c37",
-              "name": "onDataQueryFailure",
-              "index": 3,
-              "event": {
-                "eventId": "onDataQueryFailure",
-                "message": "Failed to delete customer! Please check and try again.",
-                "actionId": "show-alert",
-                "alertType": "info"
-              },
-              "sourceId": "f633ab22-c3c7-4209-adaa-55451e5fd0f6",
-              "target": "data_query",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "1a19b984-b47e-4996-a923-79dd728025ec",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "items",
-                "value": "{{[]}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
-              "target": "component",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "015e86c6-54d4-4fb6-ae78-99182c22f6dd",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "newItem",
-                "value": "{{({\n  item: components.dropdown5.value,\n  category: components.dropdown6.value,\n  quantity: components.numberinput7.value,\n  cost: components.numberinput8.value,\n})}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "003980f0-b307-42e9-9eff-66c4e10454dd",
-              "target": "component",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "8345ed32-c009-456b-9f98-ff73bd8df73c",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "items",
-                "ref": "Action1",
-                "value": "{{JSON.parse(components.table1.selectedRow.items).map((row, n) => ({...row, id: n}))}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "2f63234f-98c1-4e55-98a4-e0a1551872fd",
-              "target": "table_action",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "c27b5b74-829d-41c2-ae16-e05ef9347a30",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "deletedItemId",
-                "ref": "Action0",
-                "value": "{{components.table2.selectedRow.id}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "3ab908ae-e601-472f-90a3-c57f0952c525",
-              "target": "table_action",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "06fa5c5e-2d8c-47cc-8acd-e317a3444462",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "deletedItemId",
-                "ref": "Action0",
-                "value": "{{components.table3.selectedRow.id}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "c63513fd-3a22-4a04-83f2-9ebf551514af",
-              "target": "table_action",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "6d0c4620-e41d-4695-8108-e001d1975ff2",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "newItem",
-                "value": "{{({\n  item: components.dropdown11.value,\n  category: components.dropdown12.value,\n  quantity: components.numberinput17.value,\n  cost: components.numberinput18.value,\n})}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "d51325c5-1556-489f-b641-6deb72985910",
-              "target": "component",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "4ee15e9c-3c9b-4009-b282-ddd43e9abce5",
-              "name": "onClick",
-              "index": 2,
-              "event": {
-                "modal": "f26b9a60-113b-43d0-8c27-1d6548897580",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "show-modal",
-                "alertType": "info"
-              },
-              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
-              "target": "component",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "42b73e45-2b7c-4c2a-bf16-c07e88e392bd",
-              "name": "onClick",
-              "index": 1,
-              "event": {
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "3c6e54ef-abe0-4103-86fe-2886b7728f70",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "calculateSubtotal",
-                "parameters": {}
-              },
-              "sourceId": "52c60f6c-3ea4-49ce-ad53-bb68f9b16cb2",
-              "target": "component",
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
             }
           ],
           "dataQueries": [
@@ -29431,6 +29431,18 @@
           ],
           "dataSources": [
             {
+              "id": "d1ca622b-f003-4ea4-83e0-3dc516e31eca",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-03-27T06:42:35.850Z",
+              "updatedAt": "2025-03-27T06:42:35.850Z"
+            },
+            {
               "id": "f3307b6c-fba3-4e83-a34b-20435a84cd05",
               "name": "tooljetdbdefault",
               "kind": "tooljetdb",
@@ -29470,18 +29482,6 @@
               "id": "6765c228-c89a-4006-8f81-d467cf1253a6",
               "name": "runpydefault",
               "kind": "runpy",
-              "type": "static",
-              "pluginId": null,
-              "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
-              "organizationId": null,
-              "scope": "local",
-              "createdAt": "2025-03-27T06:42:35.850Z",
-              "updatedAt": "2025-03-27T06:42:35.850Z"
-            },
-            {
-              "id": "d1ca622b-f003-4ea4-83e0-3dc516e31eca",
-              "name": "restapidefault",
-              "kind": "restapi",
               "type": "static",
               "pluginId": null,
               "appVersionId": "f18c1f5e-ab76-4dd9-88c7-207b5f43af14",
