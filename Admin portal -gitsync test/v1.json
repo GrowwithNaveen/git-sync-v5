@@ -24077,10 +24077,10 @@
             "showViewerNavigation": false,
             "homePageId": "68472aaf-83f4-41e8-a9ea-fec195632076",
             "appId": "adcebc72-1cbc-4a3b-b4e2-ad8148e25ad1",
-            "currentEnvironmentId": "4e39fa99-0e40-4fc2-97c7-acd86660b6fa",
+            "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
             "promotedFrom": null,
             "createdAt": "2025-03-27T06:40:40.687Z",
-            "updatedAt": "2025-03-27T06:40:41.605Z"
+            "updatedAt": "2025-03-27T06:41:39.283Z"
           },
           "components": [
             {
@@ -28213,6 +28213,130 @@
                   "updatedAt": "2025-03-27T06:40:40.731Z"
                 }
               ]
+            },
+            {
+              "id": "4e7ca2b4-f98d-43ac-9bf9-742a4971c470",
+              "name": "text34",
+              "type": "Text",
+              "pageId": "68472aaf-83f4-41e8-a9ea-fec195632076",
+              "parent": "1ecd4dc5-a92c-4aa2-bc7a-a2ae58723ecc",
+              "properties": {
+                "textFormat": {
+                  "value": "html"
+                },
+                "text": {
+                  "value": "Hello testing!"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff00000"
+                },
+                "textColor": {
+                  "value": "#000000"
+                },
+                "textSize": {
+                  "value": "{{14}}"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "fontWeight": {
+                  "value": "normal"
+                },
+                "decoration": {
+                  "value": "none"
+                },
+                "transformation": {
+                  "value": "none"
+                },
+                "fontStyle": {
+                  "value": "normal"
+                },
+                "lineHeight": {
+                  "value": "{{1.5}}"
+                },
+                "textIndent": {
+                  "value": "{{0}}"
+                },
+                "letterSpacing": {
+                  "value": "{{0}}"
+                },
+                "wordSpacing": {
+                  "value": "{{0}}"
+                },
+                "fontVariant": {
+                  "value": "normal"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "borderColor": {
+                  "value": ""
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "isScrollRequired": {
+                  "value": "enabled"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-03-27T06:41:22.176Z",
+              "updatedAt": "2025-03-27T06:41:31.256Z",
+              "layouts": [
+                {
+                  "id": "1d18aaae-939b-45cd-a98d-21657bef3560",
+                  "type": "desktop",
+                  "top": 30,
+                  "left": 11,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "4e7ca2b4-f98d-43ac-9bf9-742a4971c470",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-03-27T06:41:22.176Z"
+                },
+                {
+                  "id": "7a604b1f-d8fa-42b5-806b-7e9fe698023a",
+                  "type": "mobile",
+                  "top": 30,
+                  "left": 11,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "4e7ca2b4-f98d-43ac-9bf9-742a4971c470",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-03-27T06:41:22.176Z"
+                }
+              ]
             }
           ],
           "pages": [
@@ -28234,187 +28358,6 @@
             }
           ],
           "events": [
-            {
-              "id": "c46a8e2b-1a7e-4179-be54-fd9e444706ce",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "items",
-                "value": "{{[]}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:40.731Z"
-            },
-            {
-              "id": "7b18bb47-a5c3-4a83-93d2-36591129ec38",
-              "name": "onClick",
-              "index": 2,
-              "event": {
-                "modal": "ae8b9469-b42e-4c04-92b0-dc72a678853e",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "show-modal",
-                "alertType": "info"
-              },
-              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.392Z"
-            },
-            {
-              "id": "e62130d7-40f2-473b-beff-7d69d94fcb7f",
-              "name": "onClick",
-              "index": 1,
-              "event": {
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "8707df61-67dc-4095-872e-55c7e2ed7e4f",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "calculateSubtotal",
-                "parameters": {}
-              },
-              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.552Z"
-            },
-            {
-              "id": "6fa44898-5560-4cb4-bd70-413aa150e931",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "modal": "4a095a4b-6d5e-4269-a0b2-c39c08610c35",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "close-modal",
-                "alertType": "info"
-              },
-              "sourceId": "c95f0e32-b48a-4e56-beed-c31d4db4062f",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.522Z"
-            },
-            {
-              "id": "74c372fb-109d-4cf3-bb92-d7f34d1ce6ca",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "97692d61-435b-4c98-8efa-16831f2fb150",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "deleteCustomer",
-                "parameters": {}
-              },
-              "sourceId": "13262d86-cdda-44bc-a533-95e7a3078ebf",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.527Z"
-            },
-            {
-              "id": "608cacd6-1f9e-4341-adee-ea2979760b62",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "8707df61-67dc-4095-872e-55c7e2ed7e4f",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "calculateSubtotal",
-                "parameters": {}
-              },
-              "sourceId": "845f9f4f-8fa1-49cb-9a79-597cea2db224",
-              "target": "data_query",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.533Z"
-            },
-            {
-              "id": "d10a8b63-e778-457e-a6d6-09a9fd18f1ab",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "modal": "ae8b9469-b42e-4c04-92b0-dc72a678853e",
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "actionId": "close-modal",
-                "alertType": "info"
-              },
-              "sourceId": "d64127cf-22ed-4b63-999f-00ec2e92089d",
-              "target": "data_query",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.538Z"
-            },
-            {
-              "id": "954cb86b-6c54-4790-8e52-e781e4bf559c",
-              "name": "onDataQuerySuccess",
-              "index": 2,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "65b80fff-5176-438f-b455-5ec6d55d67be",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "listCustomers",
-                "parameters": {}
-              },
-              "sourceId": "d64127cf-22ed-4b63-999f-00ec2e92089d",
-              "target": "data_query",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.542Z"
-            },
-            {
-              "id": "7783882e-4e6e-427a-ad0b-33ba206af2ea",
-              "name": "onClick",
-              "index": 1,
-              "event": {
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "845f9f4f-8fa1-49cb-9a79-597cea2db224",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "runjs4",
-                "parameters": {}
-              },
-              "sourceId": "bb2ef530-58bf-4a03-af67-9f81a6186f3c",
-              "target": "component",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.557Z"
-            },
-            {
-              "id": "45eec573-0783-41ea-893b-c53104d326a8",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "modal": "a0460a20-5f71-48af-95fa-97bee668c82d",
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "actionId": "close-modal",
-                "alertType": "info"
-              },
-              "sourceId": "9711e985-7c0b-44d7-a4d4-6b99a90f712d",
-              "target": "data_query",
-              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
-              "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:41.562Z"
-            },
             {
               "id": "5241bbd0-02c1-4bea-99f3-21a33fa826f6",
               "name": "onClick",
@@ -28904,6 +28847,187 @@
               "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
               "createdAt": "2025-03-27T06:40:40.731Z",
               "updatedAt": "2025-03-27T06:40:41.515Z"
+            },
+            {
+              "id": "c46a8e2b-1a7e-4179-be54-fd9e444706ce",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "items",
+                "value": "{{[]}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:40.731Z"
+            },
+            {
+              "id": "7b18bb47-a5c3-4a83-93d2-36591129ec38",
+              "name": "onClick",
+              "index": 2,
+              "event": {
+                "modal": "ae8b9469-b42e-4c04-92b0-dc72a678853e",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "show-modal",
+                "alertType": "info"
+              },
+              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.392Z"
+            },
+            {
+              "id": "e62130d7-40f2-473b-beff-7d69d94fcb7f",
+              "name": "onClick",
+              "index": 1,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "8707df61-67dc-4095-872e-55c7e2ed7e4f",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "calculateSubtotal",
+                "parameters": {}
+              },
+              "sourceId": "78a77f76-2c47-4332-90da-4ab3b00d4c60",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.552Z"
+            },
+            {
+              "id": "6fa44898-5560-4cb4-bd70-413aa150e931",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "modal": "4a095a4b-6d5e-4269-a0b2-c39c08610c35",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "close-modal",
+                "alertType": "info"
+              },
+              "sourceId": "c95f0e32-b48a-4e56-beed-c31d4db4062f",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.522Z"
+            },
+            {
+              "id": "74c372fb-109d-4cf3-bb92-d7f34d1ce6ca",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "97692d61-435b-4c98-8efa-16831f2fb150",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "deleteCustomer",
+                "parameters": {}
+              },
+              "sourceId": "13262d86-cdda-44bc-a533-95e7a3078ebf",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.527Z"
+            },
+            {
+              "id": "608cacd6-1f9e-4341-adee-ea2979760b62",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "8707df61-67dc-4095-872e-55c7e2ed7e4f",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "calculateSubtotal",
+                "parameters": {}
+              },
+              "sourceId": "845f9f4f-8fa1-49cb-9a79-597cea2db224",
+              "target": "data_query",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.533Z"
+            },
+            {
+              "id": "d10a8b63-e778-457e-a6d6-09a9fd18f1ab",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "modal": "ae8b9469-b42e-4c04-92b0-dc72a678853e",
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "actionId": "close-modal",
+                "alertType": "info"
+              },
+              "sourceId": "d64127cf-22ed-4b63-999f-00ec2e92089d",
+              "target": "data_query",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.538Z"
+            },
+            {
+              "id": "954cb86b-6c54-4790-8e52-e781e4bf559c",
+              "name": "onDataQuerySuccess",
+              "index": 2,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "65b80fff-5176-438f-b455-5ec6d55d67be",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "listCustomers",
+                "parameters": {}
+              },
+              "sourceId": "d64127cf-22ed-4b63-999f-00ec2e92089d",
+              "target": "data_query",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.542Z"
+            },
+            {
+              "id": "7783882e-4e6e-427a-ad0b-33ba206af2ea",
+              "name": "onClick",
+              "index": 1,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "845f9f4f-8fa1-49cb-9a79-597cea2db224",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "runjs4",
+                "parameters": {}
+              },
+              "sourceId": "bb2ef530-58bf-4a03-af67-9f81a6186f3c",
+              "target": "component",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.557Z"
+            },
+            {
+              "id": "45eec573-0783-41ea-893b-c53104d326a8",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "modal": "a0460a20-5f71-48af-95fa-97bee668c82d",
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "actionId": "close-modal",
+                "alertType": "info"
+              },
+              "sourceId": "9711e985-7c0b-44d7-a4d4-6b99a90f712d",
+              "target": "data_query",
+              "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
+              "createdAt": "2025-03-27T06:40:40.731Z",
+              "updatedAt": "2025-03-27T06:40:41.562Z"
             }
           ],
           "dataQueries": [
@@ -29120,7 +29244,7 @@
               "dataSourceId": "8910db3f-19a5-41a0-80bf-4e67a3b74495",
               "appVersionId": "59b543ef-62b2-4665-8d95-e46bb32a0043",
               "createdAt": "2025-03-27T06:40:40.731Z",
-              "updatedAt": "2025-03-27T06:40:47.538Z"
+              "updatedAt": "2025-03-27T06:41:42.806Z"
             },
             {
               "id": "9711e985-7c0b-44d7-a4d4-6b99a90f712d",
@@ -53323,10 +53447,10 @@
               "showViewerNavigation": false,
               "homePageId": "68472aaf-83f4-41e8-a9ea-fec195632076",
               "appId": "adcebc72-1cbc-4a3b-b4e2-ad8148e25ad1",
-              "currentEnvironmentId": "4e39fa99-0e40-4fc2-97c7-acd86660b6fa",
+              "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
               "promotedFrom": null,
               "createdAt": "2025-03-27T06:40:40.687Z",
-              "updatedAt": "2025-03-27T06:40:41.605Z"
+              "updatedAt": "2025-03-27T06:41:39.283Z"
             }
           ],
           "appEnvironments": [
