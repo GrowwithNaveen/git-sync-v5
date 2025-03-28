@@ -102,5 +102,13 @@
     "lastpushDate": "2025-03-27T07:42:00.467Z",
     "gitVersionName": "v2",
     "lastCommitUser": "naveen "
+  },
+  "d3b0fef2-0d94-494a-aabd-cc1946fab954": {
+    "gitAppName": "Changelog application - demo -gs",
+    "lastCommitMessage": "App Changelog application - demo -gs created",
+    "gitVersionId": "59e6d556-2c11-4bd8-8627-bc315305d4a7",
+    "lastpushDate": "2025-03-28T11:02:43.255Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
