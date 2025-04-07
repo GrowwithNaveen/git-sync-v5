@@ -1,0 +1,2172 @@
+{
+  "tooljet_database": [
+    {
+      "id": "fa28a8f8-c052-482c-aef2-ac1017eda1a6",
+      "table_name": "attendance_table",
+      "schema": {
+        "columns": [
+          {
+            "column_name": "attendance_id",
+            "data_type": "integer",
+            "column_default": "nextval(\"workspace_74b889e3-d9f0-4d8d-921b-874615cc0270\".\"fa28a8f8-c052-482c-aef2-ac1017eda1a6_attendance_id_seq\"",
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": true,
+              "is_unique": false
+            },
+            "keytype": "PRIMARY KEY",
+            "configurations": {}
+          },
+          {
+            "column_name": "student_id",
+            "data_type": "integer",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "email",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "mobile",
+            "data_type": "bigint",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": 64,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "course_name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "status",
+            "data_type": "boolean",
+            "column_default": "false",
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "attendance_date",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          }
+        ],
+        "foreign_keys": [
+          {
+            "referenced_table_name": "students_details",
+            "constraint_name": "FK_6f3c6049a42c2ab2c15683a27f6",
+            "column_names": [
+              "student_id"
+            ],
+            "referenced_column_names": [
+              "student_id"
+            ],
+            "on_update": "RESTRICT",
+            "on_delete": "RESTRICT",
+            "referenced_table_id": "6d6f1b3c-42d7-48c4-86d3-3b938fb68c46"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d6f1b3c-42d7-48c4-86d3-3b938fb68c46",
+      "table_name": "students_details",
+      "schema": {
+        "columns": [
+          {
+            "column_name": "student_id",
+            "data_type": "integer",
+            "column_default": "nextval(\"workspace_74b889e3-d9f0-4d8d-921b-874615cc0270\".\"6d6f1b3c-42d7-48c4-86d3-3b938fb68c46_student_id_seq\"",
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": true,
+              "is_unique": false
+            },
+            "keytype": "PRIMARY KEY",
+            "configurations": {}
+          },
+          {
+            "column_name": "name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "email",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "mobile",
+            "data_type": "bigint",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": 64,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "course_name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          }
+        ],
+        "foreign_keys": []
+      }
+    }
+  ],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "4788e457-d4b7-4594-b8a8-3feede234b84",
+          "name": "Student attendance tracker",
+          "slug": "4788e457-d4b7-4594-b8a8-3feede234b84",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "table",
+          "organizationId": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+          "currentVersionId": null,
+          "userId": "cde99389-4d59-4db9-9c0f-3270cfc09661",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-04-07T10:55:24.014Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-04-07T10:55:24.622Z",
+          "editingVersion": {
+            "id": "c4333216-652a-4812-b8db-91e4ef7452a6",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": true,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                }
+              }
+            },
+            "showViewerNavigation": true,
+            "homePageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+            "appId": "4788e457-d4b7-4594-b8a8-3feede234b84",
+            "currentEnvironmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+            "promotedFrom": null,
+            "createdAt": "2025-04-07T10:55:24.028Z",
+            "updatedAt": "2025-04-07T10:55:24.610Z"
+          },
+          "components": [
+            {
+              "id": "06a1b497-014f-433e-91a7-a19aa36949d3",
+              "name": "container1",
+              "type": "Container",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#bd10e0ff"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "borderColor": {
+                  "value": "#ffffff00"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "1e65ee1e-2d78-471f-a4d8-3c8ea78d6edd",
+                  "type": "mobile",
+                  "top": 160,
+                  "left": 25,
+                  "width": 5,
+                  "height": 200,
+                  "componentId": "06a1b497-014f-433e-91a7-a19aa36949d3",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "a824907b-a225-4b07-98e2-8502114a910c",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 41,
+                  "height": 80,
+                  "componentId": "06a1b497-014f-433e-91a7-a19aa36949d3",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "d0e18e09-225d-48c0-beb5-0f8cf1b42e9e",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "06a1b497-014f-433e-91a7-a19aa36949d3",
+              "properties": {
+                "text": {
+                  "value": "Student Attendance Record"
+                },
+                "textFormat": {
+                  "value": "html"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "textColor": {
+                  "value": "#ffffffff"
+                },
+                "textAlign": {
+                  "value": "right"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "3dad342d-9c60-41de-934a-867b803c31b7",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 35,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "d0e18e09-225d-48c0-beb5-0f8cf1b42e9e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "0f6e28a4-4993-43e3-99f3-ac071b5e41e6",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 21,
+                  "width": 21,
+                  "height": 50,
+                  "componentId": "d0e18e09-225d-48c0-beb5-0f8cf1b42e9e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "b6ed7f0e-d43b-4bb0-8cc7-18c532c027b9",
+              "name": "text5",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "properties": {
+                "text": {
+                  "value": "Marking attendance for students of"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "16"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "5982884f-c6f3-4c0c-9cd1-c4235298f01f",
+                  "type": "mobile",
+                  "top": 300,
+                  "left": 36,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "b6ed7f0e-d43b-4bb0-8cc7-18c532c027b9",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "d79df0b7-6841-4d6f-b3c9-f9e34afcb788",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 28,
+                  "height": 40,
+                  "componentId": "b6ed7f0e-d43b-4bb0-8cc7-18c532c027b9",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "bbbff403-8c1a-4031-b9e6-3434019c830f",
+              "name": "courseDropdown",
+              "type": "DropDown",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "properties": {
+                "label": {
+                  "value": "Course"
+                },
+                "value": {
+                  "value": "Computer Science"
+                },
+                "values": {
+                  "value": "{{['Electronics Technology','Electrical Engineering','Computer Science','Mechanical Engineering']}}"
+                },
+                "display_values": {
+                  "value": "{{['Electronics Technology','Electrical Engineering','Computer Science','Mechanical Engineering']}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "advanced": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "47c15a6f-9c5c-4643-8bda-2bad9cb626ee",
+                  "type": "mobile",
+                  "top": 300,
+                  "left": 3,
+                  "width": 8,
+                  "height": 30,
+                  "componentId": "bbbff403-8c1a-4031-b9e6-3434019c830f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "bdb7f7cf-e221-4d61-9193-be98e41e92f4",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 1,
+                  "width": 16,
+                  "height": 40,
+                  "componentId": "bbbff403-8c1a-4031-b9e6-3434019c830f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "6e5110ee-0122-4b42-b448-d754b38d1b4d",
+              "name": "text6",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "properties": {
+                "text": {
+                  "value": "On"
+                }
+              },
+              "general": {},
+              "styles": {
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "right"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "fb592862-4a07-427a-9d04-73eec7d2f8b2",
+                  "type": "mobile",
+                  "top": 300,
+                  "left": 11,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "6e5110ee-0122-4b42-b448-d754b38d1b4d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "0245001f-156f-4dd0-be86-9f3fbc857e5a",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 18,
+                  "width": 2,
+                  "height": 40,
+                  "componentId": "6e5110ee-0122-4b42-b448-d754b38d1b4d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "dde7e98f-8686-41c2-8770-e6cedf8080e0",
+              "name": "attendance_date",
+              "type": "Datepicker",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "properties": {
+                "defaultValue": {
+                  "value": "{{moment().format(\"DD/MM/YYYY\").toString()}}"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "e6b7ceaf-c136-4982-8497-f43919ff97f9",
+                  "type": "mobile",
+                  "top": 300,
+                  "left": 12,
+                  "width": 5,
+                  "height": 30,
+                  "componentId": "dde7e98f-8686-41c2-8770-e6cedf8080e0",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "308fd6b7-1b5b-4a7f-8f84-ba5b1ea2143f",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 20,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "dde7e98f-8686-41c2-8770-e6cedf8080e0",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "fbb728be-9a00-4aa6-99c6-62c9f76b9603",
+              "name": "getStudent_btn",
+              "type": "Button",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "properties": {
+                "text": {
+                  "value": "Get Students"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#ffffffff"
+                },
+                "borderColor": {
+                  "value": "#bd10e0ff"
+                },
+                "textColor": {
+                  "value": "#bd10e0ff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "aa2fd1df-39db-437a-a8ca-342e973a65ad",
+                  "type": "mobile",
+                  "top": 300,
+                  "left": 18,
+                  "width": 3,
+                  "height": 30,
+                  "componentId": "fbb728be-9a00-4aa6-99c6-62c9f76b9603",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "b8f446f8-ad6f-4628-bc85-eeff0fe8258d",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 31,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "fbb728be-9a00-4aa6-99c6-62c9f76b9603",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+              "name": "container2",
+              "type": "Container",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "borderColor": {
+                  "value": "#bd10e0ff"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "29074498-56d5-484e-a4b7-f8a6637d9049",
+                  "type": "mobile",
+                  "top": 360,
+                  "left": 14,
+                  "width": 5,
+                  "height": 200,
+                  "componentId": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "fcfcf864-03c3-4e9c-a4e9-2d835118fa77",
+                  "type": "desktop",
+                  "top": 120,
+                  "left": 1,
+                  "width": 23,
+                  "height": 120,
+                  "componentId": "d699fbf0-699b-4daf-8c7b-2a49d6dcab62",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "name": "container3",
+              "type": "Container",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "borderColor": {
+                  "value": "#bd10e0ff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "0d2c2d5b-398c-4b30-a240-c8d381e4c7cc",
+                  "type": "mobile",
+                  "top": 250,
+                  "left": 35,
+                  "width": 5,
+                  "height": 200,
+                  "componentId": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "28cc7ee2-7f85-403d-8eab-6e57d22e97f6",
+                  "type": "desktop",
+                  "top": 120,
+                  "left": 25,
+                  "width": 17,
+                  "height": 120,
+                  "componentId": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "e73896a9-cd72-4c1d-89b1-ad215fb17e02",
+              "name": "text4",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "Absents"
+                }
+              },
+              "general": {},
+              "styles": {
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "01953f2e-8e73-499c-a7a3-4e03eeb9d81c",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 5,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "e73896a9-cd72-4c1d-89b1-ad215fb17e02",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "ce9bf672-6328-4905-89d4-cf043e8aff3f",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 32,
+                  "width": 8,
+                  "height": 50,
+                  "componentId": "e73896a9-cd72-4c1d-89b1-ad215fb17e02",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "78400c81-bd46-47bd-8662-628cec2d1c73",
+              "name": "text7",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "Total Students"
+                }
+              },
+              "general": {},
+              "styles": {
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "1a912820-4866-4c95-8aee-dd1312191aff",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 5,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "78400c81-bd46-47bd-8662-628cec2d1c73",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "53ecc0e9-681a-4677-b904-c1ff131db110",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 2,
+                  "width": 9,
+                  "height": 50,
+                  "componentId": "78400c81-bd46-47bd-8662-628cec2d1c73",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "2a065981-ab8c-4fae-8827-28f58ab90224",
+              "name": "text8",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "Present"
+                }
+              },
+              "general": {},
+              "styles": {
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "2d1d728f-1609-4108-8f47-4a0d0cb8e920",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 5,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "2a065981-ab8c-4fae-8827-28f58ab90224",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "6cefc187-0f73-44c8-982f-3971b02b0f1b",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 17,
+                  "width": 8,
+                  "height": 50,
+                  "componentId": "2a065981-ab8c-4fae-8827-28f58ab90224",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "10ba4af1-19c9-4e4a-8682-c24830234a80",
+              "name": "absentStd",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "{{queries.studentAnalytics.data.absent || 0}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "fontWeight": {
+                  "value": "bolder"
+                },
+                "textSize": {
+                  "value": "24"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "textColor": {
+                  "value": "#d0021bff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "9028fff4-af30-43bc-b749-655a5c80a677",
+                  "type": "mobile",
+                  "top": 50,
+                  "left": 3,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "10ba4af1-19c9-4e4a-8682-c24830234a80",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "6c09c5df-fc41-4fa9-903a-457f30124f74",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 32,
+                  "width": 8,
+                  "height": 40,
+                  "componentId": "10ba4af1-19c9-4e4a-8682-c24830234a80",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "54b4554c-5137-46db-992a-50968defaedf",
+              "name": "totalStd",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "{{queries.studentAnalytics.data.total || 0}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "fontWeight": {
+                  "value": "bolder"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textColor": {
+                  "value": "#bd10e0ff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "8f46339b-23ea-470b-a3d0-948a70762432",
+                  "type": "mobile",
+                  "top": 50,
+                  "left": 3,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "54b4554c-5137-46db-992a-50968defaedf",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "16dc06e3-bbe5-4c04-829c-bed16dee6ae8",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 2,
+                  "width": 9,
+                  "height": 40,
+                  "componentId": "54b4554c-5137-46db-992a-50968defaedf",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "a0097855-d3ac-42ce-9b84-1cd225e69911",
+              "name": "presentStd",
+              "type": "Text",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "3b83cfaa-1aa2-4bca-8d8d-49f445bbb457",
+              "properties": {
+                "text": {
+                  "value": "{{queries.studentAnalytics.data.present || 0}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "textAlign": {
+                  "value": "center"
+                },
+                "fontWeight": {
+                  "value": "bolder"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textColor": {
+                  "value": "#7ed321ff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "75b6c957-4eed-437a-b074-32b7142a2115",
+                  "type": "mobile",
+                  "top": 50,
+                  "left": 3,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "a0097855-d3ac-42ce-9b84-1cd225e69911",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "82066f5d-fe0c-42b0-aa0b-f92f0c21930e",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 17,
+                  "width": 8,
+                  "height": 40,
+                  "componentId": "a0097855-d3ac-42ce-9b84-1cd225e69911",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "67ff3ac1-5313-497c-8e97-6bbb5ca42690",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": null,
+              "properties": {
+                "columns": {
+                  "value": [
+                    {
+                      "name": "id",
+                      "id": "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 30,
+                      "columnType": "string",
+                      "key": "student_id"
+                    },
+                    {
+                      "name": "name",
+                      "id": "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 130,
+                      "columnType": "string",
+                      "key": "name"
+                    },
+                    {
+                      "name": "email",
+                      "id": "afc9a5091750a1bd4760e38760de3b4be11a43452ae8ae07ce2eebc569fe9a7f",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 230,
+                      "columnType": "string",
+                      "key": "email"
+                    },
+                    {
+                      "id": "89ea5b66-9cd8-4078-b86a-b8f02ab5a1f2",
+                      "name": "mobile",
+                      "key": "mobile",
+                      "columnType": "number",
+                      "autogenerated": true
+                    },
+                    {
+                      "name": "present today?",
+                      "id": "f31be3c1-27b3-43c9-8aac-1dd6fc468906",
+                      "isEditable": "{{true}}",
+                      "fxActiveFields": [],
+                      "columnType": "boolean",
+                      "key": "status",
+                      "transformation": "{{cellValue}}"
+                    }
+                  ]
+                },
+                "columnDeletionHistory": {
+                  "value": [
+                    "photo",
+                    "date",
+                    "interest",
+                    "attendance_id",
+                    "mobil",
+                    "course_name",
+                    "attendance_date",
+                    null
+                  ]
+                },
+                "displaySearchBox": {
+                  "value": "{{false}}"
+                },
+                "allowSelection": {
+                  "value": "{{false}}"
+                },
+                "showFilterButton": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": {
+                    "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a": 251,
+                    "afc9a5091750a1bd4760e38760de3b4be11a43452ae8ae07ce2eebc569fe9a7f": 298,
+                    "9c2e3c40572a4aefb8e179ee39a0e1ac9dc2b2e6634be56e1c05be13c3d1de56": 227,
+                    "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737": 81,
+                    "89ea5b66-9cd8-4078-b86a-b8f02ab5a1f2": 212
+                  }
+                },
+                "data": {
+                  "value": "{{queries.addStdAttendance.data.length>0 ? queries.addStdAttendance.data: queries.listStudents.data}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                },
+                "actions": {
+                  "value": []
+                },
+                "serverSidePagination": {
+                  "value": false
+                },
+                "loadingState": {
+                  "value": "{{false}}",
+                  "fxActive": false
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "a181d91b-d2da-4d30-8748-504c0482a02e",
+                  "type": "mobile",
+                  "top": 360,
+                  "left": 2,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "67ff3ac1-5313-497c-8e97-6bbb5ca42690",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "954bc52c-4eb2-41aa-a190-5dadba794f3f",
+                  "type": "desktop",
+                  "top": 260,
+                  "left": 1,
+                  "width": 41,
+                  "height": 610,
+                  "componentId": "67ff3ac1-5313-497c-8e97-6bbb5ca42690",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            },
+            {
+              "id": "3d1bfc00-4218-4a46-957d-db3803d00bbc",
+              "name": "icon1",
+              "type": "Icon",
+              "pageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "parent": "06a1b497-014f-433e-91a7-a19aa36949d3",
+              "properties": {
+                "icon": {
+                  "value": "IconUsersGroup"
+                }
+              },
+              "general": {},
+              "styles": {
+                "iconColor": {
+                  "value": "#ffffffff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z",
+              "layouts": [
+                {
+                  "id": "79d28e51-6ff3-4483-8e89-16804f958b9a",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 5,
+                  "width": 5,
+                  "height": 48,
+                  "componentId": "3d1bfc00-4218-4a46-957d-db3803d00bbc",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                },
+                {
+                  "id": "9caa5c4e-2f13-4c56-b46a-39defe2f1cdd",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 3,
+                  "height": 50,
+                  "componentId": "3d1bfc00-4218-4a46-957d-db3803d00bbc",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-07T10:55:24.039Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": false,
+              "hidden": false,
+              "icon": null,
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:25.364Z",
+              "autoComputeLayout": false,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [
+            {
+              "id": "6ab10868-8434-497e-be86-b353dc7c4cb7",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "5b849133-710e-4718-8345-1b8bc7cabb87",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "listStudents",
+                "parameters": {}
+              },
+              "sourceId": "fbb728be-9a00-4aa6-99c6-62c9f76b9603",
+              "target": "component",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.552Z"
+            },
+            {
+              "id": "6b52837c-8056-44c7-88e7-38893fb4af93",
+              "name": "onBulkUpdate",
+              "index": 0,
+              "event": {
+                "eventId": "onBulkUpdate",
+                "message": "Hello world!",
+                "queryId": "98fe04c9-fc9b-4d91-a8b4-78d788d3ead1",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "addStdAttendance",
+                "parameters": {}
+              },
+              "sourceId": "67ff3ac1-5313-497c-8e97-6bbb5ca42690",
+              "target": "component",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.557Z"
+            },
+            {
+              "id": "556b997b-d523-4580-9030-16b8a85eff1c",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "5b849133-710e-4718-8345-1b8bc7cabb87",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "listStudents",
+                "parameters": {}
+              },
+              "sourceId": "0029e67d-2f34-454f-b313-c3b9a97ee502",
+              "target": "data_query",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.563Z"
+            },
+            {
+              "id": "2f52724f-4563-40c2-afd0-94080d779a05",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "126750d8-1734-4ea2-bc14-093d26e3b822",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "studentAnalytics",
+                "runOnlyIf": "",
+                "parameters": {}
+              },
+              "sourceId": "5b849133-710e-4718-8345-1b8bc7cabb87",
+              "target": "data_query",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.569Z"
+            },
+            {
+              "id": "c6ed01da-ccc7-4fa1-b478-a64e7a757316",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "126750d8-1734-4ea2-bc14-093d26e3b822",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "studentAnalytics",
+                "parameters": {}
+              },
+              "sourceId": "98fe04c9-fc9b-4d91-a8b4-78d788d3ead1",
+              "target": "data_query",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.575Z"
+            },
+            {
+              "id": "5386e40b-753c-4a69-94c7-d0d4254ed512",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "0029e67d-2f34-454f-b313-c3b9a97ee502",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "getStudents",
+                "parameters": {}
+              },
+              "sourceId": "97df6788-2d9b-4a12-b0ae-6523e53dd7c8",
+              "target": "data_query",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.580Z"
+            }
+          ],
+          "dataQueries": [
+            {
+              "id": "5b849133-710e-4718-8345-1b8bc7cabb87",
+              "name": "listStudents",
+              "options": {
+                "code": "const attendanceList = await queries.getAttendanceRecords.data;\nconst course = components.courseDropdown.value;\nconst dateFilter = components.attendance_date.value;\nlet attendanceRecord ;\n\nconst studentList = attendanceList.filter((std)=>std.course_name == course && std.attendance_date == dateFilter);\n\nif(studentList.length > 0){\n\tattendanceRecord = studentList;\n}else{\n\trecords = queries.getStudents.data.filter((std)=>std.course_name == course);\n  records = records.map((record)=>({\n  \t...record,\n      status:false\n  }))\n  attendanceRecord = records;\n}\n\nreturn attendanceRecord;",
+                "parameters": [],
+                "runOnPageLoad": false,
+                "requestConfirmation": false
+              },
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z"
+            },
+            {
+              "id": "98fe04c9-fc9b-4d91-a8b4-78d788d3ead1",
+              "name": "addStdAttendance",
+              "options": {
+                "code": "const attendanceList = queries.getAttendanceRecords.data;\nconst course = components.courseDropdown.value;\nconst dateFilter = components.attendance_date.value;\nconst updatedData = components.table1.updatedData;\n\n\n\nasync function insertAttendanceRecords(records) {\n  for (const record of records) {\n    await queries.addAttendance.run({ stdData: record });\n  }\n}\nasync function updateAttendanceRecords(records) {\n  for (const record of records) {\n    \n    const params = {\n      attendance_id:record.attendance_id,\n    \tstatus: record.status\n    };\n    await queries.updateAttendance.run({ stdData: params });\n  }\n}\n\nconst studentList = attendanceList.filter((std)=>std.course_name == course && std.attendance_date == dateFilter);\n\n\nif(studentList.length > 0){\n\tconst records = Object.values(components.table1.dataUpdates);\n  updateAttendanceRecords(records);\n}else{\n\tinsertAttendanceRecords(updatedData);\n}\n\nreturn updatedData;",
+                "parameters": []
+              },
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z"
+            },
+            {
+              "id": "126750d8-1734-4ea2-bc14-093d26e3b822",
+              "name": "studentAnalytics",
+              "options": {
+                "code": "const studentAnalytics = {total:null, present:null,absent:null};\n\nlet totalStd = 0;\nlet presentStd = 0;\nlet absentStd=0;\n\ncomponents.table1.currentData.forEach((std)=>{\n  if(std.status){\n  \tpresentStd++;\n  }else{\n  \tabsentStd++;\n  }\n  \n\ttotalStd++\n\n})\n\n\n\nstudentAnalytics.present = presentStd;\nstudentAnalytics.total = totalStd;\nstudentAnalytics.absent = absentStd;\n\nreturn studentAnalytics",
+                "parameters": [],
+                "runOnPageLoad": false
+              },
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z"
+            },
+            {
+              "id": "ffd2706f-da17-4e47-b801-c25ab3d14d67",
+              "name": "addAttendance",
+              "options": {
+                "operation": "create_row",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+                "table_id": "fa28a8f8-c052-482c-aef2-ac1017eda1a6",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1718000593678,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "c5bf7890-64e3-4978-aef2-c046e7f2f926",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "attendance_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "student_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "email",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "mobile",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "course_name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "status",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "attendance_date",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    }
+                  ]
+                },
+                "list_rows": {},
+                "create_row": {
+                  "0": {
+                    "column": "student_id",
+                    "value": "{{parameters.stdData.student_id}}"
+                  },
+                  "1": {
+                    "column": "name",
+                    "value": "{{parameters.stdData.name}}"
+                  },
+                  "2": {
+                    "column": "mobile",
+                    "value": "{{parameters.stdData.mobile}}"
+                  },
+                  "3": {
+                    "column": "email",
+                    "value": "{{parameters.stdData.email}}"
+                  },
+                  "4": {
+                    "column": "course_name",
+                    "value": "{{parameters.stdData.course_name}}"
+                  },
+                  "5": {
+                    "column": "status",
+                    "value": "{{parameters.stdData.status}}"
+                  },
+                  "6": {
+                    "column": "attendance_date",
+                    "value": "{{components.attendance_date.value}}"
+                  }
+                },
+                "transformation": "",
+                "parameters": [
+                  {
+                    "name": "stdData",
+                    "defaultValue": "{{queries.addStdAttendance.data}}"
+                  }
+                ]
+              },
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z"
+            },
+            {
+              "id": "511e92c6-8cf1-4aaf-ac07-e1d4d800a13a",
+              "name": "updateAttendance",
+              "options": {
+                "operation": "update_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+                "table_id": "fa28a8f8-c052-482c-aef2-ac1017eda1a6",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1718000584349,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "c5bf7890-64e3-4978-aef2-c046e7f2f926",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "attendance_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "student_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "email",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "mobile",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "course_name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "status",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "attendance_date",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    }
+                  ]
+                },
+                "list_rows": {},
+                "update_rows": {
+                  "columns": {
+                    "0": {
+                      "column": "status",
+                      "value": "{{parameters.stdData.status}}"
+                    }
+                  },
+                  "where_filters": {
+                    "4bad6014-662a-42aa-9007-335278264cc9": {
+                      "column": "attendance_id",
+                      "operator": "eq",
+                      "value": "{{parameters.stdData.attendance_id}}",
+                      "id": "4bad6014-662a-42aa-9007-335278264cc9"
+                    }
+                  }
+                },
+                "parameters": [
+                  {
+                    "name": "stdData",
+                    "defaultValue": "{{queries.addStdAttendance.data}}"
+                  }
+                ]
+              },
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:24.039Z"
+            },
+            {
+              "id": "0029e67d-2f34-454f-b313-c3b9a97ee502",
+              "name": "getStudents",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+                "table_id": "6d6f1b3c-42d7-48c4-86d3-3b938fb68c46",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1717502790095,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "ed00dbe7-ab42-473b-8ebb-4b269647ad26",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "student_id",
+                      "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                    },
+                    {
+                      "name": "name",
+                      "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                    },
+                    {
+                      "name": "email",
+                      "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                    },
+                    {
+                      "name": "mobile",
+                      "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                    },
+                    {
+                      "name": "course_name",
+                      "table": "ed00dbe7-ab42-473b-8ebb-4b269647ad26"
+                    }
+                  ]
+                },
+                "list_rows": {
+                  "order_filters": {
+                    "cfb055ce-2592-4ef5-9aef-6de0e8902595": {
+                      "column": "student_id",
+                      "order": "asc",
+                      "id": "cfb055ce-2592-4ef5-9aef-6de0e8902595"
+                    }
+                  },
+                  "limit": "",
+                  "where_filters": {}
+                },
+                "runOnPageLoad": false
+              },
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:27.721Z"
+            },
+            {
+              "id": "97df6788-2d9b-4a12-b0ae-6523e53dd7c8",
+              "name": "getAttendanceRecords",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+                "table_id": "fa28a8f8-c052-482c-aef2-ac1017eda1a6",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1718000575762,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "c5bf7890-64e3-4978-aef2-c046e7f2f926",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "attendance_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "student_id",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "email",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "mobile",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "course_name",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "status",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    },
+                    {
+                      "name": "attendance_date",
+                      "table": "c5bf7890-64e3-4978-aef2-c046e7f2f926"
+                    }
+                  ]
+                },
+                "list_rows": {
+                  "order_filters": {
+                    "21fea75b-c2c5-43c8-8434-1c45127f9a46": {
+                      "column": "attendance_id",
+                      "order": "asc",
+                      "id": "21fea75b-c2c5-43c8-8434-1c45127f9a46"
+                    }
+                  },
+                  "where_filters": {}
+                },
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "createdAt": "2025-04-07T10:55:24.039Z",
+              "updatedAt": "2025-04-07T10:55:27.311Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "4482f3a5-2418-4f1f-842d-5d99e423b6e9",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-07T10:55:24.052Z",
+              "updatedAt": "2025-04-07T10:55:24.052Z"
+            },
+            {
+              "id": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-07T10:55:24.103Z",
+              "updatedAt": "2025-04-07T10:55:24.103Z"
+            },
+            {
+              "id": "c2e451c7-9623-4372-ae26-464b1b02eaaf",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-07T10:55:24.118Z",
+              "updatedAt": "2025-04-07T10:55:24.118Z"
+            },
+            {
+              "id": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-07T10:55:24.212Z",
+              "updatedAt": "2025-04-07T10:55:24.212Z"
+            },
+            {
+              "id": "8f19ea01-9669-40ea-874e-16c1c0cbad1e",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-07T10:55:24.310Z",
+              "updatedAt": "2025-04-07T10:55:24.310Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "c4333216-652a-4812-b8db-91e4ef7452a6",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": true,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{true}}",
+                    "fxActive": false
+                  }
+                }
+              },
+              "showViewerNavigation": true,
+              "homePageId": "60d51284-af8c-463b-ad84-a18f8cffdfbe",
+              "appId": "4788e457-d4b7-4594-b8a8-3feede234b84",
+              "currentEnvironmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "promotedFrom": null,
+              "createdAt": "2025-04-07T10:55:24.028Z",
+              "updatedAt": "2025-04-07T10:55:24.610Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "organizationId": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2025-04-07T10:07:30.915Z",
+              "updatedAt": "2025-04-07T10:07:30.915Z"
+            },
+            {
+              "id": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "organizationId": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2025-04-07T10:07:30.915Z",
+              "updatedAt": "2025-04-07T10:07:30.915Z"
+            },
+            {
+              "id": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "organizationId": "74b889e3-d9f0-4d8d-921b-874615cc0270",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2025-04-07T10:07:30.915Z",
+              "updatedAt": "2025-04-07T10:07:30.915Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "795c1017-54a3-404f-9868-c5335891268d",
+              "dataSourceId": "4482f3a5-2418-4f1f-842d-5d99e423b6e9",
+              "environmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.064Z",
+              "updatedAt": "2025-04-07T10:55:24.064Z"
+            },
+            {
+              "id": "3f194b69-9e78-4df2-a33f-dc8e58678190",
+              "dataSourceId": "4482f3a5-2418-4f1f-842d-5d99e423b6e9",
+              "environmentId": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.064Z",
+              "updatedAt": "2025-04-07T10:55:24.064Z"
+            },
+            {
+              "id": "c6a74476-29c1-4551-9044-d6db1df31dbc",
+              "dataSourceId": "4482f3a5-2418-4f1f-842d-5d99e423b6e9",
+              "environmentId": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.064Z",
+              "updatedAt": "2025-04-07T10:55:24.064Z"
+            },
+            {
+              "id": "0506836f-7977-48f9-a320-9c1bbed666d7",
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "environmentId": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.115Z",
+              "updatedAt": "2025-04-07T10:55:24.115Z"
+            },
+            {
+              "id": "8be0a122-73bb-47d2-a784-3d7bcdd4fe81",
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "environmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.115Z",
+              "updatedAt": "2025-04-07T10:55:24.115Z"
+            },
+            {
+              "id": "29cc74f2-7dcf-40ae-bdb6-164aad5e7e59",
+              "dataSourceId": "7d3962f6-64b6-45bf-a1c1-0f040c1652a4",
+              "environmentId": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.115Z",
+              "updatedAt": "2025-04-07T10:55:24.115Z"
+            },
+            {
+              "id": "329de64e-4077-4216-8c75-425280d894d0",
+              "dataSourceId": "c2e451c7-9623-4372-ae26-464b1b02eaaf",
+              "environmentId": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.205Z",
+              "updatedAt": "2025-04-07T10:55:24.205Z"
+            },
+            {
+              "id": "99ea72a3-c185-4736-86c7-2ca30d6802f3",
+              "dataSourceId": "c2e451c7-9623-4372-ae26-464b1b02eaaf",
+              "environmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.205Z",
+              "updatedAt": "2025-04-07T10:55:24.205Z"
+            },
+            {
+              "id": "8ec4cb1e-c740-4189-973f-69ea5c649901",
+              "dataSourceId": "c2e451c7-9623-4372-ae26-464b1b02eaaf",
+              "environmentId": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.205Z",
+              "updatedAt": "2025-04-07T10:55:24.205Z"
+            },
+            {
+              "id": "1d743884-3f6b-48a4-967e-dfd59f43ef4c",
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "environmentId": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.308Z",
+              "updatedAt": "2025-04-07T10:55:24.308Z"
+            },
+            {
+              "id": "7f0f65ef-897e-4d31-8c97-60b2031eb86c",
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "environmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.308Z",
+              "updatedAt": "2025-04-07T10:55:24.308Z"
+            },
+            {
+              "id": "df4b6a79-d864-4646-9bcb-ec9c585bf743",
+              "dataSourceId": "4a2d2973-c98e-43b2-8cb9-34876b53d643",
+              "environmentId": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.308Z",
+              "updatedAt": "2025-04-07T10:55:24.308Z"
+            },
+            {
+              "id": "5e792568-7e7b-4071-b02d-409e80e70d61",
+              "dataSourceId": "8f19ea01-9669-40ea-874e-16c1c0cbad1e",
+              "environmentId": "8700ddbe-058c-4074-8d84-ec1eb15b393c",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.318Z",
+              "updatedAt": "2025-04-07T10:55:24.318Z"
+            },
+            {
+              "id": "96fb9611-aaf8-4e21-87cb-1621292fd754",
+              "dataSourceId": "8f19ea01-9669-40ea-874e-16c1c0cbad1e",
+              "environmentId": "0981e7c1-22df-4c5f-94df-42ca2118605d",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.318Z",
+              "updatedAt": "2025-04-07T10:55:24.318Z"
+            },
+            {
+              "id": "6d351e20-ee0f-469d-b4e8-1f0cb1738487",
+              "dataSourceId": "8f19ea01-9669-40ea-874e-16c1c0cbad1e",
+              "environmentId": "e38f510f-05ca-4c20-9adc-f7f9621c472f",
+              "options": null,
+              "createdAt": "2025-04-07T10:55:24.318Z",
+              "updatedAt": "2025-04-07T10:55:24.318Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.5.11-ee-lts"
+}
