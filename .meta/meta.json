@@ -161,10 +161,10 @@
   },
   "ac6d109f-33c1-42ec-bd27-ceaf4ccd3d73": {
     "gitAppName": "abc",
-    "lastCommitMessage": "Table updated",
-    "gitVersionId": "36538a92-baec-440e-af0a-3229d1fc7ca0",
-    "lastpushDate": "2025-04-10T06:17:40.313Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Another push",
+    "gitVersionId": "62c651f1-be00-49c4-9bea-72a2a5e8f354",
+    "lastpushDate": "2025-04-10T12:18:36.721Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "naveen "
   }
 }
