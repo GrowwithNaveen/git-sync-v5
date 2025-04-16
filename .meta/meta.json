@@ -169,10 +169,10 @@
   },
   "3ba587ab-407c-4176-b1f3-4ec0c525fb36": {
     "gitAppName": "tablee",
-    "lastCommitMessage": " v1 Version of app tablee promoted from development to staging",
-    "gitVersionId": "34ba6c34-086d-46f6-93dd-a543a20b1053",
-    "lastpushDate": "2025-04-16T09:21:17.925Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app tablee",
+    "gitVersionId": "9a919e09-9b03-49ce-87dc-9b57e8ad8ead",
+    "lastpushDate": "2025-04-16T09:21:44.287Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "naveen "
   }
 }
