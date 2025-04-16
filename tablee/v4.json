@@ -305,7 +305,7 @@
               },
               "validation": {},
               "createdAt": "2025-04-16T10:03:54.359Z",
-              "updatedAt": "2025-04-16T10:03:54.359Z",
+              "updatedAt": "2025-04-16T10:03:58.933Z",
               "layouts": [
                 {
                   "id": "79e4e1c5-fe5f-44c9-a3d1-37b16cb20b9d",
@@ -534,6 +534,109 @@
                   "componentId": "7e080387-584e-4eb5-af8b-04194fed88e6",
                   "dimensionUnit": "count",
                   "updatedAt": "2025-04-16T10:03:54.359Z"
+                }
+              ]
+            },
+            {
+              "id": "e4a658ff-c0fc-4cc0-8525-d728d6338c24",
+              "name": "button3",
+              "type": "Button",
+              "pageId": "2d92d3cb-7048-48c0-8773-16d731820146",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "version 4"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "tooltip": {
+                  "value": ""
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#FFFFFF"
+                },
+                "borderColor": {
+                  "value": "#4368E3"
+                },
+                "loaderColor": {
+                  "value": "#FFFFFF"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "backgroundColor": {
+                  "value": "#4368E3"
+                },
+                "iconColor": {
+                  "value": "#FFFFFF"
+                },
+                "direction": {
+                  "value": "left"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "icon": {
+                  "value": "IconAlignBoxBottomLeft"
+                },
+                "iconVisibility": {
+                  "value": false
+                },
+                "type": {
+                  "value": "primary"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-04-16T10:04:06.710Z",
+              "updatedAt": "2025-04-16T10:04:10.291Z",
+              "layouts": [
+                {
+                  "id": "b57f46e6-afb7-4400-93ba-1f2b6aaff194",
+                  "type": "desktop",
+                  "top": 50,
+                  "left": 15,
+                  "width": 4,
+                  "height": 40,
+                  "componentId": "e4a658ff-c0fc-4cc0-8525-d728d6338c24",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-16T10:04:06.710Z"
+                },
+                {
+                  "id": "b7af48ab-b605-4d9d-9237-460cde0e6575",
+                  "type": "mobile",
+                  "top": 50,
+                  "left": 15,
+                  "width": 4,
+                  "height": 40,
+                  "componentId": "e4a658ff-c0fc-4cc0-8525-d728d6338c24",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-04-16T10:04:06.710Z"
                 }
               ]
             }
