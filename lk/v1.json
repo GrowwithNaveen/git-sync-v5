@@ -1,0 +1,337 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
+          "name": "lk",
+          "slug": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "home",
+          "organizationId": "0b9a2d49-d611-4b9e-b25b-979506925471",
+          "currentVersionId": null,
+          "userId": "b2bd4b69-9ec8-4567-882e-32f51e239e67",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-06-10T11:40:27.697Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-06-10T11:40:27.697Z",
+          "editingVersion": {
+            "id": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+            "appId": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
+            "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
+            "promotedFrom": null,
+            "createdAt": "2025-06-10T11:40:27.704Z",
+            "updatedAt": "2025-06-10T13:36:48.367Z"
+          },
+          "components": [
+            {
+              "id": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+              "name": "textinput1",
+              "type": "TextInput",
+              "pageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "parent": null,
+              "properties": {
+                "value": {
+                  "value": ""
+                },
+                "label": {
+                  "value": "Label"
+                },
+                "placeholder": {
+                  "value": "Enter your input"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "tooltip": {
+                  "value": ""
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#1B1F24"
+                },
+                "borderColor": {
+                  "value": "#CCD1D5"
+                },
+                "accentColor": {
+                  "value": "#4368E3"
+                },
+                "errTextColor": {
+                  "value": "#D72D39"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "backgroundColor": {
+                  "value": "#fff"
+                },
+                "iconColor": {
+                  "value": "#CFD3D859"
+                },
+                "direction": {
+                  "value": "left"
+                },
+                "width": {
+                  "value": "{{33}}"
+                },
+                "alignment": {
+                  "value": "side"
+                },
+                "color": {
+                  "value": "#1B1F24"
+                },
+                "auto": {
+                  "value": "{{true}}"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "icon": {
+                  "value": "IconHome2"
+                },
+                "iconVisibility": {
+                  "value": false
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {
+                "mandatory": {
+                  "value": "{{false}}"
+                },
+                "regex": {
+                  "value": ""
+                },
+                "minLength": {
+                  "value": ""
+                },
+                "maxLength": {
+                  "value": ""
+                },
+                "customRule": {
+                  "value": ""
+                }
+              },
+              "createdAt": "2025-06-10T11:40:38.048Z",
+              "updatedAt": "2025-06-10T11:40:38.048Z",
+              "layouts": [
+                {
+                  "id": "cbba44ac-872d-42f9-a02a-abab685f673c",
+                  "type": "mobile",
+                  "top": 160,
+                  "left": 16,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T11:40:38.048Z"
+                },
+                {
+                  "id": "59dd5de5-65b4-4a6b-a541-84c9a94f36e6",
+                  "type": "desktop",
+                  "top": 40,
+                  "left": 21,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T13:23:45.152Z"
+                }
+              ]
+            },
+            {
+              "id": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+              "name": "customcomponent1",
+              "type": "CustomComponent",
+              "pageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "parent": null,
+              "properties": {
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "data": {
+                  "value": "{{{ title: 'Hi! There', buttonText: 'Update Title'}}}"
+                },
+                "code": {
+                  "value": " import React, { useState, useEffect } from \"https://cdn.skypack.dev/react\";\n import ReactDOM from \"https://cdn.skypack.dev/react-dom\";\n \n\n // Dance class options\n const danceClassOptions = [\n  { value: \"bharatanaatiyam\", label: \"Bharatanaatiyam\" },\n  { value: \"mohiniyaatam\", label: \"Mohiniyaatam\" },\n  { value: \"thiruvathirakkali\", label: \"Thiruvathirakkali\" },\n  { value: \"semiclassical\", label: \"Semi-Classical\" },\n ];\n \n\n // Style objects\n const containerFormStyle = {\n  display: \"flex\",\n  justifyContent: \"center\",\n  alignItems: \"center\",\n  backgroundColor: \"#F2EDDD\",\n  flexDirection: \"column\",\n  padding: \"80px 0px\",\n };\n const formTitleStyle = {\n  textAlign: \"center\",\n  fontSize: \"60px\",\n  color: \"#800000\", // Updated to maroon\n  marginBottom: \"2.5rem\",\n };\n const formGroupStyle = {\n  display: \"flex\",\n  flexDirection: \"column\",\n  marginBottom: \"1.5rem\",\n };\n const labelStyle = {\n  fontSize: \"1.1rem\",\n  marginBottom: \"0.7rem\",\n  color: \"#800000\", // Updated to maroon\n  fontWeight: \"500\",\n };\n const inputStyle = {\n  padding: \"0.75rem 1rem\",\n  fontSize: \"1rem\",\n  border: \"1px solid #A52A2A\", // Updated to brown\n  borderRadius: \"6px\",\n  backgroundColor: \"#fff\",\n  width: \"375px\",\n  transition: \"border-color 0.2s\",\n };\n const inputFocusStyle = {\n  outline: \"none\",\n  borderColor: \"#A52A2A\", // Updated to brown\n  boxShadow: \"0 0 0 2px rgba(165, 42, 42, 0.2)\", // Optional: subtle glow\n };\n const selectStyle = {\n  ...inputStyle,\n  padding: \"0.75rem 0.8rem\",\n };\n const submitBtnStyle = {\n  backgroundColor: \"#800000\", // Updated to maroon\n  color: \"#fff\",\n  padding: \"0.9rem 2rem\",\n  fontSize: \"1.1rem\",\n  border: \"none\",\n  borderRadius: \"6px\",\n  cursor: \"pointer\",\n  transition: \"background-color 0.3s\",\n  width: \"220px\",\n  margin: \"40px auto 0 auto\",\n  fontWeight: \"500\",\n };\n const submitBtnHoverStyle = {\n  backgroundColor: \"#580000\", // Darker maroon on hover\n };\n const alertStyle = {\n  position: \"relative\",\n  padding: \"0.9rem 1.25rem\",\n  marginBottom: \"1.5rem\",\n  border: \"1px solid transparent\",\n  borderRadius: \"0.4rem\",\n  color: \"#155724\",\n  backgroundColor: \"#d4edda\",\n  borderColor: \"#c3e6cb\",\n  fontSize: \"1.05rem\",\n };\n const btnCloseStyle = {\n  position: \"absolute\",\n  top: \"0\",\n  right: \"0\",\n  padding: \"0.75rem 1.25rem\",\n  color: \"inherit\",\n  backgroundColor: \"transparent\",\n  border: \"0\",\n  cursor: \"pointer\",\n  fontSize: \"1.5rem\",\n  fontWeight: \"700\",\n  lineHeight: \"1\",\n  textShadow: \"0 1px 0 #fff\",\n  opacity: \".5\",\n };\n const formContainerStyle = {\n  backgroundColor: \"#FAF9F6\", // Light beige\n  padding: \"2.5rem 3rem\",\n  width: \"860px\",\n  margin: \"0 auto\",\n  borderRadius: \"12px\",\n  boxShadow: \"0 6px 16px rgba(0, 0, 0, 0.08)\",\n };\n const rowStyle = {\n  display: \"flex\",\n  justifyContent: \"space-between\",\n  flexWrap: \"wrap\",\n  gap: \"1.5rem\",\n  marginBottom: \"1.5rem\",\n };\n const fieldGroupStyle = {\n  flex: \"1 1 45%\",\n  minWidth: \"320px\",\n };\n \n\n const EnquiryForm = ({ data, updateData }) => {\n  const [show, setShow] = useState(false);\n  const [width, setWidth] = useState(window.innerWidth);\n \n\n  useEffect(() => {\n  const handleResize = () => setWidth(window.innerWidth);\n  window.addEventListener(\"resize\", handleResize);\n  return () => window.removeEventListener(\"resize\", handleResize);\n  }, []);\n \n\n  const formData = data || {\n  fullName: \"\",\n  age: \"\",\n  email: \"\",\n  phone: \"\",\n  enrollmentDate: \"\",\n  danceClass: \"\",\n  };\n \n\n  const handleInputChange = (e) => {\n  const { name, value } = e.target;\n  updateData({ ...formData, [name]: value });\n  };\n \n\n  const handleSubmit = (e) => {\n  e.preventDefault();\n  setShow(true);\n  updateData({\n  fullName: \"\",\n  age: \"\",\n  email: \"\",\n  phone: \"\",\n  enrollmentDate: \"\",\n  danceClass: \"\",\n  });\n  };\n \n\n  // Responsive adjustments\n  const responsiveFormContainerStyle = {\n  ...formContainerStyle,\n  width: width < 992 ? (width < 768 ? \"90%\" : \"600px\") : \"860px\",\n  padding: width < 992 ? (width < 768 ? \"1.5rem\" : \"2rem\") : \"2.5rem 3rem\",\n  };\n  const responsiveFormTitleStyle = {\n  ...formTitleStyle,\n  fontSize: width < 992 ? (width < 768 ? \"40px\" : \"50px\") : \"60px\",\n  };\n  const responsiveSubmitBtnStyle = {\n  ...submitBtnStyle,\n  width: width < 992 ? (width < 768 ? \"180px\" : \"200px\") : \"220px\",\n  padding: width < 992 ? (width < 768 ? \"0.8rem 1.6rem\" : \"0.8rem 1.8rem\") : \"0.9rem 2rem\",\n  };\n  const responsiveInputStyle = {\n  ...inputStyle,\n  width: width < 768 ? \"100%\" : \"100%\",\n  minWidth: \"280px\",\n  };\n  const responsiveSelectStyle = {\n  ...selectStyle,\n  width: width < 768 ? \"100%\" : \"100%\",\n  minWidth: \"280px\",\n  };\n \n\n  return (\n  <div style={containerFormStyle}>\n  <h1 style={responsiveFormTitleStyle}>Enquiry Form</h1>\n  <div style={responsiveFormContainerStyle}>\n  <form\n  onSubmit={handleSubmit}\n  style={{ display: \"flex\", flexDirection: \"column\" }}\n  >\n  {show && (\n  <div style={alertStyle}>\n  Form Submitted Successfully\n  <button\n  type=\"button\"\n  style={btnCloseStyle}\n  onClick={() => setShow(false)}\n  >\n  &times;\n  </button>\n  </div>\n  )}\n  <div style={formGroupStyle}>\n  <label style={labelStyle}>Full Name</label>\n  <input\n  type=\"text\"\n  name=\"fullName\"\n  value={formData.fullName}\n  onChange={handleInputChange}\n  required\n  style={responsiveInputStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveInputStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveInputStyle)}\n  />\n  </div>\n  <div style={formGroupStyle}>\n  <label style={labelStyle}>Email</label>\n  <input\n  type=\"email\"\n  name=\"email\"\n  value={formData.email}\n  onChange={handleInputChange}\n  required\n  style={responsiveInputStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveInputStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveInputStyle)}\n  />\n  </div>\n  <div style={rowStyle}>\n  <div style={{ ...formGroupStyle, ...fieldGroupStyle }}>\n  <label style={labelStyle}>Age</label>\n  <input\n  type=\"number\"\n  name=\"age\"\n  value={formData.age}\n  onChange={handleInputChange}\n  required\n  style={responsiveInputStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveInputStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveInputStyle)}\n  />\n  </div>\n  <div style={{ ...formGroupStyle, ...fieldGroupStyle }}>\n  <label style={labelStyle}>Phone</label>\n  <input\n  type=\"tel\"\n  name=\"phone\"\n  value={formData.phone}\n  onChange={handleInputChange}\n  required\n  style={responsiveInputStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveInputStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveInputStyle)}\n  />\n  </div>\n  </div>\n  <div style={rowStyle}>\n  <div style={{ ...formGroupStyle, ...fieldGroupStyle }}>\n  <label style={labelStyle}>Enrollment Date</label>\n  <input\n  type=\"date\"\n  name=\"enrollmentDate\"\n  value={formData.enrollmentDate}\n  onChange={handleInputChange}\n  style={responsiveInputStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveInputStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveInputStyle)}\n  />\n  </div>\n  <div style={{ ...formGroupStyle, ...fieldGroupStyle }}>\n  <label style={labelStyle}>Dance Class</label>\n  <select\n  name=\"danceClass\"\n  value={formData.danceClass}\n  onChange={handleInputChange}\n  required\n  style={responsiveSelectStyle}\n  onFocus={(e) => (e.target.style = { ...responsiveSelectStyle, ...inputFocusStyle })}\n  onBlur={(e) => (e.target.style = responsiveSelectStyle)}\n  >\n  <option value=\"\">Select Dance Class</option>\n  {danceClassOptions.map((opt) => (\n  <option key={opt.value} value={opt.value}>{opt.label}</option>\n  ))}\n  </select>\n  </div>\n  </div>\n  <button type=\"submit\" style={responsiveSubmitBtnStyle}>\n  Submit\n  </button>\n  </form>\n  </div>\n  </div>\n  );\n };\n \n\n const ConnectedComponent = Tooljet.connectComponent(EnquiryForm);\n ReactDOM.render(<ConnectedComponent />, document.body);\n",
+                  "skipResolve": true
+                }
+              },
+              "general": {},
+              "styles": {
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-06-10T13:15:47.537Z",
+              "updatedAt": "2025-06-10T13:35:14.074Z",
+              "layouts": [
+                {
+                  "id": "e51682f4-bf76-4cf8-9b3b-d822e20ed198",
+                  "type": "mobile",
+                  "top": 260,
+                  "left": 16,
+                  "width": 20,
+                  "height": 140,
+                  "componentId": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T13:15:47.537Z"
+                },
+                {
+                  "id": "a6a94918-2fd6-40b8-b678-cf92f8ba319f",
+                  "type": "desktop",
+                  "top": 260,
+                  "left": 10,
+                  "width": 33,
+                  "height": 980,
+                  "componentId": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-06-10T13:33:40.103Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "icon": null,
+              "createdAt": "2025-06-10T11:40:27.697Z",
+              "updatedAt": "2025-06-10T11:40:29.634Z",
+              "autoComputeLayout": true,
+              "appVersionId": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "appVersions": [
+            {
+              "id": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "appId": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
+              "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
+              "promotedFrom": null,
+              "createdAt": "2025-06-10T11:40:27.704Z",
+              "updatedAt": "2025-06-10T13:36:48.367Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "4e39fa99-0e40-4fc2-97c7-acd86660b6fa",
+              "organizationId": "0b9a2d49-d611-4b9e-b25b-979506925471",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-07-12T10:10:39.702Z",
+              "updatedAt": "2024-07-12T10:10:39.702Z"
+            },
+            {
+              "id": "06bb113f-2640-4590-bab3-6e45e60e9401",
+              "organizationId": "0b9a2d49-d611-4b9e-b25b-979506925471",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-07-12T10:10:39.702Z",
+              "updatedAt": "2024-07-12T10:10:39.702Z"
+            },
+            {
+              "id": "11226642-d251-46e1-8cf2-5644652f5933",
+              "organizationId": "0b9a2d49-d611-4b9e-b25b-979506925471",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-07-12T10:10:39.702Z",
+              "updatedAt": "2024-07-12T10:10:39.702Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.5.39-cloud-lts"
+}

@@ -190,5 +190,13 @@
     "lastpushDate": "2025-05-27T10:22:18.761Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "f0a735a2-8c81-488a-b641-ce5bffbbe692": {
+    "gitAppName": "lk",
+    "lastCommitMessage": " v1 Version of app lk promoted from development to staging",
+    "gitVersionId": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
+    "lastpushDate": "2025-06-10T13:36:51.794Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "Midhun Kumar"
   }
 }
