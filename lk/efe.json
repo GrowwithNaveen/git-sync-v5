@@ -19,11 +19,11 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2025-06-10T11:40:27.697Z",
           "editingVersion": {
-            "id": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
-            "name": "v1",
+            "id": "c919957b-0eb5-4544-b314-432795def80a",
+            "name": "efe",
             "definition": null,
             "globalSettings": {
-              "hideHeader": false,
+              "hideHeader": true,
               "appInMaintenance": false,
               "canvasMaxWidth": 100,
               "canvasMaxWidthType": "%",
@@ -32,21 +32,28 @@
               "backgroundFxQuery": "",
               "appMode": "auto"
             },
-            "pageSettings": null,
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                }
+              }
+            },
             "showViewerNavigation": true,
-            "homePageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+            "homePageId": "74c8a501-7647-4dc9-97df-da2982c9546c",
             "appId": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
             "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
             "promotedFrom": null,
-            "createdAt": "2025-06-10T11:40:27.704Z",
-            "updatedAt": "2025-06-10T13:36:48.367Z"
+            "createdAt": "2025-06-10T13:37:09.149Z",
+            "updatedAt": "2025-06-10T13:37:33.670Z"
           },
           "components": [
             {
-              "id": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+              "id": "0d6d5968-f190-42ed-be61-6abef2d560ef",
               "name": "textinput1",
               "type": "TextInput",
-              "pageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "pageId": "74c8a501-7647-4dc9-97df-da2982c9546c",
               "parent": null,
               "properties": {
                 "value": {
@@ -152,38 +159,38 @@
                   "value": ""
                 }
               },
-              "createdAt": "2025-06-10T11:40:38.048Z",
-              "updatedAt": "2025-06-10T11:40:38.048Z",
+              "createdAt": "2025-06-10T13:37:09.096Z",
+              "updatedAt": "2025-06-10T13:37:09.096Z",
               "layouts": [
                 {
-                  "id": "cbba44ac-872d-42f9-a02a-abab685f673c",
+                  "id": "95bd676f-6316-44ae-96d1-4e892abe8dba",
                   "type": "mobile",
                   "top": 160,
                   "left": 16,
                   "width": 10,
                   "height": 40,
-                  "componentId": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+                  "componentId": "0d6d5968-f190-42ed-be61-6abef2d560ef",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-06-10T11:40:38.048Z"
+                  "updatedAt": "2025-06-10T13:37:09.096Z"
                 },
                 {
-                  "id": "59dd5de5-65b4-4a6b-a541-84c9a94f36e6",
+                  "id": "198de456-aa39-4f1a-8a1a-689e5c6b8f7a",
                   "type": "desktop",
                   "top": 40,
                   "left": 21,
                   "width": 10,
                   "height": 40,
-                  "componentId": "773079f2-99e6-4e10-8f54-8eedd1dd50ec",
+                  "componentId": "0d6d5968-f190-42ed-be61-6abef2d560ef",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-06-10T13:23:45.152Z"
+                  "updatedAt": "2025-06-10T13:37:09.096Z"
                 }
               ]
             },
             {
-              "id": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+              "id": "2bab7c8e-d526-4705-b052-981825d4c4f1",
               "name": "customcomponent1",
               "type": "CustomComponent",
-              "pageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "pageId": "74c8a501-7647-4dc9-97df-da2982c9546c",
               "parent": null,
               "properties": {
                 "visible": {
@@ -217,47 +224,47 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-06-10T13:15:47.537Z",
-              "updatedAt": "2025-06-10T13:35:14.074Z",
+              "createdAt": "2025-06-10T13:37:09.096Z",
+              "updatedAt": "2025-06-10T13:37:09.096Z",
               "layouts": [
                 {
-                  "id": "e51682f4-bf76-4cf8-9b3b-d822e20ed198",
+                  "id": "cdd4a30d-05fb-4125-bed2-7a31d096303e",
                   "type": "mobile",
                   "top": 260,
                   "left": 16,
                   "width": 20,
                   "height": 140,
-                  "componentId": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+                  "componentId": "2bab7c8e-d526-4705-b052-981825d4c4f1",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-06-10T13:15:47.537Z"
+                  "updatedAt": "2025-06-10T13:37:09.096Z"
                 },
                 {
-                  "id": "a6a94918-2fd6-40b8-b678-cf92f8ba319f",
+                  "id": "8f3e2334-1318-4233-be83-f8142e25f498",
                   "type": "desktop",
                   "top": 260,
                   "left": 10,
                   "width": 33,
                   "height": 980,
-                  "componentId": "9ecbce66-b8d0-4c53-954f-6c5fca42048e",
+                  "componentId": "2bab7c8e-d526-4705-b052-981825d4c4f1",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-06-10T13:33:40.103Z"
+                  "updatedAt": "2025-06-10T13:37:09.096Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "id": "74c8a501-7647-4dc9-97df-da2982c9546c",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2025-06-10T11:40:27.697Z",
-              "updatedAt": "2025-06-10T11:40:29.634Z",
-              "autoComputeLayout": true,
-              "appVersionId": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
+              "createdAt": "2025-06-10T13:37:09.096Z",
+              "updatedAt": "2025-06-10T13:37:10.537Z",
+              "autoComputeLayout": false,
+              "appVersionId": "c919957b-0eb5-4544-b314-432795def80a",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false
@@ -268,11 +275,11 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "ccb625b4-cac7-4544-a570-4812bfbf03c6",
-              "name": "v1",
+              "id": "c919957b-0eb5-4544-b314-432795def80a",
+              "name": "efe",
               "definition": null,
               "globalSettings": {
-                "hideHeader": false,
+                "hideHeader": true,
                 "appInMaintenance": false,
                 "canvasMaxWidth": 100,
                 "canvasMaxWidthType": "%",
@@ -281,14 +288,21 @@
                 "backgroundFxQuery": "",
                 "appMode": "auto"
               },
-              "pageSettings": null,
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{true}}",
+                    "fxActive": false
+                  }
+                }
+              },
               "showViewerNavigation": true,
-              "homePageId": "a000d42c-d3f9-47dc-acde-c12ddf168db7",
+              "homePageId": "74c8a501-7647-4dc9-97df-da2982c9546c",
               "appId": "f0a735a2-8c81-488a-b641-ce5bffbbe692",
               "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
               "promotedFrom": null,
-              "createdAt": "2025-06-10T11:40:27.704Z",
-              "updatedAt": "2025-06-10T13:36:48.367Z"
+              "createdAt": "2025-06-10T13:37:09.149Z",
+              "updatedAt": "2025-06-10T13:37:33.670Z"
             }
           ],
           "appEnvironments": [
