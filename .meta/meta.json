@@ -198,5 +198,13 @@
     "lastpushDate": "2025-06-10T13:37:37.305Z",
     "gitVersionName": "efe",
     "lastCommitUser": "Midhun Kumar"
+  },
+  "28032068-43a8-451d-914d-3895dfb565d5": {
+    "gitAppName": "Employee directory embed",
+    "lastCommitMessage": " v1 Version of app Employee directory embed promoted from development to staging",
+    "gitVersionId": "cb08901e-2c0d-40e7-95a9-e998403c3850",
+    "lastpushDate": "2025-06-13T08:00:12.967Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
