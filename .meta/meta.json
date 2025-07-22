@@ -225,10 +225,10 @@
   },
   "50747307-2366-4cbe-9fd4-2cae5ed2c6c3": {
     "gitAppName": "TestDataLogs.",
-    "lastCommitMessage": " v3 Version of app TestDataLogs. promoted from development to staging",
-    "gitVersionId": "bc098508-e411-444b-a33e-4ca6c00e8eb8",
-    "lastpushDate": "2025-07-22T12:59:15.586Z",
-    "gitVersionName": "v3",
+    "lastCommitMessage": " v4 Version of app TestDataLogs. promoted from development to staging",
+    "gitVersionId": "cbd2984b-b9e7-4751-af11-510be1abc5dd",
+    "lastpushDate": "2025-07-22T13:03:38.523Z",
+    "gitVersionName": "v4",
     "lastCommitUser": "Midhun Kumar"
   }
 }
