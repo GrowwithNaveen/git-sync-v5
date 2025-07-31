@@ -241,10 +241,10 @@
   },
   "dbd5a068-0b72-4ef6-a605-99c8af7ca9a9": {
     "gitAppName": "icon-svg-image",
-    "lastCommitMessage": " v2 Version of app icon-svg-image promoted from development to staging",
-    "gitVersionId": "36275bfa-2605-41ec-88cb-6f6a82403509",
-    "lastpushDate": "2025-07-31T13:08:42.445Z",
-    "gitVersionName": "v2",
+    "lastCommitMessage": " v4 Version of app icon-svg-image promoted from development to staging",
+    "gitVersionId": "65f0c7e1-397a-4da7-bdc9-7605d5e35749",
+    "lastpushDate": "2025-07-31T13:10:16.398Z",
+    "gitVersionName": "v4",
     "lastCommitUser": "noordeen "
   }
 }
