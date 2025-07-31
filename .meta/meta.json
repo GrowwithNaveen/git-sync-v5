@@ -238,5 +238,13 @@
     "lastpushDate": "2025-07-31T09:53:09.173Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "dbd5a068-0b72-4ef6-a605-99c8af7ca9a9": {
+    "gitAppName": "icon-svg-image",
+    "lastCommitMessage": " v2 Version of app icon-svg-image promoted from development to staging",
+    "gitVersionId": "36275bfa-2605-41ec-88cb-6f6a82403509",
+    "lastpushDate": "2025-07-31T13:08:42.445Z",
+    "gitVersionName": "v2",
+    "lastCommitUser": "noordeen "
   }
 }
