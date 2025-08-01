@@ -262,5 +262,13 @@
     "lastpushDate": "2025-08-01T09:59:43.015Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "16ec86d9-68c5-456b-838e-e553e3d4a43b": {
+    "gitAppName": "git sync test app",
+    "lastCommitMessage": "grg",
+    "gitVersionId": "d7ea1ab2-f79a-4ba8-9f2e-b60b564a2786",
+    "lastpushDate": "2025-08-01T16:19:04.823Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
