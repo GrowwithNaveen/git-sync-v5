@@ -254,5 +254,13 @@
     "lastpushDate": "2025-08-01T09:35:55.306Z",
     "gitVersionName": "v1",
     "lastCommitUser": "Rohann Lahori"
+  },
+  "65e332c7-d41a-4b60-b86f-724bd9077b08": {
+    "gitAppName": "Embed app1",
+    "lastCommitMessage": " v1 Version of app Embed app1 promoted from development to staging",
+    "gitVersionId": "c7eec292-0188-42e3-943a-5b13a9c07682",
+    "lastpushDate": "2025-08-01T09:59:43.015Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
