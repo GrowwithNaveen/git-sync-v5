@@ -278,5 +278,13 @@
     "lastpushDate": "2025-08-01T16:32:07.664Z",
     "gitVersionName": "vee",
     "lastCommitUser": "noordeen "
+  },
+  "247344b9-99fc-4174-a1d9-9b624ce7dea2": {
+    "gitAppName": "DTDTR",
+    "lastCommitMessage": " v2 Version of app DTDTR promoted from development to staging",
+    "gitVersionId": "11440b7f-7f76-4d53-97a9-56bbd2f6af77",
+    "lastpushDate": "2025-08-01T18:46:31.519Z",
+    "gitVersionName": "v2",
+    "lastCommitUser": "noordeen "
   }
 }
