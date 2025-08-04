@@ -302,5 +302,13 @@
     "lastpushDate": "2025-08-04T05:27:10.496Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "55cd3bee-a806-4e60-a344-e1879fa348cb": {
+    "gitAppName": "mango",
+    "lastCommitMessage": "App mango created",
+    "gitVersionId": "e519fe96-15fb-471e-8f6c-63fdd8cb38ee",
+    "lastpushDate": "2025-08-04T05:27:54.633Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "naveen "
   }
 }
