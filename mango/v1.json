@@ -3,10 +3,10 @@
     {
       "definition": {
         "appV2": {
-          "id": "55cd3bee-a806-4e60-a344-e1879fa348cb",
+          "id": "1bd86fbf-48e3-4f83-94ad-32655ad56aad",
           "type": "front-end",
-          "name": "mango",
-          "slug": "55cd3bee-a806-4e60-a344-e1879fa348cb",
+          "name": "mango 1233",
+          "slug": "1bd86fbf-48e3-4f83-94ad-32655ad56aad",
           "isPublic": false,
           "isMaintenanceOn": false,
           "icon": "sentfast",
@@ -19,11 +19,11 @@
           "appGeneratedFromPrompt": false,
           "appBuilderMode": "visual",
           "aiGenerationMetadata": null,
-          "createdAt": "2025-08-04T05:27:45.646Z",
-          "creationMode": "DEFAULT",
-          "updatedAt": "2025-08-04T05:27:45.645Z",
+          "createdAt": "2025-08-04T05:28:25.338Z",
+          "creationMode": "GIT",
+          "updatedAt": "2025-08-04T05:28:25.255Z",
           "editingVersion": {
-            "id": "e519fe96-15fb-471e-8f6c-63fdd8cb38ee",
+            "id": "6f0a7604-d0b5-47bf-a3f5-da4f183710fe",
             "name": "v1",
             "definition": null,
             "globalSettings": {
@@ -35,29 +35,36 @@
               "backgroundFxQuery": "",
               "appMode": "auto"
             },
-            "pageSettings": null,
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{false}}",
+                  "fxActive": false
+                }
+              }
+            },
             "showViewerNavigation": true,
-            "homePageId": "e5e162df-9576-4ce4-b345-366bc06ebe1c",
-            "appId": "55cd3bee-a806-4e60-a344-e1879fa348cb",
-            "currentEnvironmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+            "homePageId": "17ee58fd-726c-4f85-92f6-55baab957cf8",
+            "appId": "1bd86fbf-48e3-4f83-94ad-32655ad56aad",
+            "currentEnvironmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
             "promotedFrom": null,
-            "createdAt": "2025-08-04T05:27:45.883Z",
-            "updatedAt": "2025-08-04T05:27:54.790Z"
+            "createdAt": "2025-08-04T05:28:25.579Z",
+            "updatedAt": "2025-08-04T05:28:25.931Z"
           },
           "components": [],
           "pages": [
             {
-              "id": "e5e162df-9576-4ce4-b345-366bc06ebe1c",
+              "id": "17ee58fd-726c-4f85-92f6-55baab957cf8",
               "name": "Home",
               "handle": "home",
               "index": 1,
-              "disabled": null,
-              "hidden": null,
+              "disabled": false,
+              "hidden": false,
               "icon": null,
-              "createdAt": "2025-08-04T05:27:45.645Z",
-              "updatedAt": "2025-08-04T05:27:47.555Z",
+              "createdAt": "2025-08-04T05:28:25.255Z",
+              "updatedAt": "2025-08-04T05:28:25.255Z",
               "autoComputeLayout": true,
-              "appVersionId": "e519fe96-15fb-471e-8f6c-63fdd8cb38ee",
+              "appVersionId": "6f0a7604-d0b5-47bf-a3f5-da4f183710fe",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
@@ -72,7 +79,7 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "e519fe96-15fb-471e-8f6c-63fdd8cb38ee",
+              "id": "6f0a7604-d0b5-47bf-a3f5-da4f183710fe",
               "name": "v1",
               "definition": null,
               "globalSettings": {
@@ -84,14 +91,21 @@
                 "backgroundFxQuery": "",
                 "appMode": "auto"
               },
-              "pageSettings": null,
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{false}}",
+                    "fxActive": false
+                  }
+                }
+              },
               "showViewerNavigation": true,
-              "homePageId": "e5e162df-9576-4ce4-b345-366bc06ebe1c",
-              "appId": "55cd3bee-a806-4e60-a344-e1879fa348cb",
-              "currentEnvironmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "homePageId": "17ee58fd-726c-4f85-92f6-55baab957cf8",
+              "appId": "1bd86fbf-48e3-4f83-94ad-32655ad56aad",
+              "currentEnvironmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
               "promotedFrom": null,
-              "createdAt": "2025-08-04T05:27:45.883Z",
-              "updatedAt": "2025-08-04T05:27:54.790Z"
+              "createdAt": "2025-08-04T05:28:25.579Z",
+              "updatedAt": "2025-08-04T05:28:25.931Z"
             }
           ],
           "appEnvironments": [

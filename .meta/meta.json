@@ -305,9 +305,9 @@
   },
   "55cd3bee-a806-4e60-a344-e1879fa348cb": {
     "gitAppName": "mango",
-    "lastCommitMessage": " v1 Version of app mango promoted from development to staging",
-    "gitVersionId": "e519fe96-15fb-471e-8f6c-63fdd8cb38ee",
-    "lastpushDate": "2025-08-04T05:27:58.811Z",
+    "lastCommitMessage": "Manual commiot",
+    "gitVersionId": "6f0a7604-d0b5-47bf-a3f5-da4f183710fe",
+    "lastpushDate": "2025-08-04T05:28:41.018Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
   }
