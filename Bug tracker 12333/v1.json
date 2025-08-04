@@ -185,10 +185,10 @@
             "showViewerNavigation": false,
             "homePageId": "3bf2feef-8d93-49d8-a9ea-ac1326dd914f",
             "appId": "105e0e74-ed75-464f-ad07-cadb92a31268",
-            "currentEnvironmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+            "currentEnvironmentId": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
             "promotedFrom": null,
             "createdAt": "2025-08-04T05:45:48.885Z",
-            "updatedAt": "2025-08-04T05:45:49.422Z"
+            "updatedAt": "2025-08-04T05:46:08.198Z"
           },
           "components": [
             {
@@ -1781,80 +1781,6 @@
           ],
           "events": [
             {
-              "id": "5dc28d28-3495-45d3-a3d4-bddc0f4dca1f",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "ddba614d-beb5-4fcd-9ef7-67d8a615b509",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "chartData",
-                "parameters": {}
-              },
-              "sourceId": "265f4646-f3fa-4e8b-bf2e-d5a9ef0dc463",
-              "target": "data_query",
-              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
-              "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:48.576Z"
-            },
-            {
-              "id": "95c7923e-bc8a-4609-b155-114bfea7a703",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "modal": "4e87069b-8914-4a49-81ac-a0d4e1dc8827",
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "actionId": "close-modal",
-                "alertType": "info"
-              },
-              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
-              "target": "data_query",
-              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
-              "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:48.576Z"
-            },
-            {
-              "id": "8e0db525-0738-4c6f-abde-ed735c7ba1fc",
-              "name": "onDataQuerySuccess",
-              "index": 2,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "a1014f38-42e2-4371-9d03-836436b2bdcf",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "listBugs",
-                "parameters": {}
-              },
-              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
-              "target": "data_query",
-              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
-              "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:48.576Z"
-            },
-            {
-              "id": "27f46999-7e86-4c88-967c-bdb8a65263f2",
-              "name": "onDataQuerySuccess",
-              "index": 3,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "265f4646-f3fa-4e8b-bf2e-d5a9ef0dc463",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "bugStats",
-                "parameters": {}
-              },
-              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
-              "target": "data_query",
-              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
-              "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:48.576Z"
-            },
-            {
               "id": "df2bf3ec-a9b1-4ef0-a368-26b465c22c05",
               "name": "onDataQuerySuccess",
               "index": 1,
@@ -2014,6 +1940,80 @@
                 "componentSpecificActionParams": []
               },
               "sourceId": "622eb6ea-116a-4a5a-9776-6c62f3b3e3ba",
+              "target": "data_query",
+              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
+              "createdAt": "2025-08-04T05:45:48.576Z",
+              "updatedAt": "2025-08-04T05:45:48.576Z"
+            },
+            {
+              "id": "5dc28d28-3495-45d3-a3d4-bddc0f4dca1f",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "ddba614d-beb5-4fcd-9ef7-67d8a615b509",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "chartData",
+                "parameters": {}
+              },
+              "sourceId": "265f4646-f3fa-4e8b-bf2e-d5a9ef0dc463",
+              "target": "data_query",
+              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
+              "createdAt": "2025-08-04T05:45:48.576Z",
+              "updatedAt": "2025-08-04T05:45:48.576Z"
+            },
+            {
+              "id": "95c7923e-bc8a-4609-b155-114bfea7a703",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "modal": "4e87069b-8914-4a49-81ac-a0d4e1dc8827",
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "actionId": "close-modal",
+                "alertType": "info"
+              },
+              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
+              "target": "data_query",
+              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
+              "createdAt": "2025-08-04T05:45:48.576Z",
+              "updatedAt": "2025-08-04T05:45:48.576Z"
+            },
+            {
+              "id": "8e0db525-0738-4c6f-abde-ed735c7ba1fc",
+              "name": "onDataQuerySuccess",
+              "index": 2,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "a1014f38-42e2-4371-9d03-836436b2bdcf",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "listBugs",
+                "parameters": {}
+              },
+              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
+              "target": "data_query",
+              "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
+              "createdAt": "2025-08-04T05:45:48.576Z",
+              "updatedAt": "2025-08-04T05:45:48.576Z"
+            },
+            {
+              "id": "27f46999-7e86-4c88-967c-bdb8a65263f2",
+              "name": "onDataQuerySuccess",
+              "index": 3,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "265f4646-f3fa-4e8b-bf2e-d5a9ef0dc463",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "bugStats",
+                "parameters": {}
+              },
+              "sourceId": "4f3eee33-39b0-4d97-ad54-c34e16ccf782",
               "target": "data_query",
               "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
               "createdAt": "2025-08-04T05:45:48.576Z",
@@ -2361,7 +2361,7 @@
               "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
               "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
               "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:55.562Z"
+              "updatedAt": "2025-08-04T05:46:06.078Z"
             },
             {
               "id": "265f4646-f3fa-4e8b-bf2e-d5a9ef0dc463",
@@ -2449,7 +2449,7 @@
               "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
               "appVersionId": "e21ef86b-88dd-45bd-b082-92f5b83be79e",
               "createdAt": "2025-08-04T05:45:48.576Z",
-              "updatedAt": "2025-08-04T05:45:54.730Z"
+              "updatedAt": "2025-08-04T05:46:06.846Z"
             }
           ],
           "dataSources": [
@@ -2505,10 +2505,10 @@
               "showViewerNavigation": false,
               "homePageId": "3bf2feef-8d93-49d8-a9ea-ac1326dd914f",
               "appId": "105e0e74-ed75-464f-ad07-cadb92a31268",
-              "currentEnvironmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+              "currentEnvironmentId": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
               "promotedFrom": null,
               "createdAt": "2025-08-04T05:45:48.885Z",
-              "updatedAt": "2025-08-04T05:45:49.422Z"
+              "updatedAt": "2025-08-04T05:46:08.198Z"
             }
           ],
           "appEnvironments": [
