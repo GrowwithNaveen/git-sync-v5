@@ -1,0 +1,1413 @@
+{
+  "tooljet_database": [
+    {
+      "id": "60ed0bef-9ddc-4102-8545-daa6b3f8b778",
+      "table_name": "sales_distribution",
+      "schema": {
+        "columns": [
+          {
+            "column_name": "id",
+            "data_type": "integer",
+            "column_default": "nextval(\"60ed0bef-9ddc-4102-8545-daa6b3f8b778_id_seq\"",
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": true,
+              "is_unique": false
+            },
+            "keytype": "PRIMARY KEY",
+            "configurations": {}
+          },
+          {
+            "column_name": "region",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "sales",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "orders",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "top_product",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "average_order_value_dollar",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "customer_satisfaction_percent",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          }
+        ],
+        "foreign_keys": []
+      }
+    }
+  ],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "565bd8e4-c5dd-4c4e-b3d5-9d48ad0521d5",
+          "type": "front-end",
+          "name": "sales-analytics-dashboard-export-1756384062197",
+          "slug": "565bd8e4-c5dd-4c4e-b3d5-9d48ad0521d5",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "menuhome",
+          "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+          "currentVersionId": null,
+          "userId": "b789e6db-b7e9-4716-9076-ed87222dd7d7",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "isInitialisedFromPrompt": false,
+          "appGeneratedFromPrompt": false,
+          "appBuilderMode": "visual",
+          "aiGenerationMetadata": null,
+          "createdAt": "2025-08-28T12:36:53.281Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-08-28T12:36:52.917Z",
+          "editingVersion": {
+            "id": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto",
+              "theme": {
+                "id": "0e461102-c9ca-41b0-a6f1-ab74ab5c7570",
+                "name": "Coffee Brown Theme",
+                "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+                "definition": {
+                  "brand": {
+                    "colors": {
+                      "primary": {
+                        "light": "#5C4033",
+                        "dark": "#3E2723"
+                      },
+                      "secondary": {
+                        "light": "#8D6E63",
+                        "dark": "#A1887F"
+                      },
+                      "tertiary": {
+                        "light": "#C19A6B",
+                        "dark": "#8B6B4A"
+                      }
+                    }
+                  },
+                  "text": {
+                    "font": "IBM Plex Sans",
+                    "colors": {
+                      "primary": {
+                        "light": "#2E1C15",
+                        "dark": "#F5EDE6"
+                      },
+                      "placeholder": {
+                        "light": "#7B6658",
+                        "dark": "#B8A59A"
+                      }
+                    }
+                  },
+                  "border": {
+                    "radius": {
+                      "default": 6,
+                      "small": 0,
+                      "large": 0
+                    },
+                    "colors": {
+                      "default": {
+                        "light": "#D7CCC8",
+                        "dark": "#5D4037"
+                      },
+                      "weak": {
+                        "light": "#EFE6E1",
+                        "dark": "#6D4C41"
+                      }
+                    }
+                  },
+                  "systemStatus": {
+                    "colors": {
+                      "success": {
+                        "light": "#6B8E23",
+                        "dark": "#4E6B18"
+                      },
+                      "error": {
+                        "light": "#B22222",
+                        "dark": "#8B1A1A"
+                      },
+                      "warning": {
+                        "light": "#D2691E",
+                        "dark": "#A0522D"
+                      }
+                    }
+                  },
+                  "surface": {
+                    "colors": {
+                      "appBackground": {
+                        "light": "#F9F5F1",
+                        "dark": "#1B1412"
+                      },
+                      "surface1": {
+                        "light": "#FFFFFF",
+                        "dark": "#2E1C15"
+                      },
+                      "surface2": {
+                        "light": "#F3E8E3",
+                        "dark": "#3E2723"
+                      },
+                      "surface3": {
+                        "light": "#EADCD6",
+                        "dark": "#4A2E24"
+                      }
+                    }
+                  }
+                },
+                "isDefault": false,
+                "isBasic": false,
+                "createdAt": "2025-08-25T11:35:23.079Z",
+                "updatedAt": "2025-08-25T11:35:23.079Z"
+              }
+            },
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{false}}",
+                  "fxActive": false
+                },
+                "position": "side",
+                "hideHeader": false,
+                "hideLogo": false
+              }
+            },
+            "showViewerNavigation": true,
+            "homePageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+            "appId": "565bd8e4-c5dd-4c4e-b3d5-9d48ad0521d5",
+            "currentEnvironmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+            "promotedFrom": null,
+            "createdAt": "2025-08-28T12:36:53.295Z",
+            "updatedAt": "2025-09-02T03:12:06.332Z"
+          },
+          "components": [
+            {
+              "id": "4b98b935-7f4b-4308-b29d-2f463578eca1",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "parent": "3576e9c6-1335-4c43-bb67-c03af539735e",
+              "properties": {
+                "textFormat": {
+                  "value": "html"
+                },
+                "text": {
+                  "value": "Sales Analytics Dashboard"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff00000"
+                },
+                "textColor": {
+                  "value": "#3e63ddff",
+                  "fxActive": true
+                },
+                "textSize": {
+                  "value": "24"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "decoration": {
+                  "value": "none"
+                },
+                "transformation": {
+                  "value": "none"
+                },
+                "fontStyle": {
+                  "value": "normal"
+                },
+                "lineHeight": {
+                  "value": 1.5
+                },
+                "textIndent": {
+                  "value": 0
+                },
+                "letterSpacing": {
+                  "value": "0"
+                },
+                "wordSpacing": {
+                  "value": 0
+                },
+                "fontVariant": {
+                  "value": "normal"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "borderColor": {
+                  "value": ""
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "isScrollRequired": {
+                  "value": "enabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z",
+              "layouts": [
+                {
+                  "id": "4f144b4c-6816-4bd9-9baa-9b4d99062c0c",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 22,
+                  "height": 40,
+                  "componentId": "4b98b935-7f4b-4308-b29d-2f463578eca1",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                }
+              ]
+            },
+            {
+              "id": "3576e9c6-1335-4c43-bb67-c03af539735e",
+              "name": "container1",
+              "type": "Container",
+              "pageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "parent": null,
+              "properties": {
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "showHeader": {
+                  "value": "{{false}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#e4eaffff",
+                  "fxActive": false
+                },
+                "borderRadius": {
+                  "value": "0"
+                },
+                "borderColor": {
+                  "value": "#ffffff00",
+                  "fxActive": true
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z",
+              "layouts": [
+                {
+                  "id": "29d0f24b-cfa8-4968-ac30-2c0864a54f32",
+                  "type": "desktop",
+                  "top": 0,
+                  "left": 0,
+                  "width": 43,
+                  "height": 90,
+                  "componentId": "3576e9c6-1335-4c43-bb67-c03af539735e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                }
+              ]
+            },
+            {
+              "id": "441f65fb-cc61-4f30-b4eb-62b540272117",
+              "name": "chart3",
+              "type": "Chart",
+              "pageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": "Monthly Sales Trends"
+                },
+                "markerColor": {
+                  "value": "#CDE1F8"
+                },
+                "showAxes": {
+                  "value": "{{true}}"
+                },
+                "showGridLines": {
+                  "value": "{{true}}"
+                },
+                "plotFromJson": {
+                  "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "barmode": {
+                  "value": "group"
+                },
+                "jsonDescription": {
+                  "value": "{\n              \"data\": [\n                  {\n                      \"x\": [\n                          \"Jan\",\n                          \"Feb\",\n                          \"Mar\"\n                      ],\n                      \"y\": [\n                          100,\n                          80,\n                          40\n                      ],\n                      \"type\": \"bar\"\n                  }\n              ]\n          }"
+                },
+                "type": {
+                  "value": "line"
+                },
+                "data": {
+                  "value": "[\n  { \"x\": \"Jan\", \"y\": 27620 },\n  { \"x\": \"Feb\", \"y\": 48538 },\n  { \"x\": \"Mar\", \"y\": 21319 },\n  { \"x\": \"Apr\", \"y\": 43126 },\n  { \"x\": \"May\", \"y\": 37724 },\n  { \"x\": \"Jun\", \"y\": 24059 },\n  { \"x\": \"Jul\", \"y\": 49529 },\n  { \"x\": \"Aug\", \"y\": 17774 },\n  { \"x\": \"Sep\", \"y\": 39594 },\n  { \"x\": \"Oct\", \"y\": 13323 },\n  { \"x\": \"Nov\", \"y\": 29384 },\n  { \"x\": \"Dec\", \"y\": 30452 }\n]\n"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff"
+                },
+                "padding": {
+                  "value": "50"
+                },
+                "borderRadius": {
+                  "value": "{{4}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z",
+              "layouts": [
+                {
+                  "id": "f214d984-73a7-45b9-88fb-d86bc2f49970",
+                  "type": "desktop",
+                  "top": 110,
+                  "left": 25,
+                  "width": 17,
+                  "height": 290,
+                  "componentId": "441f65fb-cc61-4f30-b4eb-62b540272117",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                },
+                {
+                  "id": "fed79757-3a09-4b2e-8d5e-8dde773cdee0",
+                  "type": "mobile",
+                  "top": 520,
+                  "left": 1,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "441f65fb-cc61-4f30-b4eb-62b540272117",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                }
+              ]
+            },
+            {
+              "id": "04af7ab6-800d-469a-94f0-2ceaae76fff2",
+              "name": "chart5",
+              "type": "Chart",
+              "pageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": "This title can be changed"
+                },
+                "markerColor": {
+                  "value": "#CDE1F8"
+                },
+                "showAxes": {
+                  "value": "{{true}}"
+                },
+                "showGridLines": {
+                  "value": "{{true}}"
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "barmode": {
+                  "value": "relative"
+                },
+                "jsonDescription": {
+                  "value": "{\n  \"data\": [\n    {\n      \"fill\": \"toself\",\n      \"line\": {\n        \"color\": \"rgba(242,242,242,0.85)\",\n        \"fillcolor\": \"rgba(242,242,242,0.85)\"\n      },\n      \"mode\": \"lines\",\n      \"name\": \"80% confidence\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:491611\",\n      \"x\": [\n        \"2017-07-01\",\n        \"2017-08-01\",\n        \"2017-09-01\",\n        \"2017-10-01\",\n        \"2017-11-01\",\n        \"2017-12-01\",\n        \"2017-12-01\",\n        \"2017-12-01\",\n        \"2017-11-01\",\n        \"2017-10-01\",\n        \"2017-09-01\",\n        \"2017-08-01\",\n        \"2017-07-01\"\n      ],\n      \"ysrc\": \"mw9826:18:c70b65\",\n      \"y\": [631.683949331398, 375.007655491506, 1766.23618275321, 1603.3678986628, 1308.33128979829, 2347.96107091326, 2347.96107091326, 5088.03892908674, 3809.66871020171, 3840.6321013372, 3703.76381724679, 1956.99234450849, 1750.3160506686],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"hoveron\": \"points\"\n    },\n    {\n      \"fill\": \"toself\",\n      \"line\": {\n        \"color\": \"rgba(204,204,204,0.75)\",\n        \"fillcolor\": \"rgba(204,204,204,0.75)\"\n      },\n      \"mode\": \"lines\",\n      \"name\": \"95% confidence\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:428179\",\n      \"x\": [\n        \"2017-07-01\",\n        \"2017-08-01\",\n        \"2017-09-01\",\n        \"2017-10-01\",\n        \"2017-11-01\",\n        \"2017-12-01\",\n        \"2017-12-01\",\n        \"2017-12-01\",\n        \"2017-11-01\",\n        \"2017-10-01\",\n        \"2017-09-01\",\n        \"2017-08-01\",\n        \"2017-07-01\"\n      ],\n      \"ysrc\": \"mw9826:18:fdd975\",\n      \"y\": [825.282891919169, 648.797905760222, 2101.55938760684, 1990.56578383834, 1741.23168579663, 2822.17969499568, 2822.17969499568, 4613.82030500432, 3376.76831420337, 3453.43421616166, 3368.44061239316, 1683.20209423978, 1556.71710808083],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"hoveron\": \"points\"\n    },\n    {\n      \"line\": {\n        \"width\": 3\n      },\n      \"mode\": \"markers+lines\",\n      \"name\": \"observed\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:18e6aa\",\n      \"x\": [\n        \"2015-01-01 08:00:00\",\n        \"2015-02-01 08:00:00\",\n        \"2015-03-01 08:00:00\",\n        \"2015-04-01 08:00:00\",\n        \"2015-05-01 08:00:00\",\n        \"2015-06-01 08:00:00\",\n        \"2015-07-01 08:00:00\",\n        \"2015-08-01 08:00:00\",\n        \"2015-09-01 08:00:00\",\n        \"2015-10-01 08:00:00\",\n        \"2015-11-01 08:00:00\",\n        \"2015-12-01 08:00:00\",\n        \"2016-01-01 08:00:00\",\n        \"2016-02-01 08:00:00\",\n        \"2016-03-01 08:00:00\",\n        \"2016-04-01 08:00:00\",\n        \"2016-05-01 08:00:00\",\n        \"2016-06-01 08:00:00\",\n        \"2016-07-01 08:00:00\",\n        \"2016-08-01 08:00:00\",\n        \"2016-09-01 08:00:00\",\n        \"2016-10-01 08:00:00\",\n        \"2016-11-01 08:00:00\",\n        \"2016-12-01 08:00:00\",\n        \"2017-01-01 08:00:00\",\n        \"2017-02-01 08:00:00\",\n        \"2017-03-01 08:00:00\",\n        \"2017-04-01 08:00:00\",\n        \"2017-05-01 08:00:00\",\n        \"2017-06-01 08:00:00\",\n        \"2017-07-01 08:00:00\",\n        \"2017-08-01 08:00:00\",\n        \"2017-09-01 08:00:00\",\n        \"2017-10-01 08:00:00\",\n        \"2017-11-01 08:00:00\",\n        \"2017-12-01 08:00:00\"\n      ],\n      \"ysrc\": \"mw9826:18:30c18d\",\n      \"y\": [133, 258, 873, 1104, 1015, 1161, 319, 362, 1175, 1512, 1321, 2522, 121, 209, 859, 1212, 1143, 1108, 242, 217, 1786, 1773, 1610, 2769, 219, 147, 1016, 1478, 1369, 2057, 118, 366, 1473, 2008, 1452, 2651],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"marker\": {\n        \"line\": {\n          \"color\": \"transparent\"\n        },\n        \"color\": \"rgba(79,148,205,1)\",\n        \"fillcolor\": \"rgba(79,148,205,1)\"\n      }\n    },\n    {\n      \"line\": {\n        \"width\": 3\n      },\n      \"mode\": \"markers+lines\",\n      \"name\": \"prediction\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:51e06f\",\n      \"x\": [\n        \"2017-07-01\",\n        \"2017-08-01\",\n        \"2017-09-01\",\n        \"2017-10-01\",\n        \"2017-11-01\",\n        \"2017-12-01\"\n      ],\n      \"ysrc\": \"mw9826:18:d37ee0\",\n      \"y\": [1191, 1166, 2735, 2722, 2559, 3718],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"marker\": {\n        \"line\": {\n          \"color\": \"transparent\"\n        },\n        \"color\": \"rgba(255,165,0,1)\",\n        \"fillcolor\": \"rgba(255,165,0,1)\"\n      }\n    },\n    {\n      \"fill\": \"toself\",\n      \"line\": {\n        \"color\": \"rgba(242,242,242,0.95)\",\n        \"fillcolor\": \"rgba(242,242,242,0.95)\"\n      },\n      \"mode\": \"lines\",\n      \"name\": \"95% confidence\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:83e9a9\",\n      \"x\": [\n        \"2018-01-01\",\n        \"2018-01-01\",\n        \"2018-01-01\"\n      ],\n      \"ysrc\": \"mw9826:18:c83156\",\n      \"y\": [90.8793732911001, 90.8793732911001, 3017.62677410126],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"hoveron\": \"points\",\n      \"showlegend\": false\n    },\n    {\n      \"fill\": \"toself\",\n      \"line\": {\n        \"color\": \"rgba(204,204,204,0.85)\",\n        \"fillcolor\": \"rgba(204,204,204,0.85)\"\n      },\n      \"mode\": \"lines\",\n      \"name\": \"80% confidence\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:1cf928\",\n      \"x\": [\n        \"2018-01-01\",\n        \"2018-01-01\",\n        \"2018-01-01\"\n      ],\n      \"ysrc\": \"mw9826:18:cc1456\",\n      \"y\": [597.404442025519, 597.404442025519, 2511.10170536684],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"hoveron\": \"points\",\n      \"showlegend\": false\n    },\n    {\n      \"line\": {\n        \"width\": 3\n      },\n      \"mode\": \"markers+lines\",\n      \"name\": \"prediction of next period\",\n      \"type\": \"scatter\",\n      \"xsrc\": \"mw9826:18:687dc2\",\n      \"x\": [\n        \"2018-01-01\"\n      ],\n      \"ysrc\": \"mw9826:18:8b7e6e\",\n      \"y\": [1554.25307369618],\n      \"frame\": null,\n      \"xaxis\": \"x\",\n      \"yaxis\": \"y\",\n      \"marker\": {\n        \"line\": {\n          \"color\": \"transparent\"\n        },\n        \"color\": \"rgba(238,106,80,1)\",\n        \"fillcolor\": \"rgba(238,106,80,1)\"\n      }\n    }\n  ],\n  \"layout\": {\n    \"title\": \"Sales Forecasting\\u003Cbr /\\u003E\",\n    \"xaxis\": {\n      \"title\": \"Time\",\n      \"domain\": [0, 1],\n      \"showgrid\": true\n    },\n    \"yaxis\": {\n      \"title\": \"Sales\",\n      \"domain\": [0, 1],\n      \"showgrid\": true\n    },\n    \"legend\": {\n      \"traceorder\": \"reversed\"\n    },\n    \"margin\": {\n      \"b\": 40,\n      \"l\": 60,\n      \"r\": 10,\n      \"t\": 25\n    },\n    \"shapes\": [\n      {\n        \"x0\": \"2017-07-01\",\n        \"x1\": \"2017-07-01\",\n        \"y0\": 0,\n        \"y1\": 4000,\n        \"line\": {\n          \"dash\": \"dash\",\n          \"color\": \"#BB0000\",\n          \"width\": 1.5\n        },\n        \"type\": \"line\"\n      }\n    ],\n    \"hovermode\": \"closest\",\n    \"showlegend\": true\n  },\n  \"frames\": []\n}"
+                },
+                "type": {
+                  "value": "pie"
+                },
+                "data": {
+                  "value": "[\n    { \"x\": \"Jan\", \"y\": 100},\n    { \"x\": \"Feb\", \"y\": 80},\n    { \"x\": \"Mar\", \"y\": 40}\n  ]"
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#fff"
+                },
+                "padding": {
+                  "value": "50"
+                },
+                "borderRadius": {
+                  "value": "{{4}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "borderColor": {
+                  "value": "var(--cc-default-border)"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z",
+              "layouts": [
+                {
+                  "id": "c0faca1a-02ae-48cf-9d95-269eabed9d9d",
+                  "type": "mobile",
+                  "top": 920,
+                  "left": 1,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "04af7ab6-800d-469a-94f0-2ceaae76fff2",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                },
+                {
+                  "id": "4535ab34-a59a-4eda-93f1-c3cd70a18965",
+                  "type": "desktop",
+                  "top": 420,
+                  "left": 25,
+                  "width": 17,
+                  "height": 290,
+                  "componentId": "04af7ab6-800d-469a-94f0-2ceaae76fff2",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                }
+              ]
+            },
+            {
+              "id": "04bafe37-45f2-4916-a7dd-bbf2533394b5",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "data": {
+                  "value": "{{ [ \n  { id: 1, customer: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2023', product: 'MacBook Air M2', amount: 1200, quantity: 1, total: 1200, photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n  { id: 2, customer: 'Liam Patel', email: 'liam.patel@example.com', date: '02/06/2023', product: 'Sony WH-1000XM5 Headphones', amount: 350, quantity: 2, total: 700, photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n  { id: 3, customer: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '20/07/2023', product: 'iPhone 14 Pro', amount: 999, quantity: 1, total: 999, photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n  { id: 4, customer: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '05/08/2023', product: 'Dell 27\" 4K Monitor', amount: 450, quantity: 2, total: 900, photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n  { id: 5, customer: 'Emma Davis', email: 'emma.davis@example.com', date: '18/08/2023', product: 'Logitech MX Master 3S Mouse', amount: 120, quantity: 3, total: 360, photo: 'https://reqres.in/img/faces/6-image.jpg' } \n] }}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "name": "id",
+                      "key": "id",
+                      "id": "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 30,
+                      "columnType": "string"
+                    },
+                    {
+                      "name": "photo",
+                      "key": "photo",
+                      "id": "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a2",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "image",
+                      "objectFit": "contain",
+                      "borderRadius": "100",
+                      "columnSize": 70
+                    },
+                    {
+                      "name": "date",
+                      "key": "date",
+                      "id": "27b75c8af9d34d1eaa1f9bb7f8f9f7b0abf1823e799748c8bb57e74f53b2c1dc",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnType": "datepicker",
+                      "isTimeChecked": false,
+                      "dateFormat": "DD/MM/YYYY",
+                      "parseDateFormat": "DD/MM/YYYY",
+                      "isDateSelectionEnabled": true,
+                      "columnSize": 130
+                    },
+                    {
+                      "id": "870cf6b5-2ab4-46c0-8729-d32da21cbae8",
+                      "name": "customer",
+                      "key": "customer",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "20127825-3f36-4a69-8a61-c01b09cfaaa6",
+                      "name": "product",
+                      "key": "product",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "eff171e0-0c7b-435e-9707-7b6e76594bf6",
+                      "name": "quantity",
+                      "key": "quantity",
+                      "columnType": "number",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "698d21ab-f593-4b8a-bc5a-b1e656018ca2",
+                      "name": "amount",
+                      "key": "amount",
+                      "columnType": "number",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "85a0262c-5246-4f15-a672-be4b0d31e05c",
+                      "name": "total",
+                      "key": "total",
+                      "columnType": "number",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": {
+                    "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737": 31,
+                    "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a2": 77,
+                    "20127825-3f36-4a69-8a61-c01b09cfaaa6": 117,
+                    "698d21ab-f593-4b8a-bc5a-b1e656018ca2": 95,
+                    "eff171e0-0c7b-435e-9707-7b6e76594bf6": 118
+                  }
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "dynamicHeight": {
+                  "value": "{{false}}"
+                },
+                "columnDeletionHistory": {
+                  "value": [
+                    "email"
+                  ]
+                }
+              },
+              "general": {},
+              "styles": {
+                "columnTitleColor": {
+                  "value": "var(--cc-placeholder-text)"
+                },
+                "columnBackgroundColor": {
+                  "value": "var(--cc-surface2-surface)"
+                },
+                "containerBackgroundColor": {
+                  "value": "var(--cc-surface1-surface)"
+                },
+                "textColor": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "headerCasing": {
+                  "value": "uppercase"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "6"
+                },
+                "borderColor": {
+                  "value": "var(--cc-default-border)"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-09-02T03:11:55.823Z",
+              "layouts": [
+                {
+                  "id": "9c944987-d899-4c14-92bd-48b94aeb3b14",
+                  "type": "mobile",
+                  "top": 110,
+                  "left": 1,
+                  "width": 25,
+                  "height": 460,
+                  "componentId": "04bafe37-45f2-4916-a7dd-bbf2533394b5",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                },
+                {
+                  "id": "ff4555de-231c-462d-a33f-19e99815dac1",
+                  "type": "desktop",
+                  "top": 110,
+                  "left": 1,
+                  "width": 23,
+                  "height": 600,
+                  "componentId": "04bafe37-45f2-4916-a7dd-bbf2533394b5",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-08-28T12:36:52.917Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "name": "Home",
+              "handle": "home",
+              "index": 0,
+              "disabled": false,
+              "hidden": {
+                "value": "{{false}}",
+                "fxActive": false
+              },
+              "icon": null,
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z",
+              "autoComputeLayout": true,
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "pageGroupIndex": 0,
+              "pageGroupId": null,
+              "isPageGroup": false,
+              "url": null,
+              "openIn": "new_tab",
+              "type": "default",
+              "appId": ""
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "45132ab9-bf92-4696-a8d0-2da44ad39f5c",
+              "name": "getCategoryChartData",
+              "options": {
+                "code": "let data = queries.getSalesData.getData(); \n\nreturn data.map((i)=>({\n  x: i.category,\n  y: i.sales\n}))",
+                "parameters": []
+              },
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            },
+            {
+              "id": "af1eebf8-1e55-40dd-9fd8-329d2e018cfc",
+              "name": "getMonthlySalesChartData",
+              "options": {
+                "code": "const apiResponse = queries.monthlySalesData.getData()\n\nconst transformedData = apiResponse.map(product => ({\n  type: \"scatter\",\n  mode: \"lines+markers\",\n  name: product.productName,\n  x: product.sales?.map(sale => sale.date),\n  y: product.sales?.map(sale => sale.unitsSold),\n  line: { color: getColor(product.productName) } \n}));\n\n\nfunction getColor(productName) {\n  const colors = {\n    \"Smartphone X\": \"blue\",\n    \"Laptop Pro\": \"green\",\n    \"Tablet Lite\": \"red\"\n  };\n  return colors[productName];\n}\n\nconst chartData = {\n  data: transformedData,\n  layout: {\n    title: \"Monthly Sales Data (2023)\",\n    xaxis: { title: \"Month\", type: \"date\" },\n    yaxis: { title: \"Sales (in units)\" },\n    showlegend: true\n  }\n};\n\nreturn chartData",
+                "parameters": []
+              },
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            },
+            {
+              "id": "db053f1a-be54-46e6-a21b-4e1dc3b5deac",
+              "name": "plotly JSON structure",
+              "options": {
+                "code": "{\n  \"data\": [\n    {\n      \"type\": \"scatter\", // Type of chart (e.g., scatter, bar, pie, etc.)\n      \"mode\": \"lines+markers\", // How data is displayed (lines, markers, or both)\n      \"name\": \"Trace 1\", // Name of the trace (appears in the legend)\n      \"x\": [], // X-axis data (array of values)\n      \"y\": [], // Y-axis data (array of values)\n      \"line\": { // Line styling (optional)\n        \"color\": \"blue\", // Line color\n      }\n    },\n    {\n      \"type\": \"scatter\",\n      \"mode\": \"lines+markers\",\n      \"name\": \"Trace 2\",\n      \"x\": [],\n      \"y\": [],\n      \"line\": {\n        \"color\": \"green\"\n      }\n    }\n  ],\n  \"layout\": {\n    \"title\": \"Chart Title\", // Title of the chart\n    \"xaxis\": {\n      \"title\": \"X-Axis Title\", // X-axis label\n      \"type\": \"category\" // Type of axis (e.g., \"category\", \"date\", \"linear\")\n    },\n    \"yaxis\": { \n      \"title\": \"Y-Axis Title\", // Y-axis label\n      \"type\": \"linear\" // Type of axis\n    },\n    \"showlegend\": true\n    ]\n  }\n}",
+                "parameters": []
+              },
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            },
+            {
+              "id": "bb3cf5ff-e651-4e30-b8a9-eea894b68c4d",
+              "name": "getSalesData",
+              "options": {
+                "method": "get",
+                "url": "https://6797755cc2c861de0c6ccc97.mockapi.io/tooljet/sales",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "cookies": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "retry_network_errors": true,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false
+              },
+              "dataSourceId": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            },
+            {
+              "id": "e7ea97cb-a30d-4c96-972b-be982b66482d",
+              "name": "monthlySalesData",
+              "options": {
+                "method": "get",
+                "url": "https://6797755cc2c861de0c6ccc97.mockapi.io/tooljet/monthlySalesData",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "cookies": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "retry_network_errors": true,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false
+              },
+              "dataSourceId": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            },
+            {
+              "id": "840b29ea-fdac-4642-a9e4-ec05d1766da0",
+              "name": "getSalesByRegion",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "table_id": "60ed0bef-9ddc-4102-8545-daa6b3f8b778",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1738046523005,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                            },
+                            "rightField": {}
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "60ed0bef-9ddc-4102-8545-daa6b3f8b778",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "id",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "region",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "sales",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "orders",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "top_product",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "average_order_value_dollar",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    },
+                    {
+                      "name": "customer_satisfaction_percent",
+                      "table": "60ed0bef-9ddc-4102-8545-daa6b3f8b778"
+                    }
+                  ]
+                },
+                "list_rows": {},
+                "transformation": "// write your code here\n// return value will be set as data and the original data will be available as rawData\nreturn data.map((row)=>({\n  x: row.region,\n  y: row.sales\n}))\n  ",
+                "organization_id": "f2a832bb-fc39-49c5-be7f-7037ebb79b84"
+              },
+              "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
+              "appVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "createdAt": "2025-08-28T12:36:52.917Z",
+              "updatedAt": "2025-08-28T12:36:52.917Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "scope": "global",
+              "createdAt": "2023-09-02T09:17:09.317Z",
+              "updatedAt": "2023-09-02T09:17:09.317Z"
+            },
+            {
+              "id": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "scope": "global",
+              "createdAt": "2023-09-02T09:17:09.308Z",
+              "updatedAt": "2023-09-02T09:17:09.308Z"
+            },
+            {
+              "id": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "scope": "global",
+              "createdAt": "2023-09-02T09:17:09.323Z",
+              "updatedAt": "2023-09-02T09:17:09.323Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto",
+                "theme": {
+                  "id": "0e461102-c9ca-41b0-a6f1-ab74ab5c7570",
+                  "name": "Coffee Brown Theme",
+                  "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+                  "definition": {
+                    "brand": {
+                      "colors": {
+                        "primary": {
+                          "light": "#5C4033",
+                          "dark": "#3E2723"
+                        },
+                        "secondary": {
+                          "light": "#8D6E63",
+                          "dark": "#A1887F"
+                        },
+                        "tertiary": {
+                          "light": "#C19A6B",
+                          "dark": "#8B6B4A"
+                        }
+                      }
+                    },
+                    "text": {
+                      "font": "IBM Plex Sans",
+                      "colors": {
+                        "primary": {
+                          "light": "#2E1C15",
+                          "dark": "#F5EDE6"
+                        },
+                        "placeholder": {
+                          "light": "#7B6658",
+                          "dark": "#B8A59A"
+                        }
+                      }
+                    },
+                    "border": {
+                      "radius": {
+                        "default": 6,
+                        "small": 0,
+                        "large": 0
+                      },
+                      "colors": {
+                        "default": {
+                          "light": "#D7CCC8",
+                          "dark": "#5D4037"
+                        },
+                        "weak": {
+                          "light": "#EFE6E1",
+                          "dark": "#6D4C41"
+                        }
+                      }
+                    },
+                    "systemStatus": {
+                      "colors": {
+                        "success": {
+                          "light": "#6B8E23",
+                          "dark": "#4E6B18"
+                        },
+                        "error": {
+                          "light": "#B22222",
+                          "dark": "#8B1A1A"
+                        },
+                        "warning": {
+                          "light": "#D2691E",
+                          "dark": "#A0522D"
+                        }
+                      }
+                    },
+                    "surface": {
+                      "colors": {
+                        "appBackground": {
+                          "light": "#F9F5F1",
+                          "dark": "#1B1412"
+                        },
+                        "surface1": {
+                          "light": "#FFFFFF",
+                          "dark": "#2E1C15"
+                        },
+                        "surface2": {
+                          "light": "#F3E8E3",
+                          "dark": "#3E2723"
+                        },
+                        "surface3": {
+                          "light": "#EADCD6",
+                          "dark": "#4A2E24"
+                        }
+                      }
+                    }
+                  },
+                  "isDefault": false,
+                  "isBasic": false,
+                  "createdAt": "2025-08-25T11:35:23.079Z",
+                  "updatedAt": "2025-08-25T11:35:23.079Z"
+                }
+              },
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{false}}",
+                    "fxActive": false
+                  },
+                  "position": "side",
+                  "hideHeader": false,
+                  "hideLogo": false
+                }
+              },
+              "showViewerNavigation": true,
+              "homePageId": "e6c2e5aa-3513-401f-aebc-230b3ad2c3ff",
+              "appId": "565bd8e4-c5dd-4c4e-b3d5-9d48ad0521d5",
+              "currentEnvironmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "promotedFrom": null,
+              "createdAt": "2025-08-28T12:36:53.295Z",
+              "updatedAt": "2025-09-02T03:12:06.332Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2023-04-26T19:44:06.852Z",
+              "updatedAt": "2023-04-26T19:44:06.852Z"
+            },
+            {
+              "id": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2023-04-26T19:44:06.852Z",
+              "updatedAt": "2023-04-26T19:44:06.852Z"
+            },
+            {
+              "id": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
+              "organizationId": "f2a832bb-fc39-49c5-be7f-7037ebb79b84",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2023-04-26T19:44:06.852Z",
+              "updatedAt": "2023-04-26T19:44:06.852Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "3e5d8554-d032-470b-8153-a4f2747a9d3e",
+              "dataSourceId": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "environmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.311Z",
+              "updatedAt": "2023-09-02T09:17:09.311Z"
+            },
+            {
+              "id": "555229cf-1ced-4625-bb08-f1d9dc725141",
+              "dataSourceId": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "environmentId": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.311Z",
+              "updatedAt": "2023-09-02T09:17:09.311Z"
+            },
+            {
+              "id": "cdae49ab-72be-4e14-9b64-5d180e1e8567",
+              "dataSourceId": "1a143fb6-51ac-433d-ace9-616c845e9439",
+              "environmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.311Z",
+              "updatedAt": "2023-09-02T09:17:09.311Z"
+            },
+            {
+              "id": "ca4e9c9e-c0c9-43b1-9f44-93a19c0821c3",
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "environmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.319Z",
+              "updatedAt": "2023-09-02T09:17:09.319Z"
+            },
+            {
+              "id": "52893971-c1a2-4d81-b95c-9a81de6127e5",
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "environmentId": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.319Z",
+              "updatedAt": "2023-09-02T09:17:09.319Z"
+            },
+            {
+              "id": "8ed63dbc-22a8-4baa-9f23-638ea088f650",
+              "dataSourceId": "62761b30-662f-415d-85e7-c51513f5d8dd",
+              "environmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.319Z",
+              "updatedAt": "2023-09-02T09:17:09.319Z"
+            },
+            {
+              "id": "3239421c-5716-4d0f-aad0-44a2c3d3da09",
+              "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
+              "environmentId": "1071e258-9bd6-496c-a11c-9fe8670eedcc",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.327Z",
+              "updatedAt": "2023-09-02T09:17:09.327Z"
+            },
+            {
+              "id": "bdde232b-4363-478a-ab0b-7ade4a4af616",
+              "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
+              "environmentId": "1841fd5c-f11a-4a1a-97b2-f2312316cb8d",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.327Z",
+              "updatedAt": "2023-09-02T09:17:09.327Z"
+            },
+            {
+              "id": "6772e351-893e-413a-a249-02a1604062ef",
+              "dataSourceId": "d84a9cec-ea7e-496b-8ed3-8e32a5fde168",
+              "environmentId": "5b7f33b3-b9a9-43b0-a9b2-82bb37fca4d4",
+              "options": null,
+              "createdAt": "2023-09-02T09:17:09.327Z",
+              "updatedAt": "2023-09-02T09:17:09.327Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          },
+          "modules": []
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.16.19-cloud-lts"
+}

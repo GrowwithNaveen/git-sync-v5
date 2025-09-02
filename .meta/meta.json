@@ -358,5 +358,13 @@
     "lastpushDate": "2025-08-19T06:48:39.086Z",
     "gitVersionName": "v1",
     "lastCommitUser": "naveen "
+  },
+  "565bd8e4-c5dd-4c4e-b3d5-9d48ad0521d5": {
+    "gitAppName": "sales-analytics-dashboard-export-1756384062197",
+    "lastCommitMessage": " v1 Version of app sales-analytics-dashboard-export-1756384062197 promoted from development to staging",
+    "gitVersionId": "077b313d-a61d-4e70-8004-476bf1e6d8cc",
+    "lastpushDate": "2025-09-02T03:12:10.387Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "prajval "
   }
 }
