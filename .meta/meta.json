@@ -385,10 +385,10 @@
   },
   "5cc4e511-4823-499f-9660-0b9b3a538831": {
     "gitAppName": "Admin Panel Table",
-    "lastCommitMessage": " v1 Version of app Admin Panel Table promoted from development to staging",
-    "gitVersionId": "a93eda68-cae3-4484-bc9d-1add522a8bd6",
-    "lastpushDate": "2025-09-30T06:38:55.540Z",
-    "gitVersionName": "v1",
-    "lastCommitUser": "Kavin Venkatachalam"
+    "lastCommitMessage": " v2 Version of app Admin Panel Table promoted from development to staging",
+    "gitVersionId": "ca5411bf-6ea8-41d8-af19-0c1bbad0be4b",
+    "lastpushDate": "2025-09-30T14:05:07.713Z",
+    "gitVersionName": "v2",
+    "lastCommitUser": "Shubham Gupta"
   }
 }
