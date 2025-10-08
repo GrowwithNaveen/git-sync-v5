@@ -393,10 +393,10 @@
   },
   "8b95ca9f-3fc0-4a02-8d85-2ae5df7cece5": {
     "gitAppName": "finjet",
-    "lastCommitMessage": " v2-test Version of app finjet promoted from development to staging",
-    "gitVersionId": "cdecbc0f-79f9-4fad-844a-ac13bb310d63",
-    "lastpushDate": "2025-10-08T13:23:47.756Z",
-    "gitVersionName": "v2-test",
+    "lastCommitMessage": " v3 Version of app finjet promoted from development to staging",
+    "gitVersionId": "60da102d-de55-447e-892a-6379a408dd05",
+    "lastpushDate": "2025-10-08T13:32:03.671Z",
+    "gitVersionName": "v3",
     "lastCommitUser": "Shubham Gupta"
   }
 }
