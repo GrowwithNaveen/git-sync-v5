@@ -390,5 +390,13 @@
     "lastpushDate": "2025-10-08T13:21:22.285Z",
     "gitVersionName": "v4",
     "lastCommitUser": "Shubham Gupta"
+  },
+  "8b95ca9f-3fc0-4a02-8d85-2ae5df7cece5": {
+    "gitAppName": "finjet",
+    "lastCommitMessage": " v2-test Version of app finjet promoted from development to staging",
+    "gitVersionId": "cdecbc0f-79f9-4fad-844a-ac13bb310d63",
+    "lastpushDate": "2025-10-08T13:23:47.756Z",
+    "gitVersionName": "v2-test",
+    "lastCommitUser": "Shubham Gupta"
   }
 }
