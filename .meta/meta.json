@@ -398,5 +398,13 @@
     "lastpushDate": "2025-10-08T13:32:03.671Z",
     "gitVersionName": "v3",
     "lastCommitUser": "Shubham Gupta"
+  },
+  "451dd2f3-d65a-452a-8169-a4f99f4a4957": {
+    "gitAppName": "1newApp",
+    "lastCommitMessage": " v1 Version of app 1newApp promoted from development to staging",
+    "gitVersionId": "feae3be3-7c55-41d7-9ba2-265d311656c8",
+    "lastpushDate": "2025-10-10T08:33:17.237Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "prajval "
   }
 }
