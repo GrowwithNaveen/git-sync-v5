@@ -406,5 +406,13 @@
     "lastpushDate": "2025-10-10T08:33:17.237Z",
     "gitVersionName": "v1",
     "lastCommitUser": "prajval "
+  },
+  "dae74e2a-2b76-41b2-910c-c551e566fccd": {
+    "gitAppName": "test12",
+    "lastCommitMessage": " v1 Version of app test12 promoted from development to staging",
+    "gitVersionId": "2ba025fe-3be8-4c38-8281-15746c90b3af",
+    "lastpushDate": "2025-10-14T09:29:46.096Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "srushti "
   }
 }
