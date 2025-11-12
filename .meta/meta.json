@@ -414,5 +414,13 @@
     "lastpushDate": "2025-10-14T09:29:46.096Z",
     "gitVersionName": "v1",
     "lastCommitUser": "srushti "
+  },
+  "3b8ce0a6-9383-4b9b-8431-ffbde83a68bc": {
+    "gitAppName": "ToolJet TestCase Generator_V2",
+    "lastCommitMessage": " v1 Version of app ToolJet TestCase Generator_V2 promoted from development to staging",
+    "gitVersionId": "09ee125a-67ad-4c01-91a7-e920817d8d41",
+    "lastpushDate": "2025-11-12T17:12:09.412Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "prajval "
   }
 }
