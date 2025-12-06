@@ -422,5 +422,13 @@
     "lastpushDate": "2025-11-12T17:12:09.412Z",
     "gitVersionName": "v1",
     "lastCommitUser": "prajval "
+  },
+  "37839bf8-45d9-452b-aac5-dc34b5d7e24b": {
+    "gitAppName": "New234 Export",
+    "lastCommitMessage": " v2 Version of app New234 Export promoted from development to staging",
+    "gitVersionId": "465a1725-76ee-4c28-a585-ccce55aa660b",
+    "lastpushDate": "2025-12-06T05:56:39.812Z",
+    "gitVersionName": "v2",
+    "lastCommitUser": "Johnson "
   }
 }
