@@ -11,7 +11,7 @@
           "isMaintenanceOn": false,
           "icon": "globe",
           "organizationId": "0b9a2d49-d611-4b9e-b25b-979506925471",
-          "currentVersionId": null,
+          "currentVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
           "userId": "b789e6db-b7e9-4716-9076-ed87222dd7d7",
           "workflowApiToken": null,
           "workflowEnabled": false,
@@ -21,11 +21,11 @@
           "aiGenerationMetadata": null,
           "createdAt": "2026-05-21T11:46:59.874Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2026-05-21T11:46:59.857Z",
+          "updatedAt": "2026-05-22T07:14:41.136Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-            "name": "v1_2_1_1_1",
+            "id": "db5cca1f-e614-460f-afc3-6d63fc858614",
+            "name": "v1_2_1_1_2",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -39,30 +39,33 @@
             "pageSettings": {
               "properties": {
                 "disableMenu": {
-                  "value": "{{false}}",
+                  "value": "{{true}}",
                   "fxActive": false
-                }
+                },
+                "position": "top",
+                "hideHeader": true,
+                "hideLogo": true
               }
             },
             "showViewerNavigation": true,
-            "homePageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
+            "homePageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
             "appId": "b1562d5f-2fa1-4c96-813d-1970cb99946e",
             "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
             "promotedFrom": null,
-            "parentVersionId": null,
+            "parentVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
             "status": "PUBLISHED",
             "description": "",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2026-05-21T11:47:00.188Z",
-            "updatedAt": "2026-05-22T07:14:26.726Z"
+            "createdAt": "2026-05-22T07:15:27.708Z",
+            "updatedAt": "2026-05-22T07:15:53.671Z"
           },
           "components": [
             {
-              "id": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+              "id": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
               "name": "form1",
               "type": "Form",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
               "parent": null,
               "properties": {
                 "loadingState": {
@@ -114,7 +117,7 @@
                   "value": {}
                 },
                 "buttonToSubmit": {
-                  "value": "37009437-48a9-4389-8dbf-379f96ae425c"
+                  "value": "2fa75355-76ee-4614-895f-4dc49adf4309"
                 },
                 "fields": {
                   "value": [
@@ -163,39 +166,39 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-05-22T07:13:43.501Z",
-              "updatedAt": "2026-05-22T07:14:06.114Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "ab9242cc-d14a-487a-98c2-fc5450d61ece",
-                  "type": "desktop",
-                  "top": 40,
-                  "left": 12,
-                  "width": 15,
-                  "height": 1390,
-                  "componentId": "a846343c-2423-4097-972a-aaf90bc3d0b9",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:50.652Z"
-                },
-                {
-                  "id": "99a51cbc-3f14-4133-9638-821deae9ca23",
+                  "id": "1a49fd97-9c21-4956-a94e-4a4300e833aa",
                   "type": "mobile",
                   "top": 40,
                   "left": 12,
                   "width": 15,
                   "height": 450,
-                  "componentId": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+                  "componentId": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:43.501Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
+                },
+                {
+                  "id": "3bbf7606-cbac-4aeb-b516-9bb17815e934",
+                  "type": "desktop",
+                  "top": 40,
+                  "left": 12,
+                  "width": 15,
+                  "height": 1390,
+                  "componentId": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "f4542d60-e6c7-472b-b054-017857371099",
+              "id": "3a340b23-8318-4395-ab63-87373350d394",
               "name": "text1",
               "type": "Text",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9-header",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a-header",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -287,39 +290,39 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-05-22T07:13:43.501Z",
-              "updatedAt": "2026-05-22T07:13:43.501Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "2a2b018b-6674-4336-89f1-c2d564605418",
+                  "id": "fe9f7bf8-a220-453e-a4dd-ebae14d047cc",
                   "type": "desktop",
                   "top": 10,
                   "left": 1,
                   "width": 13.953488372093023,
                   "height": 40,
-                  "componentId": "f4542d60-e6c7-472b-b054-017857371099",
+                  "componentId": "3a340b23-8318-4395-ab63-87373350d394",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:43.501Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 },
                 {
-                  "id": "82bed90c-b94f-4871-beb2-d175913ffd64",
+                  "id": "d960dbde-fd84-43a0-bebf-97d5a40385c7",
                   "type": "mobile",
                   "top": 10,
                   "left": 1,
                   "width": 13.953488372093023,
                   "height": 40,
-                  "componentId": "f4542d60-e6c7-472b-b054-017857371099",
+                  "componentId": "3a340b23-8318-4395-ab63-87373350d394",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:43.501Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "37009437-48a9-4389-8dbf-379f96ae425c",
+              "id": "2fa75355-76ee-4614-895f-4dc49adf4309",
               "name": "button1",
               "type": "Button",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9-footer",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a-footer",
               "properties": {
                 "text": {
                   "value": "Submit"
@@ -408,39 +411,188 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-05-22T07:13:43.501Z",
-              "updatedAt": "2026-05-22T07:13:43.501Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "3bd95794-1cfe-443a-a3e4-c2b95b745de1",
+                  "id": "f7451eb9-d01c-48a0-b8fc-aa8e117b663d",
                   "type": "desktop",
                   "top": 10,
                   "left": 29,
                   "width": 13,
                   "height": 40,
-                  "componentId": "37009437-48a9-4389-8dbf-379f96ae425c",
+                  "componentId": "2fa75355-76ee-4614-895f-4dc49adf4309",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:43.501Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 },
                 {
-                  "id": "b1a39dbc-8420-4713-8b69-28e8f7021a06",
+                  "id": "573c2648-dd1b-442e-9df6-bbd70f1ab550",
                   "type": "mobile",
                   "top": 10,
                   "left": 29,
                   "width": 13,
                   "height": 40,
-                  "componentId": "37009437-48a9-4389-8dbf-379f96ae425c",
+                  "componentId": "2fa75355-76ee-4614-895f-4dc49adf4309",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:43.501Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "5cd8b3c6-fa60-4fe4-92a0-5c44c328e33b",
+              "id": "c7786465-ace4-40eb-87b0-204a1f352a27",
+              "name": "textinput3",
+              "type": "TextInput",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
+              "properties": {
+                "value": {
+                  "value": ""
+                },
+                "label": {
+                  "value": "Label"
+                },
+                "placeholder": {
+                  "value": "Enter your input"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "collapseWhenHidden": {
+                  "value": "{{false}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "tooltip": {
+                  "value": ""
+                },
+                "showClearBtn": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "placeholderTextColor": {
+                  "value": "var(--cc-placeholder-text)"
+                },
+                "borderColor": {
+                  "value": "var(--cc-default-border)"
+                },
+                "accentColor": {
+                  "value": "var(--cc-primary-brand)"
+                },
+                "errTextColor": {
+                  "value": "var(--cc-error-systemStatus)"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "backgroundColor": {
+                  "value": "var(--cc-surface1-surface)"
+                },
+                "iconColor": {
+                  "value": "var(--cc-default-icon)"
+                },
+                "direction": {
+                  "value": "left"
+                },
+                "width": {
+                  "value": "{{33}}"
+                },
+                "alignment": {
+                  "value": "side"
+                },
+                "color": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "auto": {
+                  "value": "{{true}}"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "icon": {
+                  "value": "IconHome2"
+                },
+                "iconVisibility": {
+                  "value": false
+                },
+                "widthType": {
+                  "value": "ofComponent"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {
+                "mandatory": {
+                  "value": "{{false}}"
+                },
+                "regex": {
+                  "value": ""
+                },
+                "minLength": {
+                  "value": ""
+                },
+                "maxLength": {
+                  "value": ""
+                },
+                "customRule": {
+                  "value": ""
+                }
+              },
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
+              "layouts": [
+                {
+                  "id": "3280df2d-86ff-48ce-b9cf-c0ea682db487",
+                  "type": "desktop",
+                  "top": 400,
+                  "left": 5,
+                  "width": 30,
+                  "height": 40,
+                  "componentId": "c7786465-ace4-40eb-87b0-204a1f352a27",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
+                },
+                {
+                  "id": "43e28bff-556e-483a-accc-0345b920afaa",
+                  "type": "mobile",
+                  "top": 60,
+                  "left": 1,
+                  "width": 30,
+                  "height": 40,
+                  "componentId": "c7786465-ace4-40eb-87b0-204a1f352a27",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
+                }
+              ]
+            },
+            {
+              "id": "50903ab9-3a0e-4ba4-90b8-776a28165680",
               "name": "text2",
               "type": "Text",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
               "properties": {
                 "textFormat": {
                   "value": "html"
@@ -538,39 +690,39 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-05-22T07:13:56.246Z",
-              "updatedAt": "2026-05-22T07:13:56.246Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "2334bfcc-ba5e-44c0-8b2f-9382a8294be7",
-                  "type": "mobile",
-                  "top": 10,
-                  "left": 4,
-                  "width": 18,
-                  "height": 40,
-                  "componentId": "5cd8b3c6-fa60-4fe4-92a0-5c44c328e33b",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:56.246Z"
-                },
-                {
-                  "id": "06291ad0-01b2-4ffa-b877-9a99758b58e8",
+                  "id": "96b3f561-4ba5-43ca-8d9d-89fd34fdd364",
                   "type": "desktop",
                   "top": 10,
                   "left": 4,
                   "width": 18,
                   "height": 40,
-                  "componentId": "5cd8b3c6-fa60-4fe4-92a0-5c44c328e33b",
+                  "componentId": "50903ab9-3a0e-4ba4-90b8-776a28165680",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:13:56.246Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
+                },
+                {
+                  "id": "daa54f50-054a-40a8-a78f-b6ead065836c",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 4,
+                  "width": 18,
+                  "height": 40,
+                  "componentId": "50903ab9-3a0e-4ba4-90b8-776a28165680",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "11c632e6-5a2d-4ad0-9f25-67d4374eebbe",
+              "id": "80af2f71-9999-45c4-bb98-d3b5b19b385d",
               "name": "textinput1",
               "type": "TextInput",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
               "properties": {
                 "value": {
                   "value": ""
@@ -687,39 +839,39 @@
                   "value": ""
                 }
               },
-              "createdAt": "2026-05-22T07:14:05.819Z",
-              "updatedAt": "2026-05-22T07:14:05.819Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "03a50faa-2780-4e08-9d51-a025d512d78f",
+                  "id": "c809ad39-575f-4d49-aea8-4e525084002e",
                   "type": "desktop",
                   "top": 60,
                   "left": 1,
                   "width": 30,
                   "height": 40,
-                  "componentId": "11c632e6-5a2d-4ad0-9f25-67d4374eebbe",
+                  "componentId": "80af2f71-9999-45c4-bb98-d3b5b19b385d",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:05.819Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 },
                 {
-                  "id": "1a101c8d-9e70-4e89-af7d-60a559c586fd",
+                  "id": "4a31baf0-55c4-478f-bf78-9139a4964a24",
                   "type": "mobile",
                   "top": 60,
                   "left": 1,
                   "width": 30,
                   "height": 40,
-                  "componentId": "11c632e6-5a2d-4ad0-9f25-67d4374eebbe",
+                  "componentId": "80af2f71-9999-45c4-bb98-d3b5b19b385d",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:05.819Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "55fffd64-14c7-4e32-9759-bca458f9596d",
+              "id": "8b99b95f-bf74-40f9-9999-6b18064fafe2",
               "name": "textinput2",
               "type": "TextInput",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
               "properties": {
                 "value": {
                   "value": ""
@@ -836,188 +988,39 @@
                   "value": ""
                 }
               },
-              "createdAt": "2026-05-22T07:14:07.416Z",
-              "updatedAt": "2026-05-22T07:14:07.416Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "c4a74af7-6cac-4e03-bb94-7d98f87682e8",
+                  "id": "aa466e57-aed4-4ec0-874a-840adc60c2db",
+                  "type": "mobile",
+                  "top": 60,
+                  "left": 1,
+                  "width": 30,
+                  "height": 40,
+                  "componentId": "8b99b95f-bf74-40f9-9999-6b18064fafe2",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
+                },
+                {
+                  "id": "538ddc29-379e-44b1-8bf9-98ca87fe63ec",
                   "type": "desktop",
                   "top": 170,
                   "left": 1,
                   "width": 30,
                   "height": 40,
-                  "componentId": "55fffd64-14c7-4e32-9759-bca458f9596d",
+                  "componentId": "8b99b95f-bf74-40f9-9999-6b18064fafe2",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:08.662Z"
-                },
-                {
-                  "id": "0f80ab44-8ce1-4aa0-9abb-2b8ca99b67f0",
-                  "type": "mobile",
-                  "top": 60,
-                  "left": 1,
-                  "width": 30,
-                  "height": 40,
-                  "componentId": "55fffd64-14c7-4e32-9759-bca458f9596d",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:07.416Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             },
             {
-              "id": "05b0f5da-09e9-49a5-8d9b-e0b2819e716a",
-              "name": "textinput3",
-              "type": "TextInput",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9",
-              "properties": {
-                "value": {
-                  "value": ""
-                },
-                "label": {
-                  "value": "Label"
-                },
-                "placeholder": {
-                  "value": "Enter your input"
-                },
-                "visibility": {
-                  "value": "{{true}}"
-                },
-                "collapseWhenHidden": {
-                  "value": "{{false}}"
-                },
-                "disabledState": {
-                  "value": "{{false}}"
-                },
-                "loadingState": {
-                  "value": "{{false}}"
-                },
-                "tooltip": {
-                  "value": ""
-                },
-                "showClearBtn": {
-                  "value": "{{false}}"
-                }
-              },
-              "general": {},
-              "styles": {
-                "textColor": {
-                  "value": "var(--cc-primary-text)"
-                },
-                "placeholderTextColor": {
-                  "value": "var(--cc-placeholder-text)"
-                },
-                "borderColor": {
-                  "value": "var(--cc-default-border)"
-                },
-                "accentColor": {
-                  "value": "var(--cc-primary-brand)"
-                },
-                "errTextColor": {
-                  "value": "var(--cc-error-systemStatus)"
-                },
-                "borderRadius": {
-                  "value": "{{6}}"
-                },
-                "backgroundColor": {
-                  "value": "var(--cc-surface1-surface)"
-                },
-                "iconColor": {
-                  "value": "var(--cc-default-icon)"
-                },
-                "direction": {
-                  "value": "left"
-                },
-                "width": {
-                  "value": "{{33}}"
-                },
-                "alignment": {
-                  "value": "side"
-                },
-                "color": {
-                  "value": "var(--cc-primary-text)"
-                },
-                "auto": {
-                  "value": "{{true}}"
-                },
-                "padding": {
-                  "value": "default"
-                },
-                "boxShadow": {
-                  "value": "0px 0px 0px 0px #00000040"
-                },
-                "icon": {
-                  "value": "IconHome2"
-                },
-                "iconVisibility": {
-                  "value": false
-                },
-                "widthType": {
-                  "value": "ofComponent"
-                }
-              },
-              "generalStyles": {
-                "boxShadow": {
-                  "value": "0px 0px 0px 0px #00000040"
-                }
-              },
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {
-                "mandatory": {
-                  "value": "{{false}}"
-                },
-                "regex": {
-                  "value": ""
-                },
-                "minLength": {
-                  "value": ""
-                },
-                "maxLength": {
-                  "value": ""
-                },
-                "customRule": {
-                  "value": ""
-                }
-              },
-              "createdAt": "2026-05-22T07:14:09.416Z",
-              "updatedAt": "2026-05-22T07:14:09.416Z",
-              "layouts": [
-                {
-                  "id": "f0f997f2-2d56-4668-b15a-c5ee9801f2a4",
-                  "type": "desktop",
-                  "top": 400,
-                  "left": 5,
-                  "width": 30,
-                  "height": 40,
-                  "componentId": "05b0f5da-09e9-49a5-8d9b-e0b2819e716a",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:11.060Z"
-                },
-                {
-                  "id": "c1837800-107f-4859-ab35-0933d91fcb61",
-                  "type": "mobile",
-                  "top": 60,
-                  "left": 1,
-                  "width": 30,
-                  "height": 40,
-                  "componentId": "05b0f5da-09e9-49a5-8d9b-e0b2819e716a",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:09.416Z"
-                }
-              ]
-            },
-            {
-              "id": "c42efc7d-6509-41ca-882a-bf0feb299bf8",
+              "id": "167524ba-99a4-4c9b-9623-946dc67ab12e",
               "name": "textinput4",
               "type": "TextInput",
-              "pageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
-              "parent": "a846343c-2423-4097-972a-aaf90bc3d0b9",
+              "pageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
+              "parent": "29d57c4e-da7e-4a02-ad01-aab69c33035a",
               "properties": {
                 "value": {
                   "value": ""
@@ -1134,47 +1137,47 @@
                   "value": ""
                 }
               },
-              "createdAt": "2026-05-22T07:14:12.963Z",
-              "updatedAt": "2026-05-22T07:14:12.963Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "layouts": [
                 {
-                  "id": "8d73b1b2-86c4-44bb-b7c9-11c5bf2717f8",
+                  "id": "f3f701c3-00a5-474b-ba00-fc6034c74502",
                   "type": "mobile",
                   "top": 60,
                   "left": 1,
                   "width": 30,
                   "height": 40,
-                  "componentId": "c42efc7d-6509-41ca-882a-bf0feb299bf8",
+                  "componentId": "167524ba-99a4-4c9b-9623-946dc67ab12e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:12.963Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 },
                 {
-                  "id": "869e9644-b3f3-400c-b4f1-755ff721b67b",
+                  "id": "3e1107e5-5abb-493d-9f81-8afa768670d8",
                   "type": "desktop",
                   "top": 790,
                   "left": 5,
                   "width": 30,
                   "height": 40,
-                  "componentId": "c42efc7d-6509-41ca-882a-bf0feb299bf8",
+                  "componentId": "167524ba-99a4-4c9b-9623-946dc67ab12e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-05-22T07:14:15.292Z"
+                  "updatedAt": "2026-05-22T07:15:27.637Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "0918355c-99c7-47d6-ad83-6aee3679fb64",
+              "id": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": false,
               "hidden": false,
               "icon": null,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z",
               "autoComputeLayout": false,
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
@@ -1195,33 +1198,33 @@
                 "showOnDesktop": false,
                 "backgroundColor": "var(--cc-surface1-surface)"
               },
-              "appId": "b02ad8da-51f2-4fcf-baac-5d52d8bc2c9e"
+              "appId": "b1562d5f-2fa1-4c96-813d-1970cb99946e"
             }
           ],
           "events": [
             {
-              "id": "8fad6ac5-d3eb-4329-903d-52e67b1bed0b",
+              "id": "d77357d7-864f-4075-9f15-592c217a7644",
               "name": "Event #1",
               "index": 0,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "c200fb80-84a7-4117-9894-e911bdaec010",
+                "queryId": "2137a9d8-380b-4bb8-89ed-bb045ec25440",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "transformTabledata",
                 "parameters": {}
               },
-              "sourceId": "4ebb4a70-506b-4821-a33d-f75664bd4b07",
+              "sourceId": "19661760-559b-48fb-8cd0-59bd80dbfa14",
               "target": "data_query",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             }
           ],
           "dataQueries": [
             {
-              "id": "25be16c6-85c7-4423-9af4-a215153ecb63",
+              "id": "371aeb1d-11d3-41e1-9c22-037d245a6109",
               "name": "ListConfigParam",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1231,12 +1234,12 @@
                 "method": "ListConfigParams"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "33016970-0e30-401a-97cc-a5a120111272",
+              "id": "2b5c3065-298c-440e-9e68-4fa48a10b91b",
               "name": "RemoveConfigValue",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1246,60 +1249,60 @@
                 "raw_message": "{\n  \"service_name\": \"{{variables.selectedService}}\",\n  \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n  \"dimensions\": {{JSON.stringify(components.b6d93b1b-d567-4e35-9132-9db1430c8b67.selectedRow.dimensions)}},\n  \"removed_by\": \"{{globals.currentUser.email}}\",\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n    \"request_id\": \"delete-{{Math.floor(Math.random()*100000)}}\",\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "84e4f1cf-3527-40f0-9982-361d7f6e3d03",
+              "id": "7c41c09d-7b6c-4c56-9c73-313516ef0202",
               "name": "ValueValidation",
               "options": {
                 "code": "// 1. Get value and trim whitespace\nconst val = components.inputConfigValue.value;\nconst value = (val !== undefined && val !== null) ? val.toString().trim() : \"\";\n\n// 2. Fetch Type\nconst type = components.configTable.selectedRow.value_type;\n\nlet error = \"\";\n\n// 3. Validation Logic (Empty value is now ALLOWED)\nif (value !== \"\") { \n    // Only validate if there is actually text in the box\n    switch (type) {\n        case \"VALUE_TYPE_INTEGER\":\n            if (!/^-?\\d+$/.test(value)) error = \"Invalid integer\";\n            break;\n\n        case \"VALUE_TYPE_FLOAT\":\n            if (!/^-?\\d+(\\.\\d+)?$/.test(value)) error = \"Invalid float (e.g. 1.2)\";\n            break;\n\n        case \"VALUE_TYPE_BOOLEAN\":\n            if (!/^(true|false)$/i.test(value)) error = \"Enter 'true' or 'false'\";\n            break;\n\n        case \"VALUE_TYPE_ARRAY_STRING\":\n            if (!/^[^,]+(,\\s*[^,]+)*$/.test(value)) error = \"Invalid string array\";\n            break;\n\n        case \"VALUE_TYPE_ARRAY_INTEGER\":\n            if (!/^-?\\d+(,\\s*-?\\d+)*$/.test(value)) error = \"Invalid integer array\";\n            break;\n\n        case \"VALUE_TYPE_ARRAY_FLOAT\":\n            if (!/^-?\\d+(\\.\\d+)?(,\\s*-?\\d+(\\.\\d+)?)*$/.test(value)) error = \"Invalid float array\";\n            break;\n\n        default:\n            error = \"\"; \n            break;\n    }\n}\n\n// 4. Update the UI variable\nactions.setVariable(\"input_error\", error);\n\n// 5. Return result\nreturn error === \"\";",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "77ce22b6-c6dd-47b1-b9bf-0a47e344ad6d",
+              "id": "9ab01caf-d5ae-4d24-a206-4e87bf0a12ba",
               "name": "DimensionValueArray",
               "options": {
                 "code": "const row = components.configTable.selectedRow;\nconst configDimensions = row?.dimensions || [];\nconst dimensionsArray = [];\n\n// Get the data object safely\nconst formData = components.AddConfigValueForm.data;\n\n// Fix the typo: input3 should be Level3Value\nconst inputValues = [\n  formData?.Level1Value?.value || \"\",\n  formData?.Level2Value?.value || \"\",\n  formData?.Level3Value?.value || \"\"\n];\n\nfor (let i = 0; i < configDimensions.length; i++) {\n  // Only push if there is an actual value entered for this dimension\n  if (inputValues[i] && inputValues[i].toString().trim() !== \"\") {\n    dimensionsArray.push({\n      dimension_type: configDimensions[i],\n      dimension_value: inputValues[i].toString()\n    });\n  }\n}\n actions.setVariable(\"dimensionValuesArray\", dimensionsArray);",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "8faa582c-e4ef-4326-aaad-0c9c260766e4",
+              "id": "59070ba5-37f2-4b24-b48b-70f502d15943",
               "name": "DeleteButton",
               "options": {
                 "code": "if (variables.isAdmin) {\n\n  const confirmed = confirm(\n    \"Are you sure you want to delete this ConfigParam?\"\n  );\n\n  if (confirmed) {\n\n    await queries.RemoveConfigParam.run();\n\n    await queries.grpcv21.run();\n\n    alert(\"ConfigParam deleted successfully\");\n  }\n\n} else {\n\n  await queries.ListConfigValue.run();\n\n  const response = queries.ListConfigValue.data;\n\n  console.log(response);\n\n  const values =\n    response?.config_values ||\n    response?.config_value ||\n    response?.items ||\n    [];\n\n  if (values.length === 0) {\n\n    const confirmed = confirm(\n      \"No config values are present. Are you sure you want to delete this ConfigParam?\"\n    );\n\n    if (confirmed) {\n\n      await queries.RemoveConfigParam.run();\n\n      await queries.grpcv21.run();\n\n      alert(\"ConfigParam deleted successfully\");\n    }\n\n  } else {\n\n    alert(\n      \"Active config values are present. First delete them.\"\n    );\n  }\n}",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "263bbf95-36e4-422f-af4a-325e473b57d5",
+              "id": "e4efd782-96eb-471f-b0e9-09d55d2eac67",
               "name": "ServiceVariable",
               "options": {
                 "code": "actions.setVariable('selectedService', '')",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "1be28f03-04d7-4f56-9ad4-56bee920f92a",
+              "id": "02cb36c2-724d-48ed-89a2-45d7cd5df52c",
               "name": "resetlevel1",
               "options": {
                 "code": "actions.setVariable(\"dimensionCount\", 0)",
@@ -1307,12 +1310,12 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "8c49b421-fc7e-451e-a319-365f90432cba",
+              "id": "2d8add97-1bfd-4e23-8765-5f1abf55f975",
               "name": "SetIsAdmin",
               "options": {
                 "code": "const admins = variables.isAdminList || [];\n\nconst currentUser = globals.currentUser.email;\n\nactions.setVariable(\n  \"isAdmin\",\n  admins.includes(currentUser)\n);",
@@ -1320,12 +1323,12 @@
                 "runOnPageLoad": false
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "30d5afcd-307b-429c-bfd8-2fccd7753979",
+              "id": "92c45e5e-a474-4c13-a0c4-ba42e128b928",
               "name": "ValueAndParamType",
               "options": {
                 "code": "actions.setVariable(\"value_type_list\", [\n  { label: \"String\", value: \"VALUE_TYPE_STRING\" },\n  { label: \"Integer\", value: \"VALUE_TYPE_INTEGER\" },\n  { label: \"Float\", value: \"VALUE_TYPE_FLOAT\" },\n  { label: \"Boolean\", value: \"VALUE_TYPE_BOOLEAN\" },\n  { label: \"Array String\", value: \"VALUE_TYPE_ARRAY_STRING\" },\n  { label: \"Array Integer\", value: \"VALUE_TYPE_ARRAY_INTEGER\" },\n  { label: \"Array Float\", value: \"VALUE_TYPE_ARRAY_FLOAT\" }\n]);\nactions.setVariable(\"param_type_list\", [\n  {\n    label: \"Single Valued\",\n    value: \"PARAM_TYPE_SINGLE_VALUED\"\n  },\n  {\n    label: \"Hierarchical\",\n    value: \"PARAM_TYPE_HIERARCHICAL\"\n  }\n]);",
@@ -1333,72 +1336,72 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "3dbb94bd-9351-40db-b9e2-adf2231e19f5",
+              "id": "d1c53ff8-0f5c-4969-84f6-70cb72f6201a",
               "name": "updateCanaryValuePayload",
               "options": {
                 "code": "const type = components.configTable.selectedRow.value_type;\n\nconst input = String(\n  components.UpdateconfigForm.data.inputCanaryValue?.value || \"\"\n).trim();\n\nlet updateCanaryValuePayload = {};\n\n// Use the OR (||) operator to handle both the raw data and the pretty UI labels\n// STRING\nif (type === \"VALUE_TYPE_STRING\" || type === \"String\") {\n  updateCanaryValuePayload.string_value = input;\n}\n\n// INTEGER\nelse if (type === \"VALUE_TYPE_INTEGER\" || type === \"Integer\") {\n  updateCanaryValuePayload.int_value = Number(input);\n}\n\n// FLOAT\nelse if (type === \"VALUE_TYPE_FLOAT\" || type === \"Float\") {\n  updateCanaryValuePayload.float_value = Number(input);\n}\n\n// BOOLEAN\nelse if (type === \"VALUE_TYPE_BOOLEAN\" || type === \"Boolean\") {\n  updateCanaryValuePayload.bool_value = input.toLowerCase() === \"true\";\n}\n\n// ARRAY STRING\nelse if (type === \"VALUE_TYPE_ARRAY_STRING\" || type === \"Array String\") {\n  updateCanaryValuePayload.array_string = {\n    values: input.split(\",\").map(v => v.trim()).filter(Boolean)\n  };\n}\n\n// ARRAY INTEGER\nelse if (type === \"VALUE_TYPE_ARRAY_INTEGER\" || type === \"Array Integer\") {\n  updateCanaryValuePayload.array_int = {\n    values: input.split(\",\").map(v => Number(v.trim()))\n  };\n}\n\n// ARRAY FLOAT\nelse if (type === \"VALUE_TYPE_ARRAY_FLOAT\" || type === \"Array Float\") {\n  updateCanaryValuePayload.array_float = {\n    values: input.split(\",\").map(v => Number(v.trim()))\n  };\n}\n\n// Set the variable for the API call\nawait actions.setVariable(\"updateCanaryValuePayload\", updateCanaryValuePayload);",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "df4d29ca-894d-487e-a419-6737b9d75c02",
+              "id": "972ba0d4-c2b5-4b61-9c8b-c51dbaf428b9",
               "name": "updateValuePayload",
               "options": {
                 "code": "const type = components.configTable.selectedRow.value_type;\n\nconst input = String(\n  components.UpdateconfigForm.data.updatevalue?.value || \"\"\n).trim();\n\nlet updateConfigValuePayload = {};\n\n// We use .includes() or || to match both raw and transformed types\n// STRING\nif (type === \"VALUE_TYPE_STRING\" || type === \"String\") {\n  updateConfigValuePayload.string_value = input;\n}\n\n// INTEGER\nelse if (type === \"VALUE_TYPE_INTEGER\" || type === \"Integer\") {\n  updateConfigValuePayload.int_value = Number(input);\n}\n\n// FLOAT\nelse if (type === \"VALUE_TYPE_FLOAT\" || type === \"Float\") {\n  updateConfigValuePayload.float_value = Number(input);\n}\n\n// BOOLEAN\nelse if (type === \"VALUE_TYPE_BOOLEAN\" || type === \"Boolean\") {\n  updateConfigValuePayload.bool_value = input.toLowerCase() === \"true\";\n}\n\n// ARRAY STRING\nelse if (type === \"VALUE_TYPE_ARRAY_STRING\" || type === \"Array String\") {\n  updateConfigValuePayload.array_string = {\n    values: input.split(\",\").map(v => v.trim()).filter(v => v !== \"\")\n  };\n}\n\n// ARRAY INTEGER\nelse if (type === \"VALUE_TYPE_ARRAY_INTEGER\" || type === \"Array Integer\") {\n  updateConfigValuePayload.array_int = {\n    values: input.split(\",\").map(v => v.trim()).filter(v => v !== \"\").map(Number)\n  };\n}\n\n// ARRAY FLOAT\nelse if (type === \"VALUE_TYPE_ARRAY_FLOAT\" || type === \"Array Float\") {\n  updateConfigValuePayload.array_float = {\n    values: input.split(\",\").map(v => v.trim()).filter(v => v !== \"\").map(Number)\n  };\n}\n\n// Use await to ensure the variable is set before the query triggers\nawait actions.setVariable(\"updateConfigValuePayload\", updateConfigValuePayload);\n\n// Return for debug preview\nreturn updateConfigValuePayload;",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "ffb16d5b-c1eb-4669-b62d-96465d1a94a3",
+              "id": "7330a71b-7db4-424c-bb3d-d09b093c6c40",
               "name": "ValuePayload",
               "options": {
                 "code": "// 1. Get the type from the table (could be \"String\", \"Integer\", etc.)\nconst type = components.configTable.selectedRow.value_type;\n\nconst input = String(\n  components.AddConfigValueForm.data.inputConfigValue?.value || \"\"\n).trim();\n\nlet valuePayload = {};\n\n// Use a \"Contains\" or \"OR\" check to be safe\n// STRING\nif (type === \"VALUE_TYPE_STRING\" || type === \"String\") {\n  valuePayload.string_value = input;\n}\n\n// INTEGER\nelse if (type === \"VALUE_TYPE_INTEGER\" || type === \"Integer\") {\n  if (!/^-?\\d+$/.test(input)) {\n    actions.setVariable(\"configValueError\", \"Please enter a valid integer\");\n    return;\n  }\n  valuePayload.int_value = Number(input);\n}\n\n// FLOAT\nelse if (type === \"VALUE_TYPE_FLOAT\" || type === \"Float\") {\n  if (isNaN(Number(input))) {\n    actions.setVariable(\"configValueError\", \"Please enter a valid float\");\n    return;\n  }\n  valuePayload.float_value = Number(input);\n}\n\n// BOOLEAN\nelse if (type === \"VALUE_TYPE_BOOLEAN\" || type === \"Boolean\") {\n  const normalizedInput = input.toLowerCase();\n  if (normalizedInput !== \"true\" && normalizedInput !== \"false\") {\n    actions.setVariable(\"configValueError\", \"Enter true or false\");\n    return;\n  }\n  valuePayload.bool_value = normalizedInput === \"true\";\n}\n\n// ARRAY STRING\nelse if (type === \"VALUE_TYPE_ARRAY_STRING\" || type === \"Array String\") {\n  valuePayload.array_string = {\n    values: input.split(\",\").map(v => v.trim()).filter(Boolean)\n  };\n}\n\n// ARRAY INTEGER\nelse if (type === \"VALUE_TYPE_ARRAY_INTEGER\" || type === \"Array Integer\") {\n  const arr = input.split(\",\").map(v => v.trim());\n  const invalid = arr.some(v => !/^-?\\d+$/.test(v));\n  if (invalid) {\n    actions.setVariable(\"configValueError\", \"Array must contain integers only\");\n    return;\n  }\n  valuePayload.array_int = { values: arr.map(Number) };\n}\n\n// Finally set the variable\nawait actions.setVariable(\"configValuePayload\", valuePayload);\nactions.setVariable(\"configValueError\", \"\");",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "cebca8a3-be1e-47da-b673-766bbec40ad2",
+              "id": "a9da81ac-47e8-4c03-b6fa-ca9f1a91118b",
               "name": "SetTab",
               "options": {
                 "code": "await components.apitabs.setTab('DeleteConfigValue');\n",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "45d5dcf3-86a5-4342-b39d-21a41aaf93fc",
+              "id": "c1b2ebb3-d260-4799-89e6-de46b0be46f7",
               "name": "UpdateValidation",
               "options": {
                 "code": "// 1. Fetch Values from Form3\nconst rawConfig = components.form3.data.inputConfigValue.value;\nconst rawCanary = components.form3.data.inputCanaryValue.value;\n\nconst configValue = (rawConfig !== undefined && rawConfig !== null) ? rawConfig.toString().trim() : \"\";\nconst canaryValue = (rawCanary !== undefined && rawCanary !== null) ? rawCanary.toString().trim() : \"\";\n\n// 2. Fetch Context from Table (Using your 'Tbale' typo from the screenshot)\nconst selectedRow = components.ConfigValueTbale.selectedRow;\nconst type = selectedRow?.value_type;\nconst isCanaryRow = selectedRow?.rollout_type === \"ROLLOUT_TYPE_CANARY\";\n\n// 3. The \"Smart\" Validation Logic\nconst getValidationError = (val) => {\n    if (val === \"\") return \"\"; \n\n    const parts = val.split(',').map(p => p.trim());\n    // Ignore the very last part if it's empty (user is currently typing after a comma)\n    const activeParts = (val.endsWith(',') && parts.length > 1) ? parts.slice(0, -1) : parts;\n    const hasMiddleEmpty = parts.length > 1 && parts.slice(0, -1).some(p => p === \"\");\n\n    switch (type) {\n        case \"VALUE_TYPE_INTEGER\":\n            return !/^-?\\d+$/.test(val) ? \"Must be a whole number\" : \"\";\n\n        case \"VALUE_TYPE_FLOAT\":\n            return !/^-?\\d+(\\.\\d+)?$/.test(val) ? \"Must be a decimal (e.g. 1.2)\" : \"\";\n\n        case \"VALUE_TYPE_BOOLEAN\":\n            return !/^(true|false)$/i.test(val) ? \"Enter 'true' or 'false'\" : \"\";\n\n        case \"VALUE_TYPE_ARRAY_STRING\":\n            return hasMiddleEmpty ? \"Double commas not allowed\" : \"\";\n\n        case \"VALUE_TYPE_ARRAY_INTEGER\":\n            if (hasMiddleEmpty) return \"Double commas not allowed\";\n            const allInts = activeParts.every(p => /^-?\\d+$/.test(p));\n            return !allInts ? \"All items must be integers\" : \"\";\n\n        case \"VALUE_TYPE_ARRAY_FLOAT\":\n            if (hasMiddleEmpty) return \"Double commas not allowed\";\n            const allFloats = activeParts.every(p => /^-?\\d+(\\.\\d+)?$/.test(p));\n            return !allFloats ? \"All items must be decimals\" : \"\";\n\n        default:\n            return \"\";\n    }\n};\n\n// 4. Calculate Errors\nconst configErr = getValidationError(configValue);\nconst canaryErr = isCanaryRow ? getValidationError(canaryValue) : \"\";\n\n// 5. Set Global Variables for the UI\nawait actions.setVariable(\"configError\", configErr);\nawait actions.setVariable(\"canaryError\", canaryErr);\nawait actions.setVariable(\"formHasError\", (configErr !== \"\" || canaryErr !== \"\"));\n\n// Return for debug preview\nreturn { configErr, canaryErr, isCanaryRow, hasError: (configErr !== \"\" || canaryErr !== \"\") };",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "4a10a39b-825e-4e7f-87a0-64267e2b2541",
+              "id": "e012e80f-1465-4087-86dc-31cfb897ba21",
               "name": "initDimension",
               "options": {
                 "code": "const count = parseInt(variables.dimensionCount || 0);\n\n// FIX: Use the direct component path, not through the Form's data object\nconst listData = components.listview2.data || [];\n\n// 1. Check if we already hit the limit\nif (count >= 3) {\n    return await actions.showAlert(\"info\", \"Maximum of 3 levels allowed.\");\n}\n\nif (count === 0) {\n    await actions.setVariable(\"dimensionCount\", 1);\n} else {\n    // 2. Access 'Levels' (Capital L as seen in your Inspector screenshot)\n    const lastRowValue = listData[count - 1]?.Levels?.value;\n\n    // 3. Validation\n    if (lastRowValue && String(lastRowValue).trim().length > 0) {\n        await actions.setVariable(\"dimensionCount\", count + 1);\n    } else {\n        await actions.showAlert(\"error\", \"Please fill Level \" + count + \" before adding another.\");\n    }\n}",
@@ -1406,12 +1409,12 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "f68dcfbe-f325-41f3-b92d-1f0956258d5d",
+              "id": "e5357cb4-209a-4311-aaaa-f43657b03ea8",
               "name": "updateDimensionValue",
               "options": {
                 "code": "// 1. Get the name of the selected row from the table\nconst selectedConfigName = components.ConfigValueTbale.selectedRow?.config_name;\n\n// 2. Find the original \"Clean\" data from your JS Query\n// NOTE: Ensure the query name below matches exactly (case sensitive)\nconst allData = queries.transformTabledata.data || []; \nconst originalRow = allData.find(row => row.config_name === selectedConfigName);\n\n// --- Handle Dimensions ---\n// Pull from originalRow so we get the actual Array\nconst dimensionsArray = Array.isArray(originalRow?.dimensions) ? originalRow.dimensions : [];\n\n// --- Handle Rollout Type ---\n// Use the new Key Name \"Rollout Type\" with brackets because of the space\nconst displayRollout = originalRow ? originalRow[\"Rollout Type\"] : \"\";\n\nconst finalRollout = (displayRollout === \"Canary\" || displayRollout === \"ROLLOUT_TYPE_CANARY\")\n  ? \"ROLLOUT_TYPE_CANARY\" \n  : \"ROLLOUT_TYPE_UNSPECIFIED\";\n\n// --- Set Variables ---\nawait actions.setVariable(\"finalRolloutType\", finalRollout);\nawait actions.setVariable(\"DimensionArray\", dimensionsArray);\n\nreturn {\n  dimensions: dimensionsArray,\n  rollout: finalRollout,\n  foundRow: !!originalRow\n};",
@@ -1419,72 +1422,72 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "2a29b95a-d170-4097-a3bb-61ddb0db68b5",
+              "id": "31d09123-b00a-4fbc-88fa-774ea3f957a9",
               "name": "resetlevel2",
               "options": {
                 "code": "actions.setVariable(\"dimensionCount\", 1)",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "bf4d8eb9-de8e-4721-863c-ee3c4071ae44",
+              "id": "ee705c82-d515-453b-b2e4-cb7da53fd9d2",
               "name": "ConfigNameCaps",
               "options": {
                 "code": "actions.setText(\n  \"inputConfigName\",\n  components.inputConfigName.value.toUpperCase()\n)",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "83dcf962-dc63-42e9-b4c4-a2584d5790ef",
+              "id": "2560be63-53b6-431f-8444-c0dc41657825",
               "name": "SetTabUpdate",
               "options": {
                 "code": "components.tabs2.setTab('t2');",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "b6a0a4ae-3134-488f-902e-b4fd2f9f8839",
+              "id": "5e1b47a4-ed23-485c-bbe6-5dbc2ad240ba",
               "name": "resetlevel3",
               "options": {
                 "code": "actions.setVariable(\"dimensionCount\", 2)",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "8e7d0fdb-acf8-4b44-9262-083025254eb4",
+              "id": "bc4da740-a2e5-4f71-855c-57427fb78bf9",
               "name": "dimensionArray",
               "options": {
                 "code": "const dimensions = [];\n// Fix: Use direct path to the dropdown\nconst paramType = components.dropdownParamType.value; \n\nif (paramType === \"PARAM_TYPE_HIERARCHICAL\") {\n  \n  // 1. Get the data. Fix: Use direct path to listview2\n  const listDataObject = components.listview2.data || {};\n\n  // 2. Convert the Object into an Array so we can loop through it\n  const rows = Object.values(listDataObject);\n\n  // 3. Loop through the rows\n  rows.forEach((row) => {\n    // Note: Use 'Levels' with a Capital L as seen in your inspector\n    const val = row.Levels?.value;\n    \n    if (val && String(val).trim() !== \"\") {\n      dimensions.push(val.trim());\n    }\n  });\n}\n\n// 4. Set the variable\nawait actions.setVariable(\"dimensionsArray\", dimensions);\n\nreturn dimensions;",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "3e786dcb-09e3-4c19-9876-fa5413cb26b2",
+              "id": "7d9b3053-206c-405a-9d76-d2e99598287d",
               "name": "IsAdminList",
               "options": {
                 "code": "actions.setVariable(\"isAdminList\", [\n  \"aakash.lokhande@truemeds.in\"\n]);",
@@ -1492,12 +1495,12 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "c200fb80-84a7-4117-9894-e911bdaec010",
+              "id": "2137a9d8-380b-4bb8-89ed-bb045ec25440",
               "name": "transformTabledata",
               "options": {
                 "code": "\nconst rawData = queries.ListConfigValue.data?.config_values || [];\n\nconst formatValue = (obj) => {\n  if (!obj) return \"\";\n  if (obj.string_value !== undefined) return obj.string_value;\n  if (obj.int_value !== undefined) return obj.int_value;\n  if (obj.float_value !== undefined) return obj.float_value;\n  if (obj.bool_value !== undefined) return String(obj.bool_value);\n  if (obj.array_string?.values) return obj.array_string.values.join(\", \");\n  if (obj.array_int?.values) return obj.array_int.values.join(\", \");\n  if (obj.array_float?.values) return obj.array_float.values.join(\", \");\n  return \"\";\n};\n\nconst formatDate = (timeObj) => {\n  if (!timeObj || !timeObj.seconds) return \"N/A\";\n  return new Date(Number(timeObj.seconds) * 1000).toLocaleString(); \n};\n\nreturn rawData.map(row => {\n  return {\n    \"config_name\": row.config_name,\n    \"Value\": formatValue(row.value),\n    \"Canary Value\": formatValue(row.canary_value), \n    \"canary percentage\": row.canary_param?.percentage !== undefined ? row.canary_param.percentage + \"%\" : \"0%\",\n    \"Updated At\": formatDate(row.updated_at),\n    \"Rollout Type\": row.rollout_type,\n    dimensions: row.dimensions || []\n  };\n});",
@@ -1505,24 +1508,24 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "afff7302-640d-459e-ba00-699136ee736c",
+              "id": "a2d706ff-2dad-4cf2-a909-6f41b7260a2a",
               "name": "DeleteLevels",
               "options": {
                 "code": "const currentCount = parseInt(variables.dimensionCount || 0);\n\nif (currentCount > 1) {\n    // This removes the last row\n    await actions.setVariable(\"dimensionCount\", currentCount - 1);\n} else {\n    // Don't let them delete the last remaining row, just clear it\n    await actions.showAlert(\"info\", \"At least one level is required.\");\n}",
                 "parameters": []
               },
               "dataSourceId": "30cc346c-a4a9-44ab-b80b-ddadf31abb45",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "0d553f3e-d94d-4cce-a3d4-5547c23f7aba",
+              "id": "b350aa9f-ab81-402b-84b7-643963bfcc82",
               "name": "UpdateRollout",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1532,12 +1535,12 @@
                 "raw_message": "{\n  \"service_name\": \"{{variables.selectedService}}\",\n  \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n  \"dimensions\":{{variables.DimensionArray}},\n  \"rollout_type\": \"{{variables.finalRolloutType}}\",\n  \"percentage\": {{Number(components.f4d0a9b2-d257-4799-860d-2289c123041c.data.inputPercentage.value)}},\n  \"static_allocation\": {{components.f4d0a9b2-d257-4799-860d-2289c123041c.data.StaticAllocation.value\n      ? components.f4d0a9b2-d257-4799-860d-2289c123041c.data.StaticAllocation.value.split(\",\").map(v => v.trim()).filter(Boolean)\n      : []}},\n  \"updated_by\": \"{{globals.currentUser.email}}\",\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n    \"request_id\": \"update-rollout-{{Math.floor(Math.random()*100000)}}\",\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "358b2278-656d-40ee-a6ed-46af8d3c6151",
+              "id": "bda17136-ac33-4896-b29e-4855c6fb4aeb",
               "name": "RemoveConfigParam",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1547,12 +1550,12 @@
                 "method": "RemoveConfigParam"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "4ebb4a70-506b-4821-a33d-f75664bd4b07",
+              "id": "19661760-559b-48fb-8cd0-59bd80dbfa14",
               "name": "ListConfigValue",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1562,12 +1565,12 @@
                 "raw_message": "{\n  \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n\n    \"request_id\": \"tooljet-list-config-value\",\n\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  },\n\n  \"service_name\": \"{{variables.selectedService}}\"\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "7db0411d-630c-4f56-b9a3-94adda48b7cf",
+              "id": "e03f3855-1192-4152-bb8e-354f0becbb5b",
               "name": "ReleaseRollout",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1577,12 +1580,12 @@
                 "raw_message": "{\n  \"service_name\": \"{{variables.selectedService}}\",\n  \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n  \"dimensions\": {{variables.DimensionArray}},\n  \"updated_by\": \"{{globals.currentUser.email}}\",\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n    \"request_id\": \"release-{{Math.floor(Math.random()*100000)}}\",\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "89b66845-94ac-4b7d-b46c-d21f7eed43bb",
+              "id": "81eb75c7-de12-477b-802b-5cff9633563c",
               "name": "updateApi",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1592,12 +1595,12 @@
                 "raw_message": "{\n  \"service_name\": \"{{variables.selectedService}}\",\n  \"config_value\": {\n    \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n    \"dimensions\": {{variables.DimensionArray}},\n    \"value\": {{variables.updateConfigValuePayload}},\n    \"rollout_type\": \"{{components.b0bb212f-502b-4248-8377-1790109965e7.data.selectEnableRollout.value}}\",\n    \"canary_value\": {{components.b0bb212f-502b-4248-8377-1790109965e7.data.selectEnableRollout.value === \"ROLLOUT_TYPE_CANARY\" ? (variables.updateCanaryValuePayload ?? null) : null}},\n    \"canary_param\": {{components.b0bb212f-502b-4248-8377-1790109965e7.data.selectEnableRollout.value === \"ROLLOUT_TYPE_CANARY\"\n        ? {\n            \"percentage\": Number(components.b0bb212f-502b-4248-8377-1790109965e7.data.inputCanaryPercentage.value || 0),\n            \"static_allocation\": components.b0bb212f-502b-4248-8377-1790109965e7.data.inputStaticAllocation.value ? components.b0bb212f-502b-4248-8377-1790109965e7.data.inputStaticAllocation.value.split(\",\").map(v => v.trim()).filter(Boolean) : [],\n            \"hashkey\": \"\"\n          }\n        : null}},\n    \"updated_by\": \"{{globals.currentUser.email}}\",\n    \"updated_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  },\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n    \"request_id\": \"update-{{Math.floor(Math.random()*100000)}}\",\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "9c0a5a1c-9790-4121-9bb5-e5fd8c1029a0",
+              "id": "2c0afa96-a15b-4c0b-9c2e-6c354eaf06bd",
               "name": "CreateConfigParam",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1607,12 +1610,12 @@
                 "raw_message": "{\n  \"config_param\": {\n    \"config_name\": \"{{components.c33d86a6-f232-4fd9-8f6f-5b23c198a9e2.data.inputConfigName.value.toUpperCase()}}\",\n\n    \"created_by\": \"{{globals.currentUser.email}}\",\n\n    \"description\": \"{{components.c33d86a6-f232-4fd9-8f6f-5b23c198a9e2.data.inputDescription.value}}\",\n\n    \"dimensions\": {{variables.dimensionsArray}},\n    \"is_shared\": {{components.c33d86a6-f232-4fd9-8f6f-5b23c198a9e2.data.toggleswitch1 ? true : false}},\n\n    \"param_type\": \"{{components.c33d86a6-f232-4fd9-8f6f-5b23c198a9e2.data.dropdownParamType.value}}\",\n\n    \"service_name\": \"{{variables.selectedService}}\",\n\n    \"updated_by\": \"{{globals.currentUser.email}}\",\n\n    \"updated_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    },\n\n    \"value_type\": \"{{components.c33d86a6-f232-4fd9-8f6f-5b23c198a9e2.data.dropdownValueType.value}}\"\n  },\n\n  \"context\": {\n    \"client_id\": \"cp-tool\",\n\n    \"request_id\": \"tooljet-request\",\n\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "a415e019-0893-4b7a-bf28-f2a7f4c506d1",
+              "id": "4e659fdf-ad3d-4ab6-acca-13431bd9ef27",
               "name": "CreateConfigValue",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1622,12 +1625,12 @@
                 "raw_message": "{\n  \"service_name\": \"{{variables.selectedService}}\",\n\n  \"config_value\": {\n\n    \"config_name\": \"{{components.adaf1cbc-2350-4bed-a00d-d0f750ec41b8.selectedRow.config_name}}\",\n\n    \"created_by\": \"{{globals.currentUser.email}}\",\n\n    \"dimensions\": {{variables.dimensionValuesArray}},\n\n    \"value\": {{variables.configValuePayload}},\n\n    \"rollout_type\": \"{{components.ce39b9ac-498f-4f9e-bb3c-cb6cb021e7b2.data.rolloutDropdown.value}}\",\n\n    \"updated_by\": \"{{globals.currentUser.email}}\",\n\n    \"updated_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  },\n\n  \"context\": {\n\n    \"client_id\": \"cp-tool\",\n\n    \"request_id\":\n      \"tooljet-config-value-{{Math.floor(Math.random()*100000)}}\",\n\n    \"request_time\": {\n      \"seconds\": \"{{Math.floor(Date.now()/1000).toString()}}\",\n      \"nanos\": 0\n    }\n  }\n}"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "d1ca9251-b34a-4bc0-857a-1f73faaf5e3a",
+              "id": "b6ba7621-dc8a-4391-b586-dc6c5aa661af",
               "name": "CancelRollout",
               "options": {
                 "transformationLanguage": "javascript",
@@ -1637,9 +1640,9 @@
                 "method": "CancelRollout"
               },
               "dataSourceId": "f9e302e3-8a0b-4e98-b731-153a4b7fb5d2",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             }
           ],
           "dataSources": [
@@ -1670,396 +1673,396 @@
           ],
           "dataQueryFolders": [
             {
-              "id": "62def592-9909-43ef-9df8-f0a01f5fafbb",
+              "id": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
               "name": "HomePage",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
+              "id": "9e930b98-f543-4093-a7ea-de451b11a6f0",
               "name": "service details",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "8126e869-f0a1-4702-99b8-6accba92dcc2",
+              "id": "93c2b79b-043d-468e-8058-c219bbfaafc5",
               "name": "ConfigDetails",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
+              "id": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
               "name": "UpdateConfig",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "54850b71-37c6-4127-9575-5e2f4395d000",
+              "id": "3caf114b-5a10-4bc1-98d0-f34c4726b221",
               "name": "DeleteConfig",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
+              "id": "50a0f579-21cc-4046-a033-ba2abe93c50b",
               "name": "RolloutApi",
-              "appVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "appVersionId": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             }
           ],
           "dataQueryFolderMappings": [
             {
-              "id": "fc4c2e2a-e2d1-48f4-866a-83737a066f38",
+              "id": "73aaa2fe-6c06-4139-b28c-89ba87702cc4",
+              "parentId": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
+              "childId": "e5357cb4-209a-4311-aaaa-f43657b03ea8",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "95cfa1df-4940-40a3-b846-073436e4e25c",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "c1b2ebb3-d260-4799-89e6-de46b0be46f7",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "729372e7-a2bc-446d-b070-81c930ea3829",
               "parentId": null,
-              "childId": "62def592-9909-43ef-9df8-f0a01f5fafbb",
+              "childId": "50a0f579-21cc-4046-a033-ba2abe93c50b",
+              "childType": "folder",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "dbc5f95d-fbd3-4480-b4d4-5693f45fc925",
+              "parentId": "50a0f579-21cc-4046-a033-ba2abe93c50b",
+              "childId": "2137a9d8-380b-4bb8-89ed-bb045ec25440",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "10889a1f-7b0c-458e-a1d3-21479dda60b9",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "59070ba5-37f2-4b24-b48b-70f502d15943",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "6c1dedde-8800-41ba-bfa9-3eb04d309dbd",
+              "parentId": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
+              "childId": "a9da81ac-47e8-4c03-b6fa-ca9f1a91118b",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "30a76e6b-7f49-4d6d-9554-d5b1de911163",
+              "parentId": "3caf114b-5a10-4bc1-98d0-f34c4726b221",
+              "childId": "2b5c3065-298c-440e-9e68-4fa48a10b91b",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "f7dfe86a-7793-44bd-b16e-cbfa0fd9cd7b",
+              "parentId": null,
+              "childId": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
+              "childType": "folder",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "91589b15-ac1d-41d0-b9d1-6b915e64bb41",
+              "parentId": "50a0f579-21cc-4046-a033-ba2abe93c50b",
+              "childId": "b6ba7621-dc8a-4391-b586-dc6c5aa661af",
+              "childType": "query",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "a1171d42-e457-4507-9392-d9ba977b2328",
+              "parentId": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
+              "childId": "81eb75c7-de12-477b-802b-5cff9633563c",
+              "childType": "query",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "77c51e9a-c1b6-48b3-ae3c-55dcfce308fd",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "19661760-559b-48fb-8cd0-59bd80dbfa14",
+              "childType": "query",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "a3f1d37a-c638-4782-a5a5-e5aa1d22bb6e",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "2560be63-53b6-431f-8444-c0dc41657825",
+              "childType": "query",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "c1200114-9b7e-4592-9f5d-c404a981be44",
+              "parentId": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
+              "childId": "92c45e5e-a474-4c13-a0c4-ba42e128b928",
+              "childType": "query",
+              "index": 1,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "a2a743dd-7e51-466c-8a1d-d4871a39bad5",
+              "parentId": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
+              "childId": "d1c53ff8-0f5c-4969-84f6-70cb72f6201a",
+              "childType": "query",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "3bef5721-f12c-4df4-9bc2-e4975cad87b9",
+              "parentId": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
+              "childId": "371aeb1d-11d3-41e1-9c22-037d245a6109",
+              "childType": "query",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "69b9325a-600a-419a-9714-d0f885d44462",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "2d8add97-1bfd-4e23-8765-5f1abf55f975",
+              "childType": "query",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "133f6d8d-948e-4ee1-94f8-5e77d49739a4",
+              "parentId": "50a0f579-21cc-4046-a033-ba2abe93c50b",
+              "childId": "e03f3855-1192-4152-bb8e-354f0becbb5b",
+              "childType": "query",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "910d5c4f-da60-4615-aa7e-7941a81430ab",
+              "parentId": null,
+              "childId": "3caf114b-5a10-4bc1-98d0-f34c4726b221",
+              "childType": "folder",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "0c984904-5ced-4b21-ae04-3f1a28c113b1",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "7330a71b-7db4-424c-bb3d-d09b093c6c40",
+              "childType": "query",
+              "index": 2,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "0a012239-d588-474a-ae84-e3281e2ce1c2",
+              "parentId": "50a0f579-21cc-4046-a033-ba2abe93c50b",
+              "childId": "b350aa9f-ab81-402b-84b7-643963bfcc82",
+              "childType": "query",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "d9cfb0af-d977-4004-a002-428064971965",
+              "parentId": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
+              "childId": "e4efd782-96eb-471f-b0e9-09d55d2eac67",
+              "childType": "query",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "e1fce69b-d51b-4934-9a67-992761e7275f",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "4e659fdf-ad3d-4ab6-acca-13431bd9ef27",
+              "childType": "query",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "6bd48661-9157-41b7-987b-46ca3f4a46d0",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "7d9b3053-206c-405a-9d76-d2e99598287d",
+              "childType": "query",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "940c0897-ec04-45d1-9915-ea0dab6e9739",
+              "parentId": "7a8591a7-4271-4eed-a9ba-90bb0fe391ad",
+              "childId": "972ba0d4-c2b5-4b61-9c8b-c51dbaf428b9",
+              "childType": "query",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "8807f0f7-1144-429a-be92-b148b80b8728",
+              "parentId": null,
+              "childId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childType": "folder",
+              "index": 3,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "26dbaa3c-2ade-4731-8306-44270c1e74cb",
+              "parentId": null,
+              "childId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childType": "folder",
+              "index": 4,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "c2b61b4c-38da-4fb1-a4d2-30b4b11f16de",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "9ab01caf-d5ae-4d24-a206-4e87bf0a12ba",
+              "childType": "query",
+              "index": 4,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "a01c2c2b-8cff-444e-b801-7d2acc8c8364",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "bda17136-ac33-4896-b29e-4855c6fb4aeb",
+              "childType": "query",
+              "index": 4,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "c800eece-2d09-4584-ba76-b34f82996c0e",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "bc4da740-a2e5-4f71-855c-57427fb78bf9",
+              "childType": "query",
+              "index": 5,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "58237a84-61ab-4112-a069-19614653cb8f",
+              "parentId": null,
+              "childId": "bbc61c63-c99a-4eac-9171-fb25564a1abf",
               "childType": "folder",
               "index": 5,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "c4b946e2-59fe-4169-a08c-eca33fe560de",
+              "id": "0456ff90-77eb-414f-a664-1fe44cdb4710",
+              "parentId": "93c2b79b-043d-468e-8058-c219bbfaafc5",
+              "childId": "7c41c09d-7b6c-4c56-9c73-313516ef0202",
+              "childType": "query",
+              "index": 5,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "4fb927aa-c36a-4e78-8b34-f18f1a1b293d",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "ee705c82-d515-453b-b2e4-cb7da53fd9d2",
+              "childType": "query",
+              "index": 6,
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
+            },
+            {
+              "id": "f25dcf55-4abe-48b0-82ec-5bf0e828c165",
               "parentId": null,
-              "childId": "afff7302-640d-459e-ba00-699136ee736c",
+              "childId": "a2d706ff-2dad-4cf2-a909-6f41b7260a2a",
               "childType": "query",
               "index": 6,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "d782892c-b2eb-4f9a-8b6b-1a62d239b913",
-              "parentId": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
-              "childId": "c200fb80-84a7-4117-9894-e911bdaec010",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "41c4cc5d-7a48-404d-9a50-9592f93346b9",
-              "parentId": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
-              "childId": "d1ca9251-b34a-4bc0-857a-1f73faaf5e3a",
-              "childType": "query",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "26a06db0-8b06-4efd-800e-6f38da4073b0",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "8faa582c-e4ef-4326-aaad-0c9c260766e4",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "f55ddb40-06b8-43f5-bb4e-96eb1aac8017",
-              "parentId": "62def592-9909-43ef-9df8-f0a01f5fafbb",
-              "childId": "cebca8a3-be1e-47da-b673-766bbec40ad2",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "203cf9ce-36aa-455c-8a33-b74f574ebde7",
-              "parentId": "54850b71-37c6-4127-9575-5e2f4395d000",
-              "childId": "33016970-0e30-401a-97cc-a5a120111272",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "b6df88d8-d84c-451d-be38-d3f534ed025f",
-              "parentId": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
-              "childId": "f68dcfbe-f325-41f3-b92d-1f0956258d5d",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "dfbf67e1-0cae-41d0-9c85-79ec71250e22",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "45d5dcf3-86a5-4342-b39d-21a41aaf93fc",
-              "childType": "query",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "0a183dcc-07f2-4f8e-bf61-8647b9e62cd0",
-              "parentId": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
-              "childId": "89b66845-94ac-4b7d-b46c-d21f7eed43bb",
-              "childType": "query",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "85b5ce16-2e30-462b-b98c-1c2eee0998cf",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "4ebb4a70-506b-4821-a33d-f75664bd4b07",
-              "childType": "query",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "b519eba3-b2a0-429b-aa4b-917922b93627",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "83dcf962-dc63-42e9-b4c4-a2584d5790ef",
-              "childType": "query",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "b61333ba-1f98-4e4d-89b3-0b4b17d6ef5d",
-              "parentId": "62def592-9909-43ef-9df8-f0a01f5fafbb",
-              "childId": "30d5afcd-307b-429c-bfd8-2fccd7753979",
-              "childType": "query",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "1450995e-8208-494a-b218-36ccb4cf496e",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "ffb16d5b-c1eb-4669-b62d-96465d1a94a3",
-              "childType": "query",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "81d3705e-4fb5-47b9-a892-f0e44fb87c1a",
-              "parentId": "62def592-9909-43ef-9df8-f0a01f5fafbb",
-              "childId": "25be16c6-85c7-4423-9af4-a215153ecb63",
-              "childType": "query",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "4ec7f9ef-e190-4bc8-a9d9-eb1538c9587d",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "8c49b421-fc7e-451e-a319-365f90432cba",
-              "childType": "query",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "83daa115-0d9b-4a52-9ee2-8a6efd7eff7f",
-              "parentId": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
-              "childId": "3dbb94bd-9351-40db-b9e2-adf2231e19f5",
-              "childType": "query",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "d3e62235-da08-460f-8179-11b727cbbd53",
-              "parentId": "62def592-9909-43ef-9df8-f0a01f5fafbb",
-              "childId": "263bbf95-36e4-422f-af4a-325e473b57d5",
-              "childType": "query",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "40bfed79-1ded-424e-9d92-b0e4e2c5a89f",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "a415e019-0893-4b7a-bf28-f2a7f4c506d1",
-              "childType": "query",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "4b583703-f769-48fa-8e2b-5db9072594cd",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "3e786dcb-09e3-4c19-9876-fa5413cb26b2",
-              "childType": "query",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "e61f4350-cd81-4a54-abb7-5fd4a854ec3d",
-              "parentId": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
-              "childId": "df4d29ca-894d-487e-a419-6737b9d75c02",
-              "childType": "query",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "18673b64-747c-41d8-8f93-bd97224dfe38",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "77ce22b6-c6dd-47b1-b9bf-0a47e344ad6d",
-              "childType": "query",
-              "index": 4,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "78fbfc16-7203-4cff-996e-a811c92a3b1e",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "358b2278-656d-40ee-a6ed-46af8d3c6151",
-              "childType": "query",
-              "index": 4,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "637e2931-2de4-4b1d-bc9c-b7eb0a172e22",
-              "parentId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childId": "84e4f1cf-3527-40f0-9982-361d7f6e3d03",
-              "childType": "query",
-              "index": 5,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "da3a8472-693e-4cb1-bfc7-f7793f0abb2f",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "8e7d0fdb-acf8-4b44-9262-083025254eb4",
-              "childType": "query",
-              "index": 5,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "0a111e05-3ee1-461e-a5aa-69f30bbdef1a",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "bf4d8eb9-de8e-4721-863c-ee3c4071ae44",
-              "childType": "query",
-              "index": 6,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "ab33bf50-5952-4e20-80d0-850ee858aaae",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "9c0a5a1c-9790-4121-9bb5-e5fd8c1029a0",
+              "id": "ce906c56-bb5c-453c-9e5d-c6098e345d0e",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "2c0afa96-a15b-4c0b-9c2e-6c354eaf06bd",
               "childType": "query",
               "index": 7,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "7ef269df-7e6f-48e2-95fa-c0d60ab9f9bd",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "b6a0a4ae-3134-488f-902e-b4fd2f9f8839",
+              "id": "49c5bea8-4c72-4806-9393-6b036d795edf",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "5e1b47a4-ed23-485c-bbe6-5dbc2ad240ba",
               "childType": "query",
               "index": 8,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "1d7a1dd0-eef2-44bd-b245-beecaf9ae5e5",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "2a29b95a-d170-4097-a3bb-61ddb0db68b5",
+              "id": "6a5e7982-e3fb-48b4-ada7-0ede57dcf401",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "31d09123-b00a-4fbc-88fa-774ea3f957a9",
               "childType": "query",
               "index": 9,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "44ef6cbb-ab14-46ae-84c5-016caaebd5a0",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "1be28f03-04d7-4f56-9ad4-56bee920f92a",
+              "id": "05eef23e-2905-44c7-89e4-94d81632b784",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "02cb36c2-724d-48ed-89a2-45d7cd5df52c",
               "childType": "query",
               "index": 10,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             },
             {
-              "id": "2cc489f4-bcc3-45f1-8d15-a0be5ba9ad98",
-              "parentId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childId": "4a10a39b-825e-4e7f-87a0-64267e2b2541",
+              "id": "344d85ef-5f70-46f8-8345-860fc39f04cc",
+              "parentId": "9e930b98-f543-4093-a7ea-de451b11a6f0",
+              "childId": "e012e80f-1465-4087-86dc-31cfb897ba21",
               "childType": "query",
               "index": 11,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "9b19e0c0-7e4a-4ac8-be29-9ae4addcca26",
-              "parentId": null,
-              "childId": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
-              "childType": "folder",
-              "index": 0,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "b27c1c7a-07b9-4912-9cbe-198f85a87830",
-              "parentId": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
-              "childId": "7db0411d-630c-4f56-b9a3-94adda48b7cf",
-              "childType": "query",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "ef1c1d3f-3ee3-4576-abf2-422855601f9f",
-              "parentId": "8b9024ed-e3ae-4561-8157-a09c0d1a05cc",
-              "childId": "0d553f3e-d94d-4cce-a3d4-5547c23f7aba",
-              "childType": "query",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "a90d88ef-8111-48be-951c-c36016296da3",
-              "parentId": null,
-              "childId": "e5ff0cfe-1970-41e5-89be-4180a8b1a1a4",
-              "childType": "folder",
-              "index": 1,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "53a88093-940e-45a2-9c92-7847d69124cd",
-              "parentId": null,
-              "childId": "54850b71-37c6-4127-9575-5e2f4395d000",
-              "childType": "folder",
-              "index": 2,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "177c0383-c6be-44cf-99fd-8e3e04de60b0",
-              "parentId": null,
-              "childId": "8126e869-f0a1-4702-99b8-6accba92dcc2",
-              "childType": "folder",
-              "index": 3,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
-            },
-            {
-              "id": "b5250930-8286-4690-b70f-f5b45dc5beb5",
-              "parentId": null,
-              "childId": "dbd8d169-cd15-4546-aab0-1e7c6ce7fa50",
-              "childType": "folder",
-              "index": 4,
-              "createdAt": "2026-05-21T11:46:59.857Z",
-              "updatedAt": "2026-05-21T11:46:59.857Z"
+              "createdAt": "2026-05-22T07:15:27.637Z",
+              "updatedAt": "2026-05-22T07:15:27.637Z"
             }
           ],
           "appVersions": [
             {
-              "id": "c27a8946-0215-49ed-87a6-e54bb0c43621",
-              "name": "v1_2_1_1_1",
+              "id": "db5cca1f-e614-460f-afc3-6d63fc858614",
+              "name": "v1_2_1_1_2",
               "definition": null,
               "globalSettings": {
                 "appInMaintenance": false,
@@ -2073,23 +2076,26 @@
               "pageSettings": {
                 "properties": {
                   "disableMenu": {
-                    "value": "{{false}}",
+                    "value": "{{true}}",
                     "fxActive": false
-                  }
+                  },
+                  "position": "top",
+                  "hideHeader": true,
+                  "hideLogo": true
                 }
               },
               "showViewerNavigation": true,
-              "homePageId": "0918355c-99c7-47d6-ad83-6aee3679fb64",
+              "homePageId": "9dec6de6-9def-4235-bd8c-2743b8a3ee22",
               "appId": "b1562d5f-2fa1-4c96-813d-1970cb99946e",
               "currentEnvironmentId": "06bb113f-2640-4590-bab3-6e45e60e9401",
               "promotedFrom": null,
-              "parentVersionId": null,
+              "parentVersionId": "c27a8946-0215-49ed-87a6-e54bb0c43621",
               "status": "PUBLISHED",
               "description": "",
               "publishedAt": null,
               "releasedAt": null,
-              "createdAt": "2026-05-21T11:47:00.188Z",
-              "updatedAt": "2026-05-22T07:14:26.726Z"
+              "createdAt": "2026-05-22T07:15:27.708Z",
+              "updatedAt": "2026-05-22T07:15:53.671Z"
             }
           ],
           "appEnvironments": [
