@@ -526,5 +526,13 @@
     "lastpushDate": "2026-05-22T09:35:51.259Z",
     "gitVersionName": "v2",
     "lastCommitUser": "Johnson "
+  },
+  "570da6f8-f296-46d4-a6ee-8f54e9dde4a2": {
+    "gitAppName": "newModDemo",
+    "lastCommitMessage": " v1 Version of app newModDemo promoted from development to staging",
+    "gitVersionId": "07d96a9f-4e26-443b-a6c8-aeb448e73926",
+    "lastpushDate": "2026-05-25T17:56:47.246Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "prajval "
   }
 }
