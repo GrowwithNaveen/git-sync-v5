@@ -561,10 +561,10 @@
   },
   "b5b11003-6583-4f07-aff6-b24a7cc7942d": {
     "gitAppName": "newModLatest",
-    "lastCommitMessage": " v1 Version of app newModLatest promoted from development to staging",
-    "gitVersionId": "ccd1d40f-d584-4766-8119-4640e591fa9f",
-    "lastpushDate": "2026-05-26T08:48:12.596Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v1_1 Version of app newModLatest promoted from development to staging",
+    "gitVersionId": "4bc302eb-23b4-4a4f-b1a7-de0332f06f35",
+    "lastpushDate": "2026-05-26T08:58:55.717Z",
+    "gitVersionName": "v1_1",
     "lastCommitUser": "prajval "
   }
 }
