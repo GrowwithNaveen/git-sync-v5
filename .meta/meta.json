@@ -566,5 +566,13 @@
     "lastpushDate": "2026-05-26T08:58:55.717Z",
     "gitVersionName": "v1_1",
     "lastCommitUser": "prajval "
+  },
+  "f5ec11ad-79c4-4f9f-b376-ba085dd70a31": {
+    "gitAppName": "TJ Shop",
+    "lastCommitMessage": " v6-mobile-2 Version of app TJ Shop promoted from development to staging",
+    "gitVersionId": "1401ecc0-ac4b-4a75-ac88-6ce696ddf54b",
+    "lastpushDate": "2026-05-29T11:19:21.538Z",
+    "gitVersionName": "v6-mobile-2",
+    "lastCommitUser": "Johnson "
   }
 }
