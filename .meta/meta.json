@@ -577,10 +577,10 @@
   },
   "b7a80553-1644-4d8b-ab73-21fc3055db10": {
     "gitAppName": "Cypress Live Reporter",
-    "lastCommitMessage": " v1 Version of app Cypress Live Reporter promoted from development to staging",
-    "gitVersionId": "7b36ffd2-0d8b-47dc-8450-3823b29efdbb",
-    "lastpushDate": "2026-09-03T03:17:32.690Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app Cypress Live Reporter promoted from development to staging",
+    "gitVersionId": "307cba83-f320-43e6-8f98-6f11b7ea4937",
+    "lastpushDate": "2026-09-03T03:52:33.083Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "Midhun Kumar"
   }
 }
